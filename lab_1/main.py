@@ -23,14 +23,19 @@ def lev_table(str_1, str_2):
 	# Остальные случаи
 	for i in range(1, len_1 + 1, 1):
 		for j in range(1, len_2 + 1, 1):
+			step_1 = table[i - 1][j] + 1
+			step_2 = table[i][j - 1] + 1
+
 			if str_1[i - 1] == str_2[j - 1]:
 				diag = 0
 			else:
 				diag = 1
 
-			table[i][j] = min(table[i - 1][j] + 1, table[i][j - 1] + 1, table[i - 1][j - 1] + diag)
+			step_3 = table[i - 1][j - 1] + diag
 
-	return table[-1][-1]
+			table[i][j] = min(step_1, step_2, step_3)
+
+	return table[len_1][len_2]
 
 
 # not used
@@ -67,17 +72,23 @@ def dam_lev_table(str_1, str_2):
 	# Остальные случаи
 	for i in range(1, len_1 + 1, 1):
 		for j in range(1, len_2 + 1, 1):
+			step_1 = table[i - 1][j] + 1
+			step_2 = table[i][j - 1] + 1
+
 			if str_1[i - 1] == str_2[j - 1]:
 				diag = 0
 			else:
 				diag = 1
 
-			if i - 2 >= 0 and j - 2 >= 0 and str_1[i - 1] == str_2[j - 2] and str_1[i - 2] == str_2[j - 1]:
-				table[i][j] = min(table[i - 1][j] + 1, table[i][j - 1] + 1, table[i - 1][j - 1] + diag, table[i - 2][j - 2] + 1)
-			else:
-				table[i][j] = min(table[i - 1][j] + 1, table[i][j - 1] + 1, table[i - 1][j - 1] + diag)
+			step_3 = table[i - 1][j - 1] + diag
 
-	return table[-1][-1]
+			if i - 2 >= 0 and j - 2 >= 0 and str_1[i - 1] == str_2[j - 2] and str_1[i - 2] == str_2[j - 1]:
+				step_4 = table[i - 2][j - 2] + 1
+				table[i][j] = min(step_1, step_2, step_3, step_4)
+			else:
+				table[i][j] = min(step_1, step_2, step_3)
+
+	return table[len_1][len_2]
 
 
 def dam_lev_recursion(str_1, str_2):
