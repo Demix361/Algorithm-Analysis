@@ -1,10 +1,10 @@
-ser,gey,2,2
-ser,sre,2,1
-ser,guy,3,3
-ser,esg,3,2
-sergeyser,sergey,3,3
-,sergey,6,6
+mod,rot,2,2
+mod,mdo,2,1
+mod,ram,3,3
+mod,omr,3,2
+modrotmod,modrot,3,3
+,modrot,6,6
 ,,0,0
 ,a,1,1
 a,b,1,1
-serg,segr,2,1
+modr,mord,2,1

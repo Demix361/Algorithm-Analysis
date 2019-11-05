@@ -272,63 +272,91 @@ escapeinside={\#*}{*)}   % если нужно добавить коммента
         \begin{flushleft}
         \parindent=1cm
         \begin{lstlisting}[label=some-code,caption=Функция нахождения расстояния Левенштейна итеративно]
-  		def Livenstein_matr(s1, s2):
-    		l1 = len(s1)
-    		l2 = len(s2)
-		    matr = [[i + j for i in range(l2 + 1)] for j in range(l1 + 1)]
-    
-		    for i in range(1, l1 + 1):
-        		for j in range(1, l2 + 1):
-		            opt1 = matr[i][j - 1] + 1
-        		    opt2 = matr[i - 1][j] + 1
-            		opt3 = matr[i - 1][j - 1] + (0 if s1[i - 1] == s2[j - 1] else 1)
-            		matr[i][j] = min(opt1, opt2, opt3 )
-  		  	            
-	    	res = matr[l1][l2]
-    		return res
+  		def lev_table(str_1, str_2):
+			len_1 = len(str_1)
+			len_2 = len(str_2)
+			table = [[0 for j in range(len_2 + 1)] for i in range(len_1 + 1)]
+
+			for i in range(len_1):
+				table[i + 1][0] = table[i][0] + 1
+
+			for i in range(len_2):
+				table[0][i + 1] = table[0][i] + 1
+
+			for i in range(1, len_1 + 1, 1):
+				for j in range(1, len_2 + 1, 1):
+					step_1 = table[i - 1][j] + 1
+					step_2 = table[i][j - 1] + 1
+
+					if str_1[i - 1] == str_2[j - 1]:
+						diag = 0
+					else:
+						diag = 1
+
+					step_3 = table[i - 1][j - 1] + diag
+
+					table[i][j] = min(step_1, step_2, step_3)
+
+			return table[len_1][len_2]
         \end{lstlisting}
         \newpage
         \begin{lstlisting}[label=some-code,caption=Функция нахождения расстояния Дамерау-Левенштейна итеративно]
-		def Livenstein_Damerau_matr(s1, s2):
-			l1 = len(s1)
-			l2 = len(s2)
-			matr = [[i + j for i in range(l2 + 1)] for j in range(l1 + 1)]
-			
-			for i in range(1, l1 + 1):
-				for j in range(1, l2 + 1):
-				    opt4 = math.inf
-				    opt1 = matr[i][j - 1] + 1
-				    opt2 = matr[i - 1][j] + 1
-				    opt3 = matr[i - 1][j - 1] + (0 if s1[i - 1] == s2[j - 1] else 1)
-				    if i > 1 and j > 1 and s1[i - 2] == s2[j - 1] and s1[i - 1] == s2[j - 2]:
-				        opt4 = matr[i - 2][j - 2] + 1
-				    
-				    matr[i][j] = min(opt1, opt2, opt3, opt4)
-				    
-			res = matr[l1][l2]
-			return res
+		def dam_lev_table(str_1, str_2):
+			len_1 = len(str_1)
+			len_2 = len(str_2)
+			table = [[0 for j in range(len_2 + 1)] for i in range(len_1 + 1)]
+
+			for i in range(len_1):
+				table[i + 1][0] = table[i][0] + 1
+
+			for i in range(len_2):
+				table[0][i + 1] = table[0][i] + 1
+
+			for i in range(1, len_1 + 1, 1):
+				for j in range(1, len_2 + 1, 1):
+					step_1 = table[i - 1][j] + 1
+					step_2 = table[i][j - 1] + 1
+
+					if str_1[i - 1] == str_2[j - 1]:
+						diag = 0
+					else:
+						diag = 1
+
+					step_3 = table[i - 1][j - 1] + diag
+
+					if i - 2 >= 0 and j - 2 >= 0 and str_1[i - 1] == str_2[j - 2] and str_1[i - 2] == str_2[j - 1]:
+						step_4 = table[i - 2][j - 2] + 1
+						table[i][j] = min(step_1, step_2, step_3, step_4)
+					else:
+						table[i][j] = min(step_1, step_2, step_3)
+
+			return table[len_1][len_2]
         \end{lstlisting}
         \begin{lstlisting}[label=some-code,caption=Функция нахождения расстояния Дамерау-Левенштейна рекурсивно]
-	def Livenstein_Damerau_recur(s1, s2):
-			if s1 == "" and s2 == "":
-				return 0
-			elif s1 != "" and s2 == "":
-				return len(s1)
-			elif s1 == "" and s2 != "":
-				return len(s2)
-				
-			l1 = len(s1)
-			l2 = len(s2)
+	def dam_lev_recursion(str_1, str_2):
+			if len(str_1) == 0:
+				return len(str_2)
 
-			opt4 = math.inf
-			opt1 = Livenstein_Damerau_recur(s1, s2[:-1]) + 1
-			opt2 = Livenstein_Damerau_recur(s1[:-1], s2) + 1
-			opt3 = Livenstein_Damerau_recur(s1[:-1], s2[:-1]) + (0 if s1[l1 - 1] == s2[l2 - 1] else 1)    
-			if l1 > 1 and l2 > 1 and s1[l1 - 1] == s2[l2 - 2] and s1[l1 - 2] == s2[l2 - 1]:
-				opt4 = Livenstein_Damerau_recur(s1[:-2], s2[:-2]) + 1
-				
-			res = min(opt1, opt2, opt3, opt4)
-			return res
+			elif len(str_2) == 0:
+				return len(str_1)
+
+			else:
+				if str_1[-1] == str_2[-1]:
+					diag = 0
+				else:
+					diag = 1
+
+				step_1 = dam_lev_recursion(str_1, str_2[:-1]) + 1
+				step_2 = dam_lev_recursion(str_1[:-1], str_2) + 1
+				step_3 = dam_lev_recursion(str_1[:-1], str_2[:-1]) + diag
+				step_4 = dam_lev_recursion(str_1[:-2], str_2[:-2]) + 1
+
+				if len(str_1) > 1 and len(str_2) > 1 and str_1[-1] == str_2[-2] and str_1[-2] == str_2[-1]:
+					d = min(step_1, step_2, step_3, step_4)
+				else:
+					d = min(step_1, step_2, step_3)
+
+				return d
         \end{lstlisting}
 		\end{flushleft}
         
@@ -345,16 +373,16 @@ escapeinside={\#*}{*)}   % если нужно добавить коммента
         \begin{tabular}{ | c | c | r | r | }
         \hline
 s1 & s2 & р. Левенштейна & р. Дамерау-Левенштейна \\ \hline
-`ser` & `gey" & 2 & 2\\
-`ser` & `sre" & 2 & 1\\
-`ser` & `guy" & 3 & 3\\
-`ser` & `esg" & 3 & 2\\
-`sergeyser` & `sergey` & 3 & 3\\
-`` & `sergey` & 6 & 6\\
-`` & `` & 0 & 0\\
-`` & `a` & 1 & 1\\
-`a` & `b` & 1 & 1\\
-`serg` & `segr` & 2 & 1\\
+'mod' & 'rot' & 2 & 2\\
+'mod' & 'mdo' & 2 & 1\\
+'mod' & 'ram' & 3 & 3\\
+'mod' & 'omr' & 3 & 2\\
+'modrotmod' & 'modrot' & 3 & 3\\
+'' & 'modrot' & 6 & 6\\
+'' & '' & 0 & 0\\
+'' & 'a' & 1 & 1\\
+'a' & 'b' & 1 & 1\\
+'modr' & 'mord' & 2 & 1\\
 \hline
         \end{tabular}
 	

@@ -18,16 +18,16 @@ def test(str_1, str_2, lev_expect, dam_lev_expect):
 	print("str_1: '", str_1, "'\t\tstr_2: '", str_2, "'", sep="")
 	
 	if lev == lev_expect:
-		print("Тест на Левенштейне(итеративном) успешен!")
+		print("Тест на Левенштейне(итеративном) успешен! [%s]" % lev_expect)
 		count += 1
 	else:
 		print("Тест на Левенштейне(итеративном) провален. Ожидаемый результат: ", lev_expect, "полученный: ", lev)
 	
 	if dam_lev_tab == dam_lev_rec == dam_lev_expect:
-		print("Тест на Левенштейне-Дамороу успешен!")
+		print("Тест на Дамерау-Левенштейне успешен! [%s]" % dam_lev_expect)
 		count += 1
 	else:
-		print("Тест на Левенштейне-Дамороу провален. Ожидаемый результат: ", dam_lev_expect, "итеративный: ", dam_lev_tab, "рекурсивный: ", dam_lev_rec)
+		print("Тест на Дамерау-Левенштейне провален. Ожидаемый результат: ", dam_lev_expect, "итеративный: ", dam_lev_tab, "рекурсивный: ", dam_lev_rec)
 	print()
 
 	return count
