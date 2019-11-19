@@ -268,6 +268,7 @@ escapeinside={\#*}{*)}   % если нужно добавить коммента
 		\end{lstlisting}
 		Для подключения ее в модуль python была создана библиотека libtick.so и подключена с помощью модуля ctypes.
 		\end{flushleft}
+		\newpage
         \subsection{Листинг кода}
         \begin{flushleft}
         \parindent=1cm
@@ -299,7 +300,6 @@ escapeinside={\#*}{*)}   % если нужно добавить коммента
 
 			return table[len_1][len_2]
         \end{lstlisting}
-        \newpage
         \begin{lstlisting}[label=some-code,caption=Функция нахождения расстояния Дамерау-Левенштейна итеративно]
 		def dam_lev_table(str_1, str_2):
 			len_1 = len(str_1)
@@ -332,6 +332,7 @@ escapeinside={\#*}{*)}   % если нужно добавить коммента
 
 			return table[len_1][len_2]
         \end{lstlisting}
+        \newpage
         \begin{lstlisting}[label=some-code,caption=Функция нахождения расстояния Дамерау-Левенштейна рекурсивно]
 	def dam_lev_recursion(str_1, str_2):
 			if len(str_1) == 0:
@@ -359,8 +360,6 @@ escapeinside={\#*}{*)}   % если нужно добавить коммента
 				return d
         \end{lstlisting}
 		\end{flushleft}
-        
-		\newpage
 		
         \subsection{Тестирование}
         \begin{flushleft}
@@ -404,7 +403,7 @@ s1 & s2 & р. Левенштейна & р. Дамерау-Левенштейна
 	\hline 
 	2 строки & 2 * [49 + len(str)] \\ 
 	\hline 
-	5 вспомогательных переменных(int) & 140 \\ 
+	6 вспомогательных переменных(int) & 168 \\ 
 	\hline 
 	2 счетчика (int) & 56 \\ 
 	\hline 
@@ -423,7 +422,7 @@ s1 & s2 & р. Левенштейна & р. Дамерау-Левенштейна
 	\hline 
 	2 строки & 2 * [49 + len(str)] \\ 
 	\hline 
-	6 вспомогательных переменных(int) & 166 \\ 
+	7 вспомогательных переменных(int) & 196 \\ 
 	\hline 
 	2 счетчика (int) & 56 \\ 
 	\hline 
