@@ -1,63 +1,84 @@
-from main import lev_table, dam_lev_table, dam_lev_recursion
-import ctypes, os
+import timeit
 from time import time
+from random import choice
+from main import lev_table, dam_lev_table, dam_lev_recursion
+from prettytable import PrettyTable
+import matplotlib.pyplot as plt
 
 
-def get_args(line):
-	arr = line[:-1].split(",")
+def random_str(size):
+	abc = "qwertyuiopasdfghjklzxcvbnm"
+	res = ""
 
-	return arr
+	for i in range(size):
+		res += choice(abc)
+
+	return res
 
 
-class _tick():
-	def __init__(self):
-		self.value = time()
+def func_test(word_size, func_name):
+	REP = 100
+	NUM = 100
+
+	SETUP_CODE = "from __main__ import " + func_name + ", random_str\nstr_1 = '"\
+		+ str(random_str(word_size)) + "'\n"\
+		+ "str_2 = '" + str(random_str(word_size)) + "'"
+
+	TEST_CODE = func_name + "(str_1, str_2)"
 
 
-def time_test(str_1, str_2, amount):
-	t1 = _tick()
-	for i in range(amount):
-		res= lev_table(str_1, str_2)
-	t2 = _tick()
-	t_lev_tab = (t2.value - t1.value) / amount
+	times = timeit.repeat(setup = SETUP_CODE,
+						  stmt = TEST_CODE,
+						  repeat = REP,
+						  number = NUM)
 	
-	t1 = _tick()
-	for i in range(amount):    
-		res = dam_lev_table(str_1, str_2)
-	t2 = _tick()
-	t_dam_lev_tab = (t2.value - t1.value) / amount
+	res = (sum(times) / REP) / NUM
 	
-	t1 = _tick()
-	for i in range(amount):
-		res = dam_lev_recursion(str_1, str_2)
-	t2 = _tick()
-	t_dam_lev_rec = (t2.value - t1.value) / amount
-	
-	return t_lev_tab, t_dam_lev_tab, t_dam_lev_rec
-	
+	return res
 
-def main(N):
-	"""
-	d = os.path.abspath(os.path.dirname(__file__))
-	d += "/libtick.so"
-	lib = ctypes.CDLL(d)
 
-	_tick = lib.tick
-	_tick = ctypes.c_ulonglong
+def get_table(res):
+	tab = PrettyTable()
+	column_names = ["lev_table", "dam_lev_table", "dam_lev_recursion"]
 
-	CLOCKS_PER_SEC = 2.2e+6
-	"""
-	with open("time_test.txt", "r") as f:
-		for line in f:
-			str_1, str_2 = get_args(line)
-			length = len(str_1)
-			t_lev_tab, t_dam_lev_tab, t_dam_lev_rec = time_test(str_1, str_2, N)
+	tab.add_column("word_length", [i for i in range(2, len(res[0]) + 2, 1)])
 
-			print("Длина слова: ", length, "\nВремя итерационного Левенштейна: ", t_lev_tab, 
-				"\nВремя итерационного Дамерау-Левенштейна: ", t_dam_lev_tab, 
-				"\nВремя рекурсионного Дамерау-Левенштейна: ", t_dam_lev_rec, "\n", sep="")
+	for i in range(len(res)):
+		tab.add_column(column_names[i], res[i])
+
+	return tab
+
+
+def test(max_len):
+	result = [[], [], []]
+
+	for i in range(2, max_len + 1, 1):
+		beg = time()
+		result[0].append(func_test(i, "lev_table"))
+		result[1].append(func_test(i, "dam_lev_table"))
+		result[2].append(func_test(i, "dam_lev_recursion"))
+		print(i, " done! [", time() - beg, "]", sep="")
+
+	table = get_table(result)
+	print(table)
+
+	length = [i for i in range(2, max_len + 1, 1)]
+
+	plt.plot(length, result[0], 'r', label="lev_tab")
+	plt.plot(length, result[1], 'b', label="dam_lev_tab")
+	plt.legend(loc='upper left')
+	plt.axis([length[0], length[-1], min(result[0] + result[1]), max(result[0] + result[1])])
+	plt.grid(True)
+	plt.show()
+
+	plt.plot(length, result[2], 'g', label="dam_lev_rec")
+	plt.plot(length, result[1], 'b', label="dam_lev_tab")
+	plt.legend(loc='upper left')
+	plt.axis([length[0], length[-1], min(result[2] + result[1]), max(result[2] + result[1])])
+	plt.grid(True)
+	plt.show()
 
 
 if __name__ == "__main__":
-	main(1000)
-
+	#max = 7 takes about 18 minutes to calculate
+	test(4)
