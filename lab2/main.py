@@ -1,5 +1,12 @@
 from random import randint
-from time import time
+
+
+def print_mtr(mtr):
+    for line in mtr:
+        for el in line:
+            print(el, end=' ')
+        print()
+    print()
 
 
 def mpl(mtr_1, mtr_2):
@@ -75,7 +82,7 @@ def winograd_opt(mtr_1, mtr_2):
             buff = - mul_h[i] - mul_v[j]
             for k in range(0, col_1 - col_1_mod, 2):
                 buff += (mtr_1[i][k + 1] + mtr_2[k][j]) * \
-                             (mtr_1[i][k] + mtr_2[k + 1][j])
+                        (mtr_1[i][k] + mtr_2[k + 1][j])
             res[i][j] = buff
 
     if col_1 % 2 == 1:
@@ -87,24 +94,76 @@ def winograd_opt(mtr_1, mtr_2):
     return res
 
 
+def gen_mtr(row, col):
+    mtr = [[randint(0, 100) for j in range(col)] for i in range(row)]
+
+    return mtr
+
+
+def check_mtr(row_1, col_1, row_2, col_2):
+    if col_1 != row_2:
+        return False
+    if row_1 <= 1 or col_1 <= 1 or row_2 <= 1 or col_2 <= 1:
+        return False
+
+    return True
+
+
 def main():
-    n = 100
-    a = [[randint(0, 100) for j in range(n)] for i in range(n)]
-    b = [[randint(0, 100) for j in range(n)] for i in range(n)]
+    choice = input('1 - input matrices from file\n'
+                   '2 - generate random matrices\n'
+                   'Input: ')
 
-    beg = time()
-    res_1 = mpl(a, b)
-    print(time() - beg)
+    if choice == '1':
+        fname_1 = input('Введите имя первого файла: ')
+        fname_2 = input('Введите имя второго файла: ')
 
-    beg = time()
-    res_2 = winograd(a, b)
-    print(time() - beg)
+        mtr_1 = mtr_from_file(fname_1)
+        mtr_2 = mtr_from_file(fname_2)
 
-    beg = time()
-    res_3 = winograd_opt(a, b)
-    print(time() - beg)
+        if mtr_1 is None or mtr_2 is None:
+            print('Ошибка чтения файлов.')
+            return
 
-    print(res_1 == res_2 == res_3)
+        if not check_mtr(len(mtr_1), len(mtr_1[0]), len(mtr_2), len(mtr_2[0])):
+            print('Невозсожно умножить матрицы с такой размерностью.')
+            return
+    elif choice == '2':
+        row_1 = input('Input 1 matrix raw number: ')
+        col_1 = input('Input 1 matrix column number: ')
+        row_2 = input('Input 2 matrix raw number: ')
+        col_2 = input('Input 2 matrix column number: ')
+
+        try:
+            row_1 = int(row_1)
+            col_1 = int(col_1)
+            row_2 = int(row_2)
+            col_2 = int(col_2)
+        except ValueError:
+            print('Неверный ввод.')
+            return
+
+        if not check_mtr(row_1, col_1, row_2, col_2):
+            print('Невозсожно умножить матрицы с такой размерностью.')
+            return
+
+        mtr_1 = gen_mtr(row_1, col_1)
+        mtr_2 = gen_mtr(row_2, col_2)
+    else:
+        print('Incorrect input.')
+        return
+
+    mtr = mpl(mtr_1, mtr_2)
+    print('Умножение матриц стандартным методом:')
+    print_mtr(mtr)
+
+    mtr = winograd(mtr_1, mtr_2)
+    print('Умножение матриц методом Винограда:')
+    print_mtr(mtr)
+
+    mtr = winograd_opt(mtr_1, mtr_2)
+    print('Умножение матриц оптимизированным методом Винограда:')
+    print_mtr(mtr)
 
 
 if __name__ == '__main__':
