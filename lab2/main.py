@@ -1,4 +1,5 @@
 from random import randint
+from multiply import mpl, winograd, winograd_opt
 
 
 def print_mtr(mtr):
@@ -7,91 +8,6 @@ def print_mtr(mtr):
             print(el, end=' ')
         print()
     print()
-
-
-def mpl(mtr_1, mtr_2):
-    row_1 = len(mtr_1)
-    col_1 = row_2 = len(mtr_1[0])
-    col_2 = len(mtr_2[0])
-
-    res = [[0 for j in range(col_2)] for i in range(row_1)]
-
-    for i in range(row_1):
-        for j in range(col_2):
-            for k in range(col_1):
-                res[i][j] += mtr_1[i][k] * mtr_2[k][j]
-
-    return res
-
-
-def winograd(mtr_1, mtr_2):
-    row_1 = len(mtr_1)
-    col_1 = row_2 = len(mtr_1[0])
-    col_2 = len(mtr_2[0])
-
-    res = [[0 for j in range(col_2)] for i in range(row_1)]
-
-    mul_h = [0 for i in range(row_1)]
-    mul_v = [0 for i in range(col_2)]
-
-    for i in range(row_1):
-        for j in range(col_1 // 2):
-            mul_h[i] += mtr_1[i][j * 2] * mtr_1[i][j * 2 + 1]
-
-    for i in range(col_2):
-        for j in range(row_2 // 2):
-            mul_v[i] += mtr_2[j * 2][i] * mtr_2[j * 2 + 1][i]
-
-    for i in range(row_1):
-        for j in range(col_2):
-            res[i][j] = -mul_h[i] - mul_v[j]
-            for k in range(col_1 // 2):
-                res[i][j] += (mtr_1[i][2 * k + 1] + mtr_2[2 * k][j]) * \
-                             (mtr_1[i][2 * k] + mtr_2[2 * k + 1][j])
-
-    if col_1 % 2 == 1:
-        for i in range(row_1):
-            for j in range(col_2):
-                res[i][j] += mtr_1[i][col_1 - 1] * mtr_2[col_1 - 1][j]
-
-    return res
-
-
-def winograd_opt(mtr_1, mtr_2):
-    row_1 = len(mtr_1)
-    col_1 = row_2 = len(mtr_1[0])
-    col_2 = len(mtr_2[0])
-
-    col_1_mod = row_2_mod = col_1 % 2
-
-    res = [[0 for j in range(col_2)] for i in range(row_1)]
-
-    mul_h = [0 for i in range(row_1)]
-    mul_v = [0 for i in range(col_2)]
-
-    for i in range(row_1):
-        for j in range(0, col_1 - col_1_mod, 2):
-            mul_h[i] += mtr_1[i][j] * mtr_1[i][j + 1]
-
-    for i in range(col_2):
-        for j in range(0, row_2 - row_2_mod, 2):
-            mul_v[i] += mtr_2[j][i] * mtr_2[j + 1][i]
-
-    for i in range(row_1):
-        for j in range(col_2):
-            buff = - mul_h[i] - mul_v[j]
-            for k in range(0, col_1 - col_1_mod, 2):
-                buff += (mtr_1[i][k + 1] + mtr_2[k][j]) * \
-                        (mtr_1[i][k] + mtr_2[k + 1][j])
-            res[i][j] = buff
-
-    if col_1 % 2 == 1:
-        col_1_min = col_1 - 1
-        for i in range(row_1):
-            for j in range(col_2):
-                res[i][j] += mtr_1[i][col_1_min] * mtr_2[col_1_min][j]
-
-    return res
 
 
 def gen_mtr(row, col):
@@ -109,6 +25,31 @@ def check_mtr(row_1, col_1, row_2, col_2):
     return True
 
 
+def read_mtr(fname):
+    res = []
+    try:
+        with open(fname, 'r') as f:
+            for line in f:
+                try:
+                    line = list(map(int, line.split(' ')))
+                except ValueError:
+                    return None
+                res.append(line)
+    except FileNotFoundError:
+        return None
+
+    row_len = len(res[0])
+    col_len = len(res)
+
+    if row_len <= 1 or col_len <= 1:
+        return None
+    for r in res:
+        if len(r) != row_len:
+            return None
+
+    return res
+
+
 def main():
     choice = input('1 - input matrices from file\n'
                    '2 - generate random matrices\n'
@@ -118,8 +59,8 @@ def main():
         fname_1 = input('Введите имя первого файла: ')
         fname_2 = input('Введите имя второго файла: ')
 
-        mtr_1 = mtr_from_file(fname_1)
-        mtr_2 = mtr_from_file(fname_2)
+        mtr_1 = read_mtr(fname_1)
+        mtr_2 = read_mtr(fname_2)
 
         if mtr_1 is None or mtr_2 is None:
             print('Ошибка чтения файлов.')
@@ -152,6 +93,11 @@ def main():
     else:
         print('Incorrect input.')
         return
+
+    print('Первая матрица:')
+    print_mtr(mtr_1)
+    print('Вторая матрица:')
+    print_mtr(mtr_2)
 
     mtr = mpl(mtr_1, mtr_2)
     print('Умножение матриц стандартным методом:')

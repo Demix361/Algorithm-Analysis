@@ -1,29 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="942731f0-2c2d-4800-9041-2291b79014f3" name="Default Changelist" comment="" />
+    <list default="true" id="c9414b87-2eb4-4ec8-bcb1-a3c65e3a79af" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="ProjectId" id="1U4J9lgl4gO5R9ID2ytTnRStKSo" />
+  <component name="ProjectId" id="1U9d0xH6gl6JwiBGOAJjRT8qqxE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab1" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rk1" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -37,9 +28,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="asdf" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lab2" />
+  <component name="RunManager" selected="Python.time_test">
+    <configuration name="compare_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lab1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -50,7 +41,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asdf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compare_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,7 +51,7 @@
       <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lab2" />
+      <module name="lab1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -80,8 +71,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_np" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lab2" />
+    <configuration name="time_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lab1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -92,7 +83,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_np.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/time_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,9 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.time_test" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.main_np" />
-        <item itemvalue="Python.asdf" />
+        <item itemvalue="Python.compare_test" />
       </list>
     </recent_temporary>
   </component>
@@ -114,11 +105,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="942731f0-2c2d-4800-9041-2291b79014f3" name="Default Changelist" comment="" />
-      <created>1574609784313</created>
+      <changelist id="c9414b87-2eb4-4ec8-bcb1-a3c65e3a79af" name="Default Changelist" comment="" />
+      <created>1574772525067</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574609784313</updated>
+      <updated>1574772525067</updated>
     </task>
     <servers />
   </component>
@@ -127,9 +118,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>

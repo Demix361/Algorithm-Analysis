@@ -1,7 +1,7 @@
 import timeit
 from time import time
 from random import choice, randint
-from main import mpl, winograd, winograd_opt
+from multiply import mpl, winograd, winograd_opt
 from prettytable import PrettyTable
 import matplotlib.pyplot as plt
 
@@ -14,8 +14,6 @@ def random_mtr(size):
 
 def test_all(size):
     res = []
-
-
 
 
 def get_table(res):

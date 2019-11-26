@@ -1,5 +1,3 @@
-from random import randint
-from time import time
 from main import lev_table, dam_lev_table, dam_lev_recursion
 
 
@@ -18,7 +16,7 @@ def test(str_1, str_2, lev_expect, dam_lev_expect):
 	print("str_1: '", str_1, "'\t\tstr_2: '", str_2, "'", sep="")
 	
 	if lev == lev_expect:
-		print("Тест на Левенштейне(итеративном) успешен! [%s]" % lev_expect)
+		print("Тест на Левенштейне(итеративном) успешен. [%s]" % lev_expect)
 		count += 1
 	else:
 		print("Тест на Левенштейне(итеративном) провален. Ожидаемый результат: ", lev_expect, "полученный: ", lev)
