@@ -1,4 +1,5 @@
 from random import randint
+from algs import *
 
 '''
 def load_mtr(fname):
@@ -12,13 +13,13 @@ def load_mtr(fname):
 '''
 
 
-# Добавляет в массив соединения одной ветки и их стоимость
+# Добавляет в массив соединения между станциями одной ветки и их стоимость
 def add_branch(scheme, branch):
     for i in range(len(branch) - 1):
         scheme.append((branch[i], branch[i + 1], randint(2, 4)))
 
 
-# Добавляет в массив соединения одной кольцевой ветки и их стоимость
+# Добавляет в массив соединения между станциями одной кольцевой ветки и их стоимость
 def add_loop(scheme, branch):
     for i in range(len(branch) - 1):
         scheme.append((branch[i], branch[i + 1], randint(2, 4)))
@@ -122,6 +123,14 @@ def main():
     table, stations = create_metro()
 
     write_gv('metro_graph.gv', table, stations)
+
+    start = 'red_4'
+
+    distance = dijkstra(stations.index(start), table)
+
+    print('Start: ' + start)
+    for i in range(len(stations)):
+        print(stations[i], distance[i])
 
 
 if __name__ == '__main__':
