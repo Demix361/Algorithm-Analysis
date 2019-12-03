@@ -14,7 +14,7 @@
   <component name="ProjectId" id="1U9d0xH6gl6JwiBGOAJjRT8qqxE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rk1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -28,7 +28,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.time_test">
+  <component name="RunManager" selected="Python.main">
     <configuration name="compare_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,8 +94,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.time_test" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.time_test" />
         <item itemvalue="Python.compare_test" />
       </list>
     </recent_temporary>
@@ -118,7 +118,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
