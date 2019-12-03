@@ -1,5 +1,4 @@
 from random import randint
-from algs import *
 
 '''
 def load_mtr(fname):
@@ -11,6 +10,36 @@ def load_mtr(fname):
 
     return mtr
 '''
+
+
+# Алгоритм Дийкстры
+def dijkstra(matrix, start):
+    n = len(matrix)
+    inf_num = 10000
+
+    u = [False for i in range(n)]
+    d = [inf_num for i in range(n)]
+    d[start] = 0
+    paths = [-1 for i in range(n)]
+
+    for i in range(n):
+        cur_d = inf_num + 1
+        cur_p = -1
+
+        for j in range(n):
+            if not u[j] and d[j] < cur_d:
+                cur_d = d[j]
+                cur_p = j
+
+        u[cur_p] = True
+
+        for j in range(n):
+            if matrix[cur_p][j] != 0:
+                old_d = d[j]
+                d[j] = min(d[j], d[cur_p] + matrix[cur_p][j])
+                if d[j] != old_d:
+                    paths[j] = cur_p
+    return d, paths
 
 
 # Добавляет в массив соединения между станциями одной ветки и их стоимость
@@ -63,12 +92,14 @@ def create_metro():
     violet_names = branch_names('violet', 23)
     orange_names = branch_names('orange', 24)
     brown_names = branch_names('brown', 12)
+    grey_names = branch_names('grey', 25)
 
     add_branch(scheme, red_names)
     add_branch(scheme, green_names)
     add_branch(scheme, blue_names)
     add_branch(scheme, violet_names)
     add_branch(scheme, orange_names)
+    add_branch(scheme, grey_names)
     add_loop(scheme, brown_names)
 
     scheme.append((red_names[13], brown_names[0], 1))
@@ -95,7 +126,14 @@ def create_metro():
     scheme.append((orange_names[11], brown_names[11], 1))
     scheme.append((orange_names[16], brown_names[5], 1))
 
-    stations = red_names + green_names + blue_names + violet_names + orange_names + brown_names
+    scheme.append((grey_names[11], brown_names[10], 1))
+    scheme.append((grey_names[13], red_names[15], 1))
+    scheme.append((grey_names[13], blue_names[12], 1))
+    scheme.append((grey_names[14], green_names[13], 1))
+    scheme.append((grey_names[14], violet_names[12], 1))
+    scheme.append((grey_names[16], brown_names[4], 1))
+
+    stations = red_names + green_names + blue_names + violet_names + orange_names + brown_names + grey_names
 
     n = len(stations)
     table = [[0 for j in range(n)] for i in range(n)]
@@ -119,20 +157,44 @@ def create_metro():
     return table, stations
 
 
+def print_path(beg, end, distance, paths, stations, table):
+    path = [end]
+    path_distance = []
+
+    cur = paths[stations.index(end)]
+    while cur != stations.index(beg):
+        path.append(stations[cur])
+        cur = paths[cur]
+
+    path.append(beg)
+    path = path[::-1]
+
+    for i in range(len(path) - 1):
+        path_distance.append(table[stations.index(path[i])][stations.index(path[i + 1])])
+
+    print('Время маршрута:', distance[stations.index(end)])
+    print('Маршрут:')
+
+    for i in range(len(path)):
+        if i != len(path) - 1:
+            print(path[i], ' -> [', path_distance[i], '] -> ', end='', sep='')
+        else:
+            print(path[i])
+
+    return path
+
+
 def main():
     table, stations = create_metro()
-
     write_gv('metro_graph.gv', table, stations)
 
-    start = 'red_4'
+    beg = input('Откуда: ')
+    end = input('Куда: ')
 
-    distance = dijkstra(stations.index(start), table)
+    distance, paths = dijkstra(table, stations.index(beg))
 
-    print('Start: ' + start)
-    for i in range(len(stations)):
-        print(stations[i], distance[i])
+    print_path(beg, end, distance, paths, stations, table)
 
 
 if __name__ == '__main__':
     main()
-
