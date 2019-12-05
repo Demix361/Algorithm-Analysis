@@ -1,0 +1,2043 @@
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|01}}
+| {{uBHF|Бульвар Рокоссовского}}<br><small>Улица Подбельского (до {{год|2014||метро}})</small>
+| [[1 августа]] {{год|1990||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Бульвар Рокоссовского (платформа)}}
+| −8
+| [[Колонная станция мелкого заложения|колонная<br>мелкого заложения<br>трёхпролётная]]
+| <small>{{coord|55.8148|37.7342|scale:5000|name=Бульвар Рокоссовского|nogoogle=1|noosm=1}}</small>
+| [[Файл:Ulitsa Podbelskogo (Улица Подбельского) (5254016179).jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|02}}
+| {{uBHF|Черкизовская}}
+| [[1 августа]] {{год|1990||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Локомотив (платформа)}}
+| −9
+| [[Односводчатая станция мелкого заложения|односводчатая<br>мелкого заложения]]
+| <small>{{coord|55.8038|37.7448|scale:5000|name=Черкизовская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Cherkizovskaya platform 01-2016.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|03}}
+| {{uBHF|Преображенская площадь}}
+| [[31 декабря]] {{год|1965||метро}}
+| data-sort-value="Infinity" |
+| −8
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7963|37.7151|scale:5000|name=Преображенская площадь|nogoogle=1|noosm=1}}</small>
+| [[Файл:Preobragenskaya ploschad2.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|04}}
+| {{uBHF|Сокольники}}
+| [[15 мая]] {{год|1935||метро}}
+| data-sort-value="Infinity" |
+| −9
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7888|37.6802|scale:5000|name=Сокольники|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line1 Sokolniki.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|05}}
+| {{uBHF|Красносельская}}
+| [[15 мая]] {{год|1935||метро}}
+| data-sort-value="Infinity" |
+| −8
+| [[Колонная станция мелкого заложения|колонная<br>мелкого заложения<br>двухпролётная]]
+| <small>{{coord|55.7801|37.6673|scale:5000|name=Красносельская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line1 Krasnoselskaya (img1).jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|06}}
+| {{uBHF|Комсомольская|Сокольническая линия}}
+| [[15 мая]] {{год|1935||метро}}
+| data-sort-value=5 | {{MOSMETRO icon|5||Комсомольская (станция метро, Кольцевая линия)}}
+| −8
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7753|37.6562|scale:5000|name=Комсомольская (Сокольническая линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Комсомольская-радиальная 13.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|07}}
+| {{uBHF|Красные Ворота}}<br><small>Лермонтовская (с {{год|1962||метро}} до {{год|1986||метро}})</small>
+| [[15 мая]] {{год|1935||метро}}
+| data-sort-value="Infinity" |
+| −31
+| [[Пилонная станция|пилонная]]<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7690|37.6487|scale:5000|name=Красные Ворота|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro Krasnye Vorota.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|08}}
+| {{uBHF|Чистые пруды}}<br><small>Кировская (до {{год|1990||метро}})</small>
+| [[15 мая]] {{год|1935||метро}}
+| data-sort-value=6.10 | {{MOSMETRO icon|6|||Тургеневская}} {{MOSMETRO icon|10|||Сретенский бульвар}}
+| −35
+| пилонная<br>глубокого заложения<br>трёхсводчатая<br><small>(До реконструкции — <br>двухсводчатая<br>глубокого заложения)</small><ref name="goncharov">{{cite web|url=http://www.alexeygoncharov.com/index1.html|author=Алексей Гончаров|title=Схема глубин заложения и конструкций станций московского метрополитена|date=2014-05|accessdate=2015-03-09}}</ref>
+| <small>{{coord|55.7657|37.6388|scale:5000|name=Чистые пруды|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Chistye Prudy asv2018-01.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|09}}
+| {{uBHF|Лубянка}}<br><small>Дзержинская (до {{год|1990||метро}})</small>
+| [[15 мая]] {{год|1935||метро}}
+| data-sort-value=7 | {{MOSMETRO icon|7|||Кузнецкий Мост}}
+| −32,5
+| пилонная<br>глубокого заложения<br>трёхсводчатая<br><small>(До реконструкции — <br>двухсводчатая<br>глубокого заложения)</small><ref name="goncharov" />
+| <small>{{coord|55.7597|37.6272|scale:5000|name=Лубянка|nogoogle=1|noosm=1}}</small>
+| [[Файл:MoscowMetro Lubyanka 5871.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|10}}
+| {{uBHF|Охотный Ряд}}<br><small>Имени Л. М. Кагановича<br>(с {{год|1955||метро}} до {{год|1957||метро}})<br>Проспект Маркса (с {{год|1961||метро}} до {{год|1990||метро}})</small>
+| [[15 мая]] {{год|1935||метро}}
+| data-sort-value=2 | {{MOSMETRO icon|2||Театральная (станция метро, Москва)}}
+| −15
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7577|37.6166|scale:5000|name=Охотный Ряд|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Okhotny Ryad img1 asv2018-01.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|11}}
+| {{uBHF|Библиотека имени Ленина}}
+| [[15 мая]] {{год|1935||метро}}
+| data-sort-value=3.0409 | {{MOSMETRO icon|3||Арбатская (станция метро, Арбатско-Покровская линия)}} {{MOSMETRO icon|4|||Александровский сад}} {{MOSMETRO icon|9|||Боровицкая}}
+| −12
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.7512|37.6100|scale:5000|name=Библиотека имени Ленина|nogoogle=1|noosm=1}}</small>
+| [[Файл:Bib-Lenina-mm.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|12}}
+| {{uBHF|Кропоткинская}}<br><small>Дворец Советов (до {{год|1957||метро}})</small>
+| [[15 мая]] {{год|1935||метро}}
+| data-sort-value="Infinity" |
+| −13
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7453|37.6037|scale:5000|name=Кропоткинская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line1 Kropotkinskaya.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|13}}
+| {{uBHF|Парк культуры|Сокольническая линия}}<br><small>Парк Культуры имени Горького<br>(до 1960-х)</small>
+| [[15 мая]] {{год|1935||метро}}
+| data-sort-value=5 | {{MOSMETRO icon|5||Парк культуры (станция метро, Кольцевая линия)}}
+| −10,5
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7356|37.5943|scale:5000|name=Парк культуры (Сокольническая линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:MoscowMetro ParkKulturyRadialnaya HB2.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|14}}
+| {{uBHF|Фрунзенская|Москва}}
+| [[1 мая]] {{год|1957||метро}}
+| data-sort-value="Infinity" |
+| −42
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7267|37.5786|scale:5000|name=Фрунзенская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Frunzenskaya 01-2017.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|15}}
+| {{uBHF|Спортивная|Москва}}
+| [[1 мая]] {{год|1957||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Лужники (платформа)}}
+| −42
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7233|37.5639|scale:5000|name=Спортивная|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line1 Sportivnaya (img1).jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|16}}
+| {{uBHF|Воробьёвы горы}}<br><small>Ленинские горы (до {{год|1999||метро}})</small>
+| [[12 января]] {{год|1959||метро}}
+| data-sort-value="Infinity" |
+| +10
+| эстакадная крытая <br>колонная трёхпролётная
+| <small>{{coord|55.7103|37.5592|scale:5000|name=Воробьёвы горы|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line1 Vorobyovy Gory.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|17}}
+| {{uBHF|Университет|Москва}}
+| [[12 января]] {{год|1959||метро}}
+| data-sort-value="Infinity" |
+| −26,5
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.6926|37.5333|scale:5000|name=Университет|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line1 Universitet.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|18}}
+| {{uBHF|Проспект Вернадского|Сокольническая линия}}
+| [[30 декабря]] {{год|1963||метро}}
+| data-sort-value="Infinity" |
+| −8
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6771|37.5060|scale:5000|name=Проспект Вернадского|nogoogle=1|noosm=1}}</small>
+| [[Файл:Prospekt vernadskogo3.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|19}}
+| {{uBHF|Юго-Западная|Москва}}
+| [[30 декабря]] {{год|1963||метро}}
+| data-sort-value="Infinity" |
+| −8
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6637|37.4833|scale:5000|name=Юго-Западная|nogoogle=1|noosm=1}}</small>
+| [[Файл:Ugo-zapadnaya3.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|20}}
+| {{uBHF|Тропарёво}}
+| [[8 декабря]] {{год|2014||метро}}
+| data-sort-value="Infinity" |
+| −12
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.6459|37.4725|scale:5000|name=Тропарёво|nogoogle=1|noosm=1}}</small>
+| [[Файл:Тропарево 11.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|21}}
+| {{uBHF|Румянцево}}
+| [[18 января]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+| −12
+| колонная<br> мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6330|37.4419|scale:5000|name=Румянцево|nogoogle=1|noosm=1}}</small>
+| [[Файл:Moscow Rumyantsevo Metro station 04-2016.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|22}}
+| {{uBHF|Саларьево}}
+| [[15 февраля]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+| −12
+| колонная<br> мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6219|37.4242|scale:5000|name=Саларьево|nogoogle=1|noosm=1}}</small>
+| [[Файл:Moscow Salarievo Metro station 04-2016.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|23}}
+| {{uBHF|Филатов луг}}
+| [[20 июня]] {{год|2019||метро}}
+| data-sort-value="Infinity" |
+| 0
+| наземная<br> крытая
+|
+| [[Файл:Филатов луг. Техпуск (2).jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|24}}
+| {{uBHF|Прокшино}}
+| [[20 июня]] {{год|2019||метро}}
+| data-sort-value="Infinity" |
+| 0
+| наземная<br> крытая
+|
+| [[Файл:MM Prokshino.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|25}}
+| {{uBHF|Ольховая}}
+| [[20 июня]] {{год|2019||метро}}
+| data-sort-value="Infinity" |
+| -5
+| однопролётная <br> мелкого заложения
+|
+| [[Файл:MM Olkhovaya.jpg|100px]]
+|-
+| data-sort-value=1 style="background:#{{Московский метрополитен/цвет линии|1}}"|{{MOSMETRO icon|1}}{{hs|26}}
+| [[Коммунарка (станция метро, Сокольническая линия)|Коммунарка]]
+| [[20 июня]] {{год|2019||метро}}
+| data-sort-value="Infinity" |
+| -5
+| колонная<br> мелкого заложения<br>трёхпролётная
+|
+| [[Файл:Коммунарка. Открытие.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|01}}
+| {{uBHF|Ховрино}}
+| [[31 декабря]] {{год|2017||метро}}
+| data-sort-value="Infinity" |
+| −14
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.878764|37.481493|scale:5000|name=Ховрино|nogoogle=1|noosm=1}}</small>
+| [[Файл:MM Hovrino.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|02}}
+| {{uBHF|Беломорская}}
+| [[20 декабря]] {{год|2018||метро}}
+| data-sort-value="Infinity" |
+| −25
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.8658|37.4764|scale:5000|name=Беломорская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Belomorskaya4.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|03}}
+| {{uBHF|Речной вокзал|Москва}}
+| [[31 декабря]] {{год|1964||метро}}
+| data-sort-value="Infinity" |
+| −6
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.8549|37.4761|scale:5000|name=Речной вокзал|nogoogle=1|noosm=1}}</small>
+| [[Файл:Moscow RechnoyVokzaltMetroStation 1091.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|04}}
+| {{uBHF|Водный стадион}}
+| [[31 декабря]] {{год|1964||метро}}
+| data-sort-value="Infinity" |
+| −6
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.8398|37.4867|scale:5000|name=Водный стадион|nogoogle=1|noosm=1}}</small>
+| [[Файл:Moscow VodnyStadiontMetroStation 1123.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|05}}
+| {{uBHF|Войковская}}
+| [[31 декабря]] {{год|1964||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Балтийская (платформа)}}
+| −7
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.8190|37.4980|scale:5000|name=Войковская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Moscow VoykovskayaMetroStation 1152.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|06}}
+| {{uBHF|Сокол}}
+| [[11 сентября]] {{год|1938||метро}}
+| data-sort-value="Infinity" |
+| −9,6
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.8051|37.5153|scale:5000|name=Сокол|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line2 Sokol.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|07}}
+| {{uBHF|Аэропорт|Москва}}
+| [[11 сентября]] {{год|1938||метро}}
+| data-sort-value="Infinity" |
+| −10
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.8003|37.5329|scale:5000|name=Аэропорт|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Aeroport platform 01-2016.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|08}}
+| {{uBHF|Динамо|Москва}}
+| [[11 сентября]] {{год|1938||метро}}
+|{{MOSMETRO icon|11||Петровский парк (станция метро)}}
+| −39,6
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7897|37.5580|scale:5000|name=Динамо|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line2 Dinamo Central Hall.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|09}}
+| {{uBHF|Белорусская|Замоскворецкая линия}}
+| [[11 сентября]] {{год|1938||метро}}
+| data-sort-value=5 | {{MOSMETRO icon|5||Белорусская (станция метро, Кольцевая линия)}}
+| −33,1
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7767|37.5835|scale:5000|name=Белорусская (Замоскворецкая линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro BelorusskayaZL img3 asv2018-01.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|10}}
+| {{uBHF|Маяковская|Москва}}
+| [[11 сентября]] {{год|1938||метро}}
+| data-sort-value="Infinity" |
+| −33,1
+| [[Колонная станция глубокого заложения|колонная<br>глубокого заложения<br>трёхсводчатая]]
+| <small>{{coord|55.7701|37.5958|scale:5000|name=Маяковская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Mayakovskaya after renewing 2010.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|11}}
+| {{uBHF|Тверская}}<br><small>Горьковская (до {{год|1990||метро}})</small>
+| [[20 июля]] {{год|1979||метро}}
+| data-sort-value=7.09 | {{MOSMETRO icon|7||Пушкинская (станция метро, Москва)}} {{MOSMETRO icon|9|||Чеховская}}
+| −42
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7647|37.6065|scale:5000|name=Тверская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Tverskaya img2 asv2018-01.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|12}}
+| {{uBHF|Театральная|Москва}}<br><small>Площадь Свердлова (до {{год|1990||метро}})</small>
+| [[11 сентября]] {{год|1938||метро}}
+| data-sort-value=1.03 | {{MOSMETRO icon|1|||Охотный Ряд}} {{MOSMETRO icon|3||Площадь Революции (станция метро, Москва)}}
+| −33,9
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7578|37.6190|scale:5000|name=Театральная|nogoogle=1|noosm=1}}</small>
+| [[Файл:Teatralnaya July 2011 (01).jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|13}}
+| {{uBHF|Новокузнецкая}}
+| [[20 ноября]] {{год|1943||метро}}
+| data-sort-value=6.08 | {{MOSMETRO icon|6|||Третьяковская}} {{MOSMETRO icon|8|||Третьяковская}}
+| −37,5
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7415|37.6295|scale:5000|name=Новокузнецкая|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line2 Novokuznetskaya.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|14}}
+| {{uBHF|Павелецкая|Замоскворецкая линия}}
+| [[20 ноября]] {{год|1943||метро}}
+| data-sort-value=5 | {{MOSMETRO icon|5||Павелецкая (станция метро, Кольцевая линия)}}
+| −33,5
+| колонная<br>глубокого заложения<br>трёхсводчатая<br><small>(До реконструкции — <br>двухсводчатая<br>глубокого заложения)</small><ref name="goncharov" />
+| <small>{{coord|55.7305|37.6377|scale:5000|name=Павелецкая (Замоскворецкая линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line2 Paveletskaya.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|15}}
+| {{uBHF|Автозаводская|Москва}}<br><small>Завод имени Сталина (до {{год|1956||метро}})</small>
+| [[1 января]] {{год|1943||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Автозаводская (платформа)}}
+| −11
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7074|37.6576|scale:5000|name=Автозаводская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Avtozavodskaya 01-2017.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|16}}
+| {{uBHF|Технопарк}}</small>
+| [[28 декабря]] {{год|2015||метро}}
+| data-sort-value="Infinity" |
+| 0
+| наземная, крытая<br>колонная<br>трёхпролётная
+| <small>{{coord|55.6950|37.6641|scale:5000|name=Технопарк|nogoogle=1|noosm=1}}</small>
+| [[Файл:Tekhnopark station, 2015-12-28, 02 (by Brateevsky).JPG|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|17}}
+| {{uBHF|Коломенская}}
+| [[11 августа]] {{год|1969||метро}}
+| data-sort-value="Infinity" |
+| −9
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6785|37.6638|scale:5000|name=Коломенская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kolomenskaya-mm.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|18}}
+| {{uBHF|Каширская}}
+| [[11 августа]] {{год|1969||метро}}
+| data-sort-value=11.5 | {{MOSMETRO icon|11А|||Каширская|CPIC}}
+| −7
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6551|37.6487|scale:5000|name=Каширская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kashirskaya station, both halls, 2015.png|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|19}}
+| {{uBHF|Кантемировская}}
+| [[30 декабря]] {{год|1984||метро}}
+| data-sort-value="Infinity" |
+| −8
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.6358|37.6564|scale:5000|name=Кантемировская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kantemirovskaya-mm.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|20}}
+| {{uBHF|Царицыно}}<br><small>Ленино (до {{год|1990||метро}})</small>
+| [[30 декабря]] {{год|1984||метро}}
+| data-sort-value="Infinity" |
+| −8
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6214|37.6694|scale:5000|name=Царицыно|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Tsaritsino platform 01-2016.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|21}}
+| {{uBHF|Орехово}}
+| [[30 декабря]] {{год|1984||метро}}
+| data-sort-value="Infinity" |
+| −9
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6132|37.6949|scale:5000|name=Орехово|nogoogle=1|noosm=1}}</small>
+| [[Файл:Orekhovo-mm.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|22}}
+| {{uBHF|Домодедовская}}
+| [[7 сентября]] {{год|1985||метро}}
+| data-sort-value="Infinity" |
+| −9,5
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6108|37.7186|scale:5000|name=Домодедовская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Domodedovskaya platform 01-2016.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|23}}
+| {{uBHF|Красногвардейская}}
+| [[7 сентября]] {{год|1985||метро}}
+| data-sort-value=10 | {{MOSMETRO icon|10|||Зябликово}}
+| −9
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.6137|37.7444|scale:5000|name=Красногвардейская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line2 Krasnogvardeyskaya.jpg|100px]]
+|-
+| data-sort-value=2 style="background:#{{Московский метрополитен/цвет линии|2}}"|{{MOSMETRO icon|2}}{{hs|24}}
+| {{uBHF|Алма-Атинская}}
+| [[24 декабря]] {{год|2012||метро}}
+| data-sort-value="Infinity" |
+| −10
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.6326|37.7660|scale:5000|name=Алма-Атинская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Станция метро Алма-Атинская, свет от дуг (съёмка справа).JPG|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|01}}
+| {{uBHF|Пятницкое шоссе}}
+| [[28 декабря]] {{год|2012||метро}}
+| data-sort-value="Infinity" |
+| −11
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.8563|37.3544|scale:5000|name=Пятницкое шоссе|nogoogle=1|noosm=1}}</small>
+| [[Файл:Mosmetro Pyatnitskoe Chaussee 121229.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|02}}
+| {{uBHF|Митино}}
+| [[26 декабря]] {{год|2009||метро}}
+| data-sort-value="Infinity" |
+| −14
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.8457|37.3622|scale:5000|name=Митино|nogoogle=1|noosm=1}}</small>
+| [[Файл:Mitino station (Moscow Metro) 1.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|03}}
+| {{uBHF|Волоколамская}}
+| [[26 декабря]] {{год|2009||метро}}
+| data-sort-value="Infinity" |
+| −14
+| колонная<br>мелкого заложения<br>трёхсводчатая
+| <small>{{coord|55.8354|37.3822|scale:5000|name=Волоколамская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Moscow Metro Volokolamskaya asv2018-09.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|04}}
+| {{uBHF|Мякинино}}
+| [[26 декабря]] {{год|2009||метро}}
+| data-sort-value="Infinity" |
+| 0
+| [[Наземная станция|наземная]], крытая,<br>однопролётная
+| <small>{{coord|55.8252|37.3852|scale:5000|name=Мякинино|nogoogle=1|noosm=1}}</small>
+| [[Файл:Станция метро "Мякинино".jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|05}}
+| {{uBHF|Строгино}}
+| [[7 января]] {{год|2008||метро}}
+| data-sort-value="Infinity" |
+| −8
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.8038|37.4031|scale:5000|name=Строгино|nogoogle=1|noosm=1}}</small>
+| [[Файл:Строгино 2.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|06}}
+| {{uBHF|Крылатское}}
+| [[31 декабря]] {{год|1989||метро}}
+| data-sort-value="Infinity" |
+| −9,5
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.7567|37.4081|scale:5000|name=Крылатское|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kryl 03.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|07}}
+| {{uBHF|Молодёжная|Москва}}
+| [[5 июля]] {{год|1965||метро}}
+| data-sort-value="Infinity" |
+| −6,5
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7408|37.4168|scale:5000|name=Молодёжная|nogoogle=1|noosm=1}}</small>
+| [[Файл:Molodezhnaya-mm.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|08}}
+| {{uBHF|Кунцевская}}
+|  [[7 января]] {{год|2008||метро}}
+| data-sort-value=4 | {{MOSMETRO icon|4|||Кунцевская|CPIC}}
+| 0
+| [[Наземная станция|наземная]], открытая
+| <small>{{coord|55.7307|37.4459|scale:5000|name=Кунцевская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kuntsevskaya subway station 1.JPG|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|09}}
+| {{uBHF|Славянский бульвар}}
+| [[7 сентября]] {{год|2008||метро}}
+| data-sort-value="Infinity" |
+| −8,5
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.7296|37.4706|scale:5000|name=Славянский бульвар|nogoogle=1|noosm=1}}</small>
+| [[Файл:Станция Славянский Бульвар, Москва.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|10}}
+| {{uBHF|Парк Победы|Москва}}
+| [[6 мая]] {{год|2003||метро}}
+| data-sort-value=8.5 | {{MOSMETRO icon|КСЛ||Парк Победы (станция метро, Москва)||CPIC}}
+| −73,6 м<ref name="PP">Вычислено сложением высоты подъёма эскалаторов двух уровней, подсчётом ступеней прочих лестниц и прибавлением высоты платформы над [[УГР]] в 1,1 м</ref>
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7362|37.5182|scale:5000|name=Парк Победы|nogoogle=1|noosm=1}}</small>
+| [[Файл:Park Pobedy (16414761911).jpg|100px]]<br>[[Файл:Park Pobedy (8383560760).jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|11}}
+| {{uBHF|Киевская|Арбатско-Покровская линия}}
+| [[5 апреля]] {{год|1953||метро}}
+| data-sort-value=4.05 | {{MOSMETRO icon|4||Киевская (станция метро, Филёвская линия)}} {{MOSMETRO icon|5||Киевская (станция метро, Кольцевая линия)}}
+| −38
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7442|37.5645|scale:5000|name=Киевская (Арбатско-Покровская линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kievskaya APL.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|12}}
+| {{uBHF|Смоленская|Арбатско-Покровская линия}}
+| [[5 апреля]] {{год|1953||метро}}
+| data-sort-value="Infinity" |
+| −50
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7474|37.5823|scale:5000|name=Смоленская (Арбатско-Покровская линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line3 Smolenskaya (img2).jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|13}}
+| {{uBHF|Арбатская|Арбатско-Покровская линия}}
+| [[5 апреля]] {{год|1953||метро}}
+| data-sort-value=1.0409 | {{MOSMETRO icon|1|||Библиотека имени Ленина}} {{MOSMETRO icon|4|||Александровский сад}} {{MOSMETRO icon|9|||Боровицкая}}
+| −41
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7522|37.6061|scale:5000|name=Арбатская (Арбатско-Покровская линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line3 Arbatskaya (img1).jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|14}}
+| {{uBHF|Площадь Революции|Москва}}
+| [[13 марта]] {{год|1938||метро}}
+| data-sort-value=2 | {{MOSMETRO icon|2||Театральная (станция метро, Москва)}}
+| −33,6
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7566|37.6216|scale:5000|name=Площадь Революции|nogoogle=1|noosm=1}}</small>
+| [[Файл:Ploshchad revolyutsii Metro 2010.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|15}}
+| {{uBHF|Курская|Арбатско-Покровская линия}}
+| [[13 марта]] {{год|1938||метро}}
+| data-sort-value=5.10 | {{MOSMETRO icon|5||Курская (станция метро, Кольцевая линия)}} {{MOSMETRO icon|10||Чкаловская (станция метро, Москва)}}
+| −30,7
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7576|37.6577|scale:5000|name=Курская (Арбатско-Покровская линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Курская-радиальная-05.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|16}}
+| {{uBHF|Бауманская}}
+| [[18 января]] {{год|1944||метро}}
+| data-sort-value="Infinity" |
+| −32,5
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7730|37.6806|scale:5000|name=Бауманская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line3 Baumanskaya.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|17}}
+| {{uBHF|Электрозаводская}}
+| [[15 мая]] {{год|1944||метро}}
+| data-sort-value="Infinity" |
+| −31,5
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7817|37.7037|scale:5000|name=Электрозаводская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Moscow Elektrozavodskaya metro station asv2018-09.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|18}}
+| {{uBHF|Семёновская}}<br><small>Сталинская (до {{год|1961||метро}})</small>
+| [[18 января]] {{год|1944||метро}}
+| data-sort-value="Infinity" |
+| −40
+| колонно-пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7833|37.7208|scale:5000|name=Семёновская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Семеновская 11.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|19}}
+| {{uBHF|Партизанская|Москва}}<br><small>Измайловский парк культуры и<br>отдыха имени Сталина (до {{год|1947||метро}})<br>Измайловская (до {{год|1963||метро}})<br>Измайловский парк (до {{год|2005||метро}})</small>
+| [[18 января]] {{год|1944||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Измайлово (платформа)}}
+| −9
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7886|37.7506|scale:5000|name=Партизанская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Partizanskaya-mm.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|20}}
+| {{uBHF|Измайловская}}<br><small>Измайловский парк (до {{год|1963||метро}})</small>
+| [[21 октября]] {{год|1961||метро}}
+| data-sort-value="Infinity" |
+| 0
+| наземная, открытая
+| <small>{{coord|55.7878|37.7814|scale:5000|name=Измайловская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Aquarel (Watercolor) train at Izmaylovskaya station (Метропоезд Акварель на станции Измайловская) (3731223275).jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|21}}
+| {{uBHF|Первомайская|Москва}}
+| [[21 октября]] {{год|1961||метро}}
+| data-sort-value="Infinity" |
+| −7
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7948|37.7993|scale:5000|name=Первомайская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Pervomaiskaya-mm.jpg|100px]]
+|-
+| data-sort-value=3 style="background:#{{Московский метрополитен/цвет линии|3}}"|{{MOSMETRO icon|3}}{{hs|22}}
+| {{uBHF|Щёлковская}}
+| [[22 июля]] {{год|1963||метро}}
+| data-sort-value="Infinity" |
+| −8
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.8094|37.7986|scale:5000|name=Щёлковская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Shchelkovskaya-mm.jpg|100px]]
+|-
+| data-sort-value=4 style="background:#{{Московский метрополитен/цвет линии|4}}"|{{MOSMETRO icon|4}}{{hs|01}}
+| {{uBHF|Кунцевская}}
+| [[31 августа]] {{год|1965||метро}}
+| data-sort-value=3 | {{MOSMETRO icon|3|||Кунцевская|CPIC}}
+| 0
+| наземная, открытая
+| <small>{{coord|55.7307|37.4459|scale:5000|name=Кунцевская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kuntsevskaya (Кунцевская) (5025409657).jpg|100px]]
+|-
+| data-sort-value=4 style="background:#{{Московский метрополитен/цвет линии|4}}"|{{MOSMETRO icon|4}}{{hs|02}}
+| {{uBHF|Пионерская|Москва}}
+| [[13 октября]] {{год|1961||метро}}
+| data-sort-value="Infinity" |
+| 0
+| наземная, открытая
+| <small>{{coord|55.7360|37.4671|scale:5000|name=Пионерская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Pionerskaya-mm.jpg|100px]]
+|-
+| data-sort-value=4 style="background:#{{Московский метрополитен/цвет линии|4}}"|{{MOSMETRO icon|4}}{{hs|03}}
+| {{uBHF|Филёвский парк}}
+| [[13 октября]] {{год|1961||метро}}
+| data-sort-value="Infinity" |
+| 0
+| наземная, открытая
+| <small>{{coord|55.7396|37.4833|scale:5000|name=Филёвский парк|nogoogle=1|noosm=1}}</small>
+| [[Файл:Filpark-mm.jpg|100px]]
+|-
+| data-sort-value=4 style="background:#{{Московский метрополитен/цвет линии|4}}"|{{MOSMETRO icon|4}}{{hs|04}}
+| {{uBHF|Багратионовская}}
+| [[13 октября]] {{год|1961||метро}}
+| data-sort-value="Infinity" |
+| 0
+| наземная, открытая
+| <small>{{coord|55.7438|37.4977|scale:5000|name=Багратионовская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Bagrat 05.jpg|100px]]
+|-
+| data-sort-value=4 style="background:#{{Московский метрополитен/цвет линии|4}}"|{{MOSMETRO icon|4}}{{hs|05}}
+| {{uBHF|Фили}}
+| [[7 ноября]] {{год|1959||метро}}
+| data-sort-value="Infinity" |
+| 0
+| наземная, открытая
+| <small>{{coord|55.7460|37.5150|scale:5000|name=Фили|nogoogle=1|noosm=1}}</small>
+| [[Файл:Fili-mm.jpg|100px]]
+|-
+| data-sort-value=4 style="background:#{{Московский метрополитен/цвет линии|4}}"|{{MOSMETRO icon|4}}{{hs|06}}
+| {{uBHF|Кутузовская}}
+| [[7 ноября]] {{год|1958||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Кутузовская (станция МЦК)}}
+| 0
+| наземная, открытая
+| <small>{{coord|55.7399|37.5344|scale:5000|name=Кутузовская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kutuzovskaya station renewed.jpg|100px]]
+|-
+| data-sort-value=4 style="background:#{{Московский метрополитен/цвет линии|4}}"|{{MOSMETRO icon|4}}{{hs|07}}
+| {{uBHF|Студенческая|Москва}}
+| [[7 ноября]] {{год|1958||метро}}
+| data-sort-value="Infinity" |
+| 0
+| наземная, открытая
+| <small>{{coord|55.7388|37.5483|scale:5000|name=Студенческая|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Studencheskaya asv2018-01.jpg|100px]]
+|-
+| data-sort-value=4 style="background:#{{Московский метрополитен/цвет линии|4}}"|{{MOSMETRO icon|4}}{{hs|08}}
+| {{uBHF|Международная|Москва}}
+| [[30 августа]] {{год|2006||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Деловой центр (платформа)}}
+| −25
+| [[Колонно-стеновая станция|колонно-стеновая]] <br>глубокого заложения <br>трёхсводчатая
+| <small>{{coord|55.7483|37.5339|scale:5000|name=Международная|nogoogle=1|noosm=1}}</small>
+| [[Файл:Mezhduarodnaya st.JPG|100px]]
+|-
+| data-sort-value=4 style="background:#{{Московский метрополитен/цвет линии|4}}"|{{MOSMETRO icon|4}}{{hs|09}}
+| {{uBHF|Выставочная}}<br><small>Деловой центр (до {{год|2008||метро}})</small>
+| [[10 сентября]] {{год|2005||метро}}
+| data-sort-value=8.511 | {{MOSMETRO icon|КСЛ||Деловой центр (станция метро, Калининско-Солнцевская линия)}} {{MOSMETRO icon|11||Деловой центр (станция метро, Большая кольцевая линия)}}
+| −25
+| колонная<br>глубокого заложения<br>трёхпролётная
+| <small>{{coord|55.7502|37.5408|scale:5000|name=Выставочная|nogoogle=1|noosm=1}}</small>
+| [[Файл:Vystavochnaya station.jpg|100px]]
+|-
+| data-sort-value=4 style="background:#{{Московский метрополитен/цвет линии|4}}"|{{MOSMETRO icon|4}}{{hs|10}}
+| {{uBHF|Киевская|Филёвская линия}}
+| [[20 марта]] {{год|1937||метро}}
+| data-sort-value=3.05 | {{MOSMETRO icon|3||Киевская (станция метро, Арбатско-Покровская линия)}} {{MOSMETRO icon|5||Киевская (станция метро, Кольцевая линия)}}
+| −8,7
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7436|37.5655|scale:5000|name=Киевская (Филёвская линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Moscow KievskayaFL metro station asv2018-08.jpg|100px]]
+|-
+| data-sort-value=4 style="background:#{{Московский метрополитен/цвет линии|4}}"|{{MOSMETRO icon|4}}{{hs|11}}
+| {{uBHF|Смоленская|Филёвская линия}}
+| [[15 мая]] {{год|1935||метро}}
+| data-sort-value="Infinity" |
+| −8
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7488|37.5825|scale:5000|name=Смоленская (Филёвская линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Moscow Metro SmolenskayaFL asv2018-09.jpg|100px]]
+|-
+| data-sort-value=4 style="background:#{{Московский метрополитен/цвет линии|4}}"|{{MOSMETRO icon|4}}{{hs|12}}
+| {{uBHF|Арбатская|Филёвская линия}}
+| [[15 мая]] {{год|1935||метро}}
+| data-sort-value="Infinity" |
+| −8
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7518|37.6007|scale:5000|name=Арбатская (Филёвская линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line4 Arbatskaya (img1).jpg|100px]]
+|-
+| data-sort-value=4 style="background:#{{Московский метрополитен/цвет линии|4}}"|{{MOSMETRO icon|4}}{{hs|13}}
+| {{uBHF|Александровский сад}}<br><small>Улица Коминтерна (до {{год|1946||метро}})<br>Калининская (до {{год|1990||метро}})</small>
+| [[15 мая]] {{год|1935||метро}}
+| data-sort-value=1.03 | {{MOSMETRO icon|1|||Библиотека имени Ленина}} {{MOSMETRO icon|3||Арбатская (станция метро, Арбатско-Покровская линия)}}
+| −7
+| колонная<br>мелкого заложения<br>четырёхпролётная
+| <small>{{coord|55.7525|37.6085|scale:5000|name=Александровский сад|nogoogle=1|noosm=1}}</small>
+| [[Файл:Alsad-mm.jpg|100px]]
+|-
+| data-sort-value=5 style="background:#{{Московский метрополитен/цвет линии|5}}"|{{MOSMETRO icon|5}}{{hs|01}}
+| {{uBHF|Парк культуры|Кольцевая линия}}<br><small>Парк Культуры имени Горького<br>(до 1960-х)</small>
+| [[1 января]] {{год|1950||метро}}
+| data-sort-value=1 | {{MOSMETRO icon|1||Парк культуры (станция метро, Сокольническая линия)}}
+| −40
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7357|37.5915|scale:5000|name=Парк культуры (Кольцевая линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line5 Park Kultury.jpg|100px]]
+|-
+| data-sort-value=5 style="background:#{{Московский метрополитен/цвет линии|5}}"|{{MOSMETRO icon|5}}{{hs|02}}
+| {{uBHF|Октябрьская|Кольцевая линия}}<br><small>Калужская (до {{год|1961||метро}})</small>
+| [[1 января]] {{год|1950||метро}}
+| data-sort-value=6 | {{MOSMETRO icon|6||Октябрьская (станция метро, Калужско-Рижская линия)}}
+| −40
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7297|37.6091|scale:5000|name=Октябрьская (Кольцевая линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:MoscowMetro OktyabrskayaKoltsevaya HF5.jpg|100px]]
+|-
+| data-sort-value=5 style="background:#{{Московский метрополитен/цвет линии|5}}"|{{MOSMETRO icon|5}}{{hs|03}}
+| {{uBHF|Добрынинская}}<br><small>Серпуховская (до {{год|1961||метро}})</small>
+| [[1 января]] {{год|1950||метро}}
+| data-sort-value=9 | {{MOSMETRO icon|9|||Серпуховская}}
+| −35,5
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7291|37.6243|scale:5000|name=Добрынинская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Добрынинская 3.jpg|100px]]
+|-
+| data-sort-value=5 style="background:#{{Московский метрополитен/цвет линии|5}}"|{{MOSMETRO icon|5}}{{hs|04}}
+| {{uBHF|Павелецкая|Кольцевая линия}}
+| [[1 января]] {{год|1950||метро}}
+| data-sort-value=2 | {{MOSMETRO icon|2||Павелецкая (станция метро, Замоскворецкая линия)}}
+| −40
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7318|37.6379|scale:5000|name=Павелецкая (Кольцевая линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Павелецкая КЛ 03.jpg|100px]]
+|-
+| data-sort-value=5 style="background:#{{Московский метрополитен/цвет линии|5}}"|{{MOSMETRO icon|5}}{{hs|05}}
+| {{uBHF|Таганская|Кольцевая линия}}
+| [[1 января]] {{год|1950||метро}}
+| data-sort-value=7.08 | {{MOSMETRO icon|7||Таганская (станция метро, Таганско-Краснопресненская линия)}} {{MOSMETRO icon|8|||Марксистская}}
+| −53
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7418|37.6517|scale:5000|name=Таганская (Кольцевая линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Таганская-кольцевая 06.jpg|100px]]
+|-
+| data-sort-value=5 style="background:#{{Московский метрополитен/цвет линии|5}}"|{{MOSMETRO icon|5}}{{hs|06}}
+| {{uBHF|Курская|Кольцевая линия}}
+| [[1 января]] {{год|1950||метро}}
+| data-sort-value=3.10 | {{MOSMETRO icon|3||Курская (станция метро, Арбатско-Покровская линия)}} {{MOSMETRO icon|10||Чкаловская (станция метро, Москва)}}
+| −40
+| колонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7570|37.6595|scale:5000|name=Курская (Кольцевая линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Moscow Metro KurskayaKL asv2018-09.jpg|100px]]
+|-
+| data-sort-value=5 style="background:#{{Московский метрополитен/цвет линии|5}}"|{{MOSMETRO icon|5}}{{hs|07}}
+| {{uBHF|Комсомольская|Кольцевая линия}}
+| [[30 января]] {{год|1952||метро}}
+| data-sort-value=1 | {{MOSMETRO icon|1||Комсомольская (станция метро, Сокольническая линия)}}
+| −37
+| колонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7748|37.6549|scale:5000|name=Комсомольская (Кольцевая линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro KomsomolskayaKL img2 asv2018-01.jpg|100px]]
+|-
+| data-sort-value=5 style="background:#{{Московский метрополитен/цвет линии|5}}"|{{MOSMETRO icon|5}}{{hs|08}}
+| {{uBHF|Проспект Мира|Кольцевая линия}}<br><small>Ботанический сад (до {{год|1966||метро}})</small>
+| [[30 января]] {{год|1952||метро}}
+| data-sort-value=6 | {{MOSMETRO icon|6||Проспект Мира (станция метро, Калужско-Рижская линия)}}
+| −40
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7798|37.6318|scale:5000|name=Проспект Мира (Кольцевая линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:MoscowMetro ProspektMiraKoltsevaya HC3b.jpg|100px]]
+|-
+| data-sort-value=5 style="background:#{{Московский метрополитен/цвет линии|5}}"|{{MOSMETRO icon|5}}{{hs|09}}
+| {{uBHF|Новослободская}}
+| [[30 января]] {{год|1952||метро}}
+| data-sort-value=9 | {{MOSMETRO icon|9|||Менделеевская}}
+| −40
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7799|37.6028|scale:5000|name=Новослободская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line5 Novoslobodskaya.jpg|100px]]
+|-
+| data-sort-value=5 style="background:#{{Московский метрополитен/цвет линии|5}}"|{{MOSMETRO icon|5}}{{hs|10}}
+| {{uBHF|Белорусская|Кольцевая линия}}
+| [[30 января]] {{год|1952||метро}}
+| data-sort-value=2 | {{MOSMETRO icon|2||Белорусская (станция метро, Замоскворецкая линия)}}
+| −42,5
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7764|37.5844|scale:5000|name=Белорусская (Кольцевая линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:MoscowMetro BelorusskayaKoltsevaya HE2b.jpg|100px]]
+|-
+| data-sort-value=5 style="background:#{{Московский метрополитен/цвет линии|5}}"|{{MOSMETRO icon|5}}{{hs|11}}
+| {{uBHF|Краснопресненская}}
+| [[14 марта]] {{год|1954||метро}}
+| data-sort-value=7 | {{MOSMETRO icon|7|||Баррикадная}}
+| −35,5
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7613|37.5774|scale:5000|name=Краснопресненская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Krasnopresnenskaya asv2018-01.jpg|100px]]
+|-
+| data-sort-value=5 style="background:#{{Московский метрополитен/цвет линии|5}}"|{{MOSMETRO icon|5}}{{hs|12}}
+| {{uBHF|Киевская|Кольцевая линия}}
+| [[14 марта]] {{год|1954||метро}}
+| data-sort-value=3.04 | {{MOSMETRO icon|3||Киевская (станция метро, Арбатско-Покровская линия)}} {{MOSMETRO icon|4||Киевская (станция метро, Филёвская линия)}}
+| −48
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7446|37.5644|scale:5000|name=Киевская (Кольцевая линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:MoscowMetro KievskayaKoltsevaya HG4b.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|01}}
+| {{uBHF|Медведково}}
+| [[30 сентября]] {{год|1978||метро}}
+| data-sort-value="Infinity" |
+| −10
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.8872|37.6613|scale:5000|name=Медведково|nogoogle=1|noosm=1}}</small>
+| [[Файл:Medved Antares 01.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|02}}
+| {{uBHF|Бабушкинская}}
+| [[30 сентября]] {{год|1978||метро}}
+| data-sort-value="Infinity" |
+| −10
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.8694|37.6644|scale:5000|name=Бабушкинская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Babush Antares 01.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|03}}
+| {{uBHF|Свиблово}}
+| [[30 сентября]] {{год|1978||метро}}
+| data-sort-value="Infinity" |
+| −8
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.8552|37.6527|scale:5000|name=Свиблово|nogoogle=1|noosm=1}}</small>
+| [[Файл:Sviblovo-mm.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|04}}
+| {{uBHF|Ботанический сад|Москва}}
+| [[30 сентября]] {{год|1978||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Ботанический сад (платформа)}}
+| −7
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.8449|37.6383|scale:5000|name=Ботанический сад|nogoogle=1|noosm=1}}</small>
+| [[Файл:Botsad-mm.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|05}}
+| {{uBHF|ВДНХ}}<br><small>ВСХВ (до {{год|1959||метро}})</small>
+| [[1 мая]] {{год|1958||метро}}
+| data-sort-value=13 | {{MOSMETRO icon|13||Выставочный центр (станция монорельса)}}
+| −53,5
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.8211|37.6411|scale:5000|name=ВДНХ|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro VDNKh 2011.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|06}}
+| {{uBHF|Алексеевская|Москва}}<br><small>Мир (до {{год|1966||метро}})<br>Щербаковская (до {{год|1990||метро}})</small>
+| [[1 мая]] {{год|1958||метро}}
+| data-sort-value="Infinity" |
+| −51
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.8088|37.6390|scale:5000|name=Алексеевская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Moscow Metro Alekseyevskaya asv2018-09.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|07}}
+| {{uBHF|Рижская}}
+| [[1 мая]] {{год|1958||метро}}
+| data-sort-value="Infinity" |
+| −46
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7936|37.6362|scale:5000|name=Рижская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Рижская 10.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|08}}
+| {{uBHF|Проспект Мира|Калужско-Рижская линия}}<br><small>Ботанический сад (до {{год|1966||метро}})</small>
+| [[1 мая]] {{год|1958||метро}}
+| data-sort-value=5 | {{MOSMETRO icon|5||Проспект Мира (станция метро, Кольцевая линия)}}
+| −50
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7812|37.6318|scale:5000|name=Проспект Мира (Калужско-Рижская линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Проспект Мира радиальная 01.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|09}}
+| {{uBHF|Сухаревская}}<br><small>Колхозная (до {{год|1990||метро}})</small>
+| [[5 января]] {{год|1972||метро}}
+| data-sort-value="Infinity" |
+| −43
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7733|37.6319|scale:5000|name=Сухаревская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Sukhar 02.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|10}}
+| {{uBHF|Тургеневская}}
+| [[5 января]] {{год|1972||метро}}
+| data-sort-value=1.10 | {{MOSMETRO icon|1|||Чистые пруды}} {{MOSMETRO icon|10|||Сретенский бульвар}}
+| −49
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7661|37.6374|scale:5000|name=Тургеневская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Turgenevskaya-mm.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|11}}
+| {{uBHF|Китай-город}}<br><small>Площадь Ногина (до {{год|1990||метро}})</small>
+| [[3 января]] {{год|1971||метро}}
+| data-sort-value=7 | {{MOSMETRO icon|7|||Китай-город|CPIC}}
+| −29
+| колонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7553|37.6333|scale:5000|name=Китай-город|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kitaygorod1-mm.jpg|100px]]<br>[[Файл:Kitaygorod2-mm.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|12}}
+| {{uBHF|Третьяковская}}<br><small>Новокузнецкая (до {{год|1983||метро}})</small>
+| [[3 января]] {{год|1971||метро}}
+| data-sort-value=2.08 | {{MOSMETRO icon|2|||Новокузнецкая}} {{MOSMETRO icon|8|||Третьяковская|CPIC}}
+| −46
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7412|37.6274|scale:5000|name=Третьяковская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Tretyakovskaya1-mm.jpg|100px]]<br>[[Файл:Tretyakovskaya North 2010.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|13}}
+| {{uBHF|Октябрьская|Калужско-Рижская линия}}
+| [[13 октября]] {{год|1962||метро}}
+| data-sort-value=5 | {{MOSMETRO icon|5||Октябрьская (станция метро, Кольцевая линия)}}
+| −50
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7306|37.6112|scale:5000|name=Октябрьская (Калужско-Рижская линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Октябрьская КРЛ 1.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|14}}
+| [[Шаболовская]]
+| [[6 ноября]] {{год|1980||метро}}
+| data-sort-value="Infinity" |
+| −46,5
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7198|37.6083|scale:5000|name=Шаболовская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Shabol Antares 07.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|15}}
+| {{uBHF|Ленинский проспект|Москва}}
+| [[13 октября]] {{год|1962||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Площадь Гагарина (платформа)}}
+| −16
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7077|37.5861|scale:5000|name=Ленинский проспект|nogoogle=1|noosm=1}}</small>
+| [[Файл:Len Prosp Antares 02.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|16}}
+| {{uBHF|Академическая|Калужско-Рижская линия}}
+| [[13 октября]] {{год|1962||метро}}
+| data-sort-value="Infinity" |
+| −8,5
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6877|37.5733|scale:5000|name=Академическая|nogoogle=1|noosm=1}}</small>
+| [[Файл:Akadem Antares 04.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|17}}
+| {{uBHF|Профсоюзная|Москва}}
+| [[13 октября]] {{год|1962||метро}}
+| data-sort-value="Infinity" |
+| −7
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6780|37.5627|scale:5000|name=Профсоюзная|nogoogle=1|noosm=1}}</small>
+| [[Файл:Profs Antares 06.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|18}}
+| {{uBHF|Новые Черёмушки}}
+| [[13 октября]] {{год|1962||метро}}
+| data-sort-value="Infinity" |
+| −7
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6702|37.5544|scale:5000|name=Новые Черёмушки|nogoogle=1|noosm=1}}</small>
+| [[Файл:Cheremushki-mm.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|19}}
+| {{uBHF|Калужская}}
+| [[12 августа]] {{год|1974||метро}}
+| data-sort-value="Infinity" |
+| −10
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6571|37.5405|scale:5000|name=Калужская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kaluzh Antares 11.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|20}}
+| {{uBHF|Беляево}}
+| [[12 августа]] {{год|1974||метро}}
+| data-sort-value="Infinity" |
+| −12
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6428|37.5257|scale:5000|name=Беляево|nogoogle=1|noosm=1}}</small>
+| [[Файл:Belyaevo-mm.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|21}}
+| {{uBHF|Коньково}}
+| [[6 ноября]] {{год|1987||метро}}
+| data-sort-value="Infinity" |
+| −8
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.6333|37.5188|scale:5000|name=Коньково|nogoogle=1|noosm=1}}</small>
+| [[Файл:Konkovo-mm.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|22}}
+| {{uBHF|Тёплый Стан}}
+| [[6 ноября]] {{год|1987||метро}}
+| data-sort-value="Infinity" |
+| −8
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6191|37.5082|scale:5000|name=Тёплый Стан|nogoogle=1|noosm=1}}</small>
+| [[Файл:Tstan 04.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|23}}
+| {{uBHF|Ясенево}}
+| [[17 января]] {{год|1990||метро}}
+| data-sort-value="Infinity" |
+| −8
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6063|37.5333|scale:5000|name=Ясенево|nogoogle=1|noosm=1}}</small>
+| [[Файл:Yasenevo 05.jpg|100px]]
+|-
+| data-sort-value=6 style="background:#{{Московский метрополитен/цвет линии|6}}"|{{MOSMETRO icon|6}}{{hs|24}}
+| {{uBHF|Новоясеневская}}<br><small>Битцевский парк (до {{год|2008||метро}})</small>
+| [[17 января]] {{год|1990||метро}}
+| data-sort-value=12 | {{MOSMETRO icon|12|||Битцевский парк}}
+| −7
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6010|37.5541|scale:5000|name=Новоясеневская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Новоясеневская 01.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|01}}
+| {{uBHF|Планерная}}
+| [[30 декабря]] {{год|1975||метро}}
+| data-sort-value="Infinity" |
+| −6
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.8607|37.4364|scale:5000|name=Планерная|nogoogle=1|noosm=1}}</small>
+| [[Файл:Planernaya-mm.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|02}}
+| {{uBHF|Сходненская}}
+| [[30 декабря]] {{год|1975||метро}}
+| data-sort-value="Infinity" |
+| −6
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.8505|37.4396|scale:5000|name=Сходненская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Skhodnenskaya station.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|03}}
+| {{uBHF|Тушинская}}
+| [[30 декабря]] {{год|1975||метро}}
+| data-sort-value="Infinity" |
+| −10,5
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.8267|37.4368|scale:5000|name=Тушинская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Tushinskaya-mm.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|04}}
+| {{uBHF|Спартак}}
+| [[27 августа]] {{год|2014||метро}}
+| data-sort-value="Infinity" |
+| −10
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.8182|37.4353|scale:5000|name=Спартак|nogoogle=1|noosm=1}}</small>
+| [[Файл:MM TKL Spartak 2014-08-30 by Andrey Yurtaev (no-exit-dot-org).jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|05}}
+| {{uBHF|Щукинская}}
+| [[30 декабря]] {{год|1975||метро}}
+| data-sort-value="Infinity" |
+| −13
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.8086|37.4641|scale:5000|name=Щукинская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Shchukinskaya-mm.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|06}}
+| {{uBHF|Октябрьское Поле}}
+| [[30 декабря]] {{год|1972||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Панфиловская (станция МЦК)}}
+| −9
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7935|37.4935|scale:5000|name=Октябрьское Поле|nogoogle=1|noosm=1}}</small>
+| [[Файл:Oktpole-mm.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|07}}
+| [[Полежаевская]]
+| [[30 декабря]] {{год|1972||метро}}
+| data-sort-value=11.14 | {{MOSMETRO icon|11||Хорошёвская (станция метро)}} {{MOSMETRO icon|14||Хорошёво (станция МЦК)}}
+| −10
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7775|37.5192|scale:5000|name=Полежаевская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line7 Polezhaevskaya.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|08}}
+| {{uBHF|Беговая|Москва}}
+| [[30 декабря]] {{год|1972||метро}}
+| data-sort-value="Infinity" |
+| −9
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7738|37.5468|scale:5000|name=Беговая|nogoogle=1|noosm=1}}</small>
+| [[Файл:Begovaya view.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|09}}
+| {{uBHF|Улица 1905 года}}
+| [[30 декабря]] {{год|1972||метро}}
+| data-sort-value="Infinity" |
+| −11
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7650|37.5613|scale:5000|name=Улица 1905 года|nogoogle=1|noosm=1}}</small>
+| [[Файл:Ulitsa 1905 Goda.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|10}}
+| {{uBHF|Баррикадная}}
+| [[30 декабря]] {{год|1972||метро}}
+| data-sort-value=5 | {{MOSMETRO icon|5|||Краснопресненская}}
+| −30
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7612|37.5795|scale:5000|name=Баррикадная|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line7 Barrikadnaya.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|11}}
+| {{uBHF|Пушкинская|Москва}}
+| [[17 декабря]] {{год|1975||метро}}
+| data-sort-value=2.09 | {{MOSMETRO icon|2|||Тверская}} {{MOSMETRO icon|9|||Чеховская}}
+| −51
+| колонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7650|37.6079|scale:5000|name=Пушкинская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line7 Pushkinskaya.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|12}}
+| {{uBHF|Кузнецкий Мост}}
+| [[17 декабря]] {{год|1975||метро}}
+| data-sort-value=1 | {{MOSMETRO icon|1|||Лубянка}}
+| −39,5
+| колонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7606|37.6259|scale:5000|name=Кузнецкий Мост|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kuzmost-mm.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|13}}
+| {{uBHF|Китай-город}}<br><small>Площадь Ногина (до {{год|1990||метро}})</small>
+| [[3 января]] {{год|1971||метро}}
+| data-sort-value=6 | {{MOSMETRO icon|6|||Китай-город|CPIC}}
+| −29
+| колонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7553|37.6333|scale:5000|name=Китай-город|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kitaygorod1-mm.jpg|100px]]<br>[[Файл:Kitaygorod2-mm.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|14}}
+| {{uBHF|Таганская|Таганско-Краснопресненская линия}}
+| [[31 декабря]] {{год|1966||метро}}
+| data-sort-value=5.08 | {{MOSMETRO icon|5||Таганская (станция метро, Кольцевая линия)}} {{MOSMETRO icon|8|||Марксистская}}
+| −36
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7402|37.6522|scale:5000|name=Таганская (Таганско-Краснопресненская линия)|nogoogle=1|noosm=1}}</small>
+| [[Файл:Таганская-радиальная 18.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|15}}
+| {{uBHF|Пролетарская|Москва}}
+| [[31 декабря]] {{год|1966||метро}}
+| data-sort-value=10 | {{MOSMETRO icon|10|||Крестьянская застава}}
+| −9
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7319|37.6659|scale:5000|name=Пролетарская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Proletarskaya-mm.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|16}}
+| {{uBHF|Волгоградский проспект}}
+| [[31 декабря]] {{год|1966||метро}}
+| data-sort-value="Infinity" |
+| −8
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7253|37.6869|scale:5000|name=Волгоградский проспект|nogoogle=1|noosm=1}}</small>
+| [[Файл:Volgogradsky-mm.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|17}}
+| {{uBHF|Текстильщики|Таганско-Краснопресненская линия}}
+| [[31 декабря]] {{год|1966||метро}}
+| data-sort-value="Infinity" |
+| −13
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7088|37.7316|scale:5000|name=Текстильщики|nogoogle=1|noosm=1}}</small>
+| [[Файл:Tekstil-mm.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|18}}
+| {{uBHF|Кузьминки}}
+| [[31 декабря]] {{год|1966||метро}}
+| data-sort-value="Infinity" |
+| −8
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7056|37.7656|scale:5000|name=Кузьминки|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kuzminki (Кузьминки) (5063984835).jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|19}}
+| {{uBHF|Рязанский проспект}}
+| [[31 декабря]] {{год|1966||метро}}
+| data-sort-value="Infinity" |
+| −6
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7170|37.7933|scale:5000|name=Рязанский проспект|nogoogle=1|noosm=1}}</small>
+| [[Файл:Ryazansky Prospekt (Рязанский Проспект) (5395550241).jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|20}}
+| {{uBHF|Выхино}}<br><small>Ждановская (до {{год|1989||метро}})</small>
+| [[31 декабря]] {{год|1966||метро}}
+| data-sort-value="Infinity" |
+| 0
+| наземная, открытая
+| <small>{{coord|55.7156|37.8181|scale:5000|name=Выхино|nogoogle=1|noosm=1}}</small>
+| [[Файл:Vykhino-mm.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|21}}
+| {{uBHF|Лермонтовский проспект}}
+| [[9 ноября]] {{год|2013||метро}}
+| data-sort-value=15 | {{MOSMETRO icon|15|||Косино}}
+| −12
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.7013|37.8525|scale:5000|name=Лермонтовский проспект|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line7 Lermontovsky Prospekt (img2).jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|22}}
+| {{uBHF|Жулебино}}
+| [[9 ноября]] {{год|2013||метро}}
+| data-sort-value="Infinity" |
+| −15
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.6855|37.8563|scale:5000|name=Жулебино|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line7 Zhulebino Platform.jpg|100px]]
+|-
+| data-sort-value=7 style="background:#{{Московский метрополитен/цвет линии|7}}"|{{MOSMETRO icon|7}}{{hs|23}}
+| {{uBHF|Котельники}}
+| [[21 сентября]] {{год|2015||метро}}
+| data-sort-value="Infinity" |
+| −15
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.6743|37.8582|scale:5000|name=Котельники|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line7 Kotelniki (img1).jpg|100px]]
+|-
+| data-sort-value=8.5 style="background:#{{Московский метрополитен/цвет линии|8А}}"|{{MOSMETRO icon|8А}}{{hs|01}}
+| {{uBHF|Рассказовка}}
+| [[30 августа]] {{год|2018||метро}}
+| data-sort-value="Infinity" |
+| −12
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.3759|37.1958|scale:5000|name=Рассказовка|nogoogle=1|noosm=1}}</small>
+| [[Файл:MM Rasskazovka alt.jpg|100px]]
+|-
+| data-sort-value=8.5 style="background:#{{Московский метрополитен/цвет линии|8А}}"|{{MOSMETRO icon|8А}}{{hs|01}}
+| {{uBHF|Новопеределкино}}
+| [[30 августа]] {{год|2018||метро}}
+| data-sort-value="Infinity" |
+| −16
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.3821|37.2116|scale:5000|name=Новопеределкино|nogoogle=1|noosm=1}}</small>
+| [[Файл:MM Novoperedelkino.jpg|100px]]
+|-
+| data-sort-value=8.5 style="background:#{{Московский метрополитен/цвет линии|8А}}"|{{MOSMETRO icon|8А}}{{hs|01}}
+| {{uBHF|Боровское шоссе}}
+| [[30 августа]] {{год|2018||метро}}
+| data-sort-value="Infinity" |
+| −20
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.3851|37.2212|scale:5000|name=Боровское шоссе|nogoogle=1|noosm=1}}</small>
+| [[Файл:MM Borovskoe Shosse.jpg|100px]]
+|-
+| data-sort-value=8.5 style="background:#{{Московский метрополитен/цвет линии|8А}}"|{{MOSMETRO icon|8А}}{{hs|01}}
+| {{uBHF|Солнцево}}
+| [[30 августа]] {{год|2018||метро}}
+| data-sort-value="Infinity" |
+| −13
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.3859|37.2328|scale:5000|name=Солнцево|nogoogle=1|noosm=1}}</small>
+| [[Файл:MM Solntsevo.jpg|100px]]
+|-
+| data-sort-value=8.5 style="background:#{{Московский метрополитен/цвет линии|8А}}"|{{MOSMETRO icon|8А}}{{hs|01}}
+| {{uBHF|Говорово}}
+| [[30 августа]] {{год|2018||метро}}
+| data-sort-value="Infinity" |
+| −14
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.3934|37.2503|scale:5000|name=Говорово|nogoogle=1|noosm=1}}</small>
+| [[Файл:MM Govorovo.jpg|100px]]
+|-
+| data-sort-value=8.5 style="background:#{{Московский метрополитен/цвет линии|8А}}"|{{MOSMETRO icon|8А}}{{hs|01}}
+| {{uBHF|Озёрная}}
+| [[30 августа]] {{год|2018||метро}}
+| data-sort-value="Infinity" |
+| −25
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.4014|37.2658|scale:5000|name=Озёрная|nogoogle=1|noosm=1}}</small>
+| [[Файл:MM Ozernaya.jpg|100px]]
+|-
+| data-sort-value=8.5 style="background:#{{Московский метрополитен/цвет линии|8А}}"|{{MOSMETRO icon|8А}}{{hs|01}}
+| {{uBHF|Мичуринский проспект|Калининско-Солнцевская линия}}
+| [[30 августа]] {{год|2018||метро}}
+| data-sort-value="Infinity" |
+| −13
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.4122|37.2906|scale:5000|name=Мичуринский проспект|nogoogle=1|noosm=1}}</small>
+| [[Файл:MM Michurinskiy Prospekt.jpg|100px]]
+|-
+| data-sort-value=8.5 style="background:#{{Московский метрополитен/цвет линии|8А}}"|{{MOSMETRO icon|8А}}{{hs|01}}
+| {{uBHF|Раменки}}
+| [[16 марта]] {{год|2017||метро}}
+| data-sort-value="Infinity" |
+| −15
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.6961|37.5053|scale:5000|name=Раменки|nogoogle=1|noosm=1}}</small>
+| [[Файл:Ramenki1.jpg|100px]]
+|-
+| data-sort-value=8.5 style="background:#{{Московский метрополитен/цвет линии|8А}}"|{{MOSMETRO icon|8А}}{{hs|01}}
+| {{uBHF|Ломоносовский проспект}}
+| [[16 марта]] {{год|2017||метро}}
+| data-sort-value="Infinity" |
+| −15
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.7055|37.5225|scale:5000|name=Ломоносовский проспект|nogoogle=1|noosm=1}}</small>
+| [[Файл:Lomonosovsky prospekt - platform (1).jpg|100px]]
+|-
+| data-sort-value=8.5 style="background:#{{Московский метрополитен/цвет линии|8А}}"|{{MOSMETRO icon|8А}}{{hs|01}}
+| {{uBHF|Минская|Москва}}
+| [[16 марта]] {{год|2017||метро}}
+| data-sort-value="Infinity" |
+| −15
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.7232|37.5038|scale:5000|name=Минская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Minskaya station - platform (1).jpg|100px]]
+|-
+| data-sort-value=8.5 style="background:#{{Московский метрополитен/цвет линии|8А}}"|{{MOSMETRO icon|8А}}{{hs|04}}
+| {{uBHF|Парк Победы|Москва}}
+| [[31 января]] {{год|2014||метро}}
+| data-sort-value=3 | {{MOSMETRO icon|3||Парк Победы (станция метро, Москва)||CPIC}}
+| −73,6<ref name="PP"/>
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7362|37.5182|scale:5000|name=Парк Победы|nogoogle=1|noosm=1}}</small>
+| [[Файл:Park Pobedy (16414761911).jpg|100px]]<br>[[Файл:Park Pobedy (8383560760).jpg|100px]]
+|-class="shadow"
+| data-sort-value=8.5 |{{MOSMETRO icon|8А}}{{hs|05}}
+| {{uBHF|Деловой центр|Солнцевская линия}}<br><small>(закрыта с [[24 февраля]] {{год|2018||метро}})</small>
+| [[31 января]] {{год|2014||метро}}
+| data-sort-value=4.11 | {{MOSMETRO icon|4|||Выставочная}} {{MOSMETRO icon|11||Деловой центр (станция метро, Большая кольцевая линия)}}
+| −30
+| колонная<br>глубокого заложения<br>трёхпролётная
+| <small>{{coord|55.7491|37.5395|scale:5000|name=Деловой центр|nogoogle=1|noosm=1}}</small>
+| [[Файл:Delovoj Centr MosMetro station 01-2015 with train.jpg|100px]]
+|-
+| data-sort-value=8 style="background:#{{Московский метрополитен/цвет линии|8}}"|{{MOSMETRO icon|8}}{{hs|06}}
+| {{uBHF|Третьяковская}}
+| [[25 января]] {{год|1986||метро}}
+| data-sort-value=2.06 | {{MOSMETRO icon|2|||Новокузнецкая}} {{MOSMETRO icon|6|||Третьяковская|CPIC}}
+| −46
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7412|37.6274|scale:5000|name=Третьяковская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Tretyakovskaya1-mm.jpg|100px]]<br>[[Файл:Tretyakovskaya North 2010.jpg|100px]]
+|-
+| data-sort-value=8 style="background:#{{Московский метрополитен/цвет линии|8}}"|{{MOSMETRO icon|8}}{{hs|07}}
+| {{uBHF|Марксистская}}
+| [[30 декабря]] {{год|1979||метро}}
+| data-sort-value=5.07 | {{MOSMETRO icon|5||Таганская (станция метро, Кольцевая линия)}} {{MOSMETRO icon|7||Таганская (станция метро, Таганско-Краснопресненская линия)}}
+| −60
+| колонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7411|37.6543|scale:5000|name=Марксистская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Марксистская 07.jpg|100px]]
+|-
+| data-sort-value=8 style="background:#{{Московский метрополитен/цвет линии|8}}"|{{MOSMETRO icon|8}}{{hs|08}}
+| {{uBHF|Площадь Ильича}}
+| [[30 декабря]] {{год|1979||метро}}
+| data-sort-value=10 | {{MOSMETRO icon|10|||Римская}}
+| −46
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7472|37.6824|scale:5000|name=Площадь Ильича|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Ploschad Ilyicha asv2018-01.jpg|100px]]
+|-
+| data-sort-value=8 style="background:#{{Московский метрополитен/цвет линии|8}}"|{{MOSMETRO icon|8}}{{hs|09}}
+| {{uBHF|Авиамоторная|Калининско-Солнцевская линия}}
+| [[30 декабря]] {{год|1979||метро}}
+| data-sort-value="Infinity" |
+| −53
+| колонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7524|37.7191|scale:5000|name=Авиамоторная|nogoogle=1|noosm=1}}</small>
+| [[Файл:Авиамоторная 02.jpg|100px]]
+|-
+| data-sort-value=8 style="background:#{{Московский метрополитен/цвет линии|8}}"|{{MOSMETRO icon|8}}{{hs|10}}
+| {{uBHF|Шоссе Энтузиастов}}
+| [[30 декабря]] {{год|1979||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Шоссе Энтузиастов (платформа)}}
+| −53
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7576|37.7500|scale:5000|name=Шоссе Энтузиастов|nogoogle=1|noosm=1}}</small>
+| [[Файл:Shosseentuz-mm.jpg|100px]]
+|-
+| data-sort-value=8 style="background:#{{Московский метрополитен/цвет линии|8}}"|{{MOSMETRO icon|8}}{{hs|11}}
+| {{uBHF|Перово}}
+| [[30 декабря]] {{год|1979||метро}}
+| data-sort-value="Infinity" |
+| −9
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.7511|37.7866|scale:5000|name=Перово|nogoogle=1|noosm=1}}</small>
+| [[Файл:Perovo-mm.jpg|100px]]
+|-
+| data-sort-value=8 style="background:#{{Московский метрополитен/цвет линии|8}}"|{{MOSMETRO icon|8}}{{hs|12}}
+| {{uBHF|Новогиреево}}
+| [[30 декабря]] {{год|1979||метро}}
+| data-sort-value="Infinity" |
+| −9
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.7517|37.8166|scale:5000|name=Новогиреево|nogoogle=1|noosm=1}}</small>
+| [[Файл:Novogireevo 2010.jpg|100px]]
+|-
+| data-sort-value=8 style="background:#{{Московский метрополитен/цвет линии|8}}"|{{MOSMETRO icon|8}}{{hs|13}}
+| {{uBHF|Новокосино}}
+| [[30 августа]] {{год|2012||метро}}
+| data-sort-value="Infinity" |
+| −9
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.7451|37.8638|scale:5000|name=Новокосино|nogoogle=1|noosm=1}}</small>
+| [[Файл:Novokosino metro 4.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|01}}
+| {{uBHF|Алтуфьево}}
+| [[15 июля]] {{год|1994||метро}}
+| data-sort-value="Infinity" |
+| −9
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.8980|37.5870|scale:5000|name=Алтуфьево|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line9 Altufyevo.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|02}}
+| {{uBHF|Бибирево}}
+| [[31 декабря]] {{год|1992||метро}}
+| data-sort-value="Infinity" |
+| −9,5
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.8838|37.6034|scale:5000|name=Бибирево|nogoogle=1|noosm=1}}</small>
+| [[Файл:Bibirevo-mm.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|03}}
+| {{uBHF|Отрадное}}
+| [[1 марта]] {{год|1991||метро}}
+| data-sort-value="Infinity" |
+| −9
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.8633|37.6047|scale:5000|name=Отрадное|nogoogle=1|noosm=1}}</small>
+| [[Файл:Otradnoe-mm.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|04}}
+| {{uBHF|Владыкино}}
+| [[1 марта]] {{год|1991||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Владыкино (платформа)}}
+| −10,5
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.8473|37.5899|scale:5000|name=Владыкино|nogoogle=1|noosm=1}}</small>
+| [[Файл:Vladykino (Владыкино) (5367588275).jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|05}}
+| {{uBHF|Петровско-Разумовская}}
+| [[1 марта]] {{год|1991||метро}}
+| data-sort-value=10 | {{MOSMETRO icon|10|||Петровско-Разумовская}}
+| −61
+| колонная<br>глубокого заложения<br>трёхсводчатая<br><br>колонно-стеновая<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.8351|37.5745|scale:5000|name=Петровско-Разумовская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Petrovsko-Razymovskaya.jpg|100px]]<br>[[Файл:MosMetro P-Razumovskaya new hall 01-2017.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|06}}
+| {{uBHF|Тимирязевская}}
+| [[1 марта]] {{год|1991||метро}}
+| data-sort-value=13 | {{MOSMETRO icon|13||Тимирязевская (станция монорельса)}}
+| −63,5
+| [[Односводчатая станция глубокого заложения|односводчатая<br>глубокого заложения]]
+| <small>{{coord|55.8176|37.5765|scale:5000|name=Тимирязевская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line9 Timiryazevskaya.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|07}}
+| {{uBHF|Дмитровская}}
+| [[1 марта]] {{год|1991||метро}}
+| data-sort-value="Infinity" |
+| −59
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.8069|37.5817|scale:5000|name=Дмитровская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Dmitrovskaya-mm.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|08}}
+| {{uBHF|Савёловская|Серпуховско-Тимирязевская линия}}
+| [[31 декабря]] {{год|1988||метро}}
+| data-sort-value="Infinity" |
+| −52
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7927|37.5885|scale:5000|name=Савёловская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line9 Savyolovskaya (img1).jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|09}}
+| {{uBHF|Менделеевская}}
+| [[31 декабря]] {{год|1988||метро}}
+| data-sort-value=5 | {{MOSMETRO icon|5|||Новослободская}}
+| −48,5
+| колонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7810|37.6011|scale:5000|name=Менделеевская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Mendeleyevskaya 07.JPG|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|10}}
+| {{uBHF|Цветной бульвар}}
+| [[31 декабря]] {{год|1988||метро}}
+| data-sort-value=10 | {{MOSMETRO icon|10|||Трубная}}
+| −50
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7708|37.6187|scale:5000|name=Цветной бульвар|nogoogle=1|noosm=1}}</small>
+| [[Файл:Tsvetnoi-mm.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|11}}
+| {{uBHF|Чеховская}}
+| [[31 декабря]] {{год|1987||метро}}
+| data-sort-value=2.07 | {{MOSMETRO icon|2|||Тверская}} {{MOSMETRO icon|7||Пушкинская (станция метро, Москва)}}
+| −62
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7644|37.6097|scale:5000|name=Чеховская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Chekhovskaya hall.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|12}}
+| {{uBHF|Боровицкая}}
+| [[23 января]] {{год|1986||метро}}
+| data-sort-value=1.03 | {{MOSMETRO icon|1|||Библиотека имени Ленина}} {{MOSMETRO icon|3||Арбатская (станция метро, Арбатско-Покровская линия)}}
+| −46,5
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7511|37.6072|scale:5000|name=Боровицкая|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Borovitskaya 2011.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|13}}
+| {{uBHF|Полянка}}
+| [[23 января]] {{год|1986||метро}}
+| data-sort-value="Infinity" |
+| −36,5
+| колонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7379|37.6180|scale:5000|name=Полянка|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Polyanka asv2018-01.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|14}}
+| {{uBHF|Серпуховская}}
+| [[8 ноября]] {{год|1983||метро}}
+| data-sort-value=5 | {{MOSMETRO icon|5|||Добрынинская}}
+| −43
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7280|37.6246|scale:5000|name=Серпуховская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Серпуховская 1.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|15}}
+| {{uBHF|Тульская}}
+| [[8 ноября]] {{год|1983||метро}}
+| data-sort-value="Infinity" |
+| −9,5
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.7087|37.6229|scale:5000|name=Тульская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Tulskaya 01.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|16}}
+| {{uBHF|Нагатинская}}
+| [[8 ноября]] {{год|1983||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Верхние Котлы (платформа)}}
+| −13,5
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6830|37.6224|scale:5000|name=Нагатинская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Nagatinskaya 01.JPG|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|17}}
+| {{uBHF|Нагорная}}
+| [[8 ноября]] {{год|1983||метро}}
+| data-sort-value="Infinity" |
+| −9
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6724|37.6104|scale:5000|name=Нагорная|nogoogle=1|noosm=1}}</small>
+| [[Файл:Метро Нагорная 01.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|18}}
+| {{uBHF|Нахимовский проспект}}
+| [[8 ноября]] {{год|1983||метро}}
+| data-sort-value="Infinity" |
+| −9,5
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.6627|37.6055|scale:5000|name=Нахимовский проспект|nogoogle=1|noosm=1}}</small>
+| [[Файл:Метро Нахимовский проспект 01.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|19}}
+| {{uBHF|Севастопольская}}
+| [[8 ноября]] {{год|1983||метро}}
+| data-sort-value=11.5 | {{MOSMETRO icon|11А|||Каховская}}
+| −13
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6524|37.5984|scale:5000|name=Севастопольская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Метро Севастопольская 01.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|20}}
+| {{uBHF|Чертановская}}
+| [[8 ноября]] {{год|1983||метро}}
+| data-sort-value="Infinity" |
+| −10,5
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6405|37.6067|scale:5000|name=Чертановская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Метро Чертановская 02.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|21}}
+| {{uBHF|Южная}}
+| [[8 ноября]] {{год|1983||метро}}
+| data-sort-value="Infinity" |
+| −10
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.6224|37.6090|scale:5000|name=Южная|nogoogle=1|noosm=1}}</small>
+| [[Файл:Метро Южная 01.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|22}}
+| {{uBHF|Пражская}}
+| [[6 ноября]] {{год|1985||метро}}
+| data-sort-value="Infinity" |
+| −9,5
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6124|37.6044|scale:5000|name=Пражская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Метро Пражская 01.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|23}}
+| {{uBHF|Улица Академика Янгеля}}
+| [[31 августа]] {{год|2000||метро}}
+| data-sort-value="Infinity" |
+| −8
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.5949|37.6004|scale:5000|name=Улица Академика Янгеля|nogoogle=1|noosm=1}}</small>
+| [[Файл:Метро Улица академика Янгеля 01.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|24}}
+| {{uBHF|Аннино}}
+| [[12 декабря]] {{год|2001||метро}}
+| data-sort-value="Infinity" |
+| −8
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.5828|37.5966|scale:5000|name=Аннино|nogoogle=1|noosm=1}}</small>
+| [[Файл:Метро Аннино 02.jpg|100px]]
+|-
+| data-sort-value=9 style="background:#{{Московский метрополитен/цвет линии|9}}"|{{MOSMETRO icon|9}}{{hs|25}}
+| {{uBHF|Бульвар Дмитрия Донского}}
+| [[26 декабря]] {{год|2002||метро}}
+| data-sort-value=12 | {{MOSMETRO icon|12|||Улица Старокачаловская}}
+| −10
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.5693|37.5769|scale:5000|name=Бульвар Дмитрия Донского|nogoogle=1|noosm=1}}</small>
+| [[Файл:Метро Бульвар Дмитрия Донского 07.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|01}}
+| {{uBHF|Селигерская}}
+| [[22 марта]] {{год|2018||метро}}
+| data-sort-value="Infinity" |
+| −20
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.8665|37.5471|scale:5000|name=Селигерская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Ст. м. Селигерская. Центральный зал.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|02}}
+| {{uBHF|Верхние Лихоборы}}
+| [[22 марта]] {{год|2018||метро}}
+| data-sort-value="Infinity" |
+| −65
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.856|37.561|scale:5000|name=Верхние Лихоборы|nogoogle=1|noosm=1}}</small>
+| [[Файл:Верхние Лихоборы, центральный зал (23.03.2018).jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|03}}
+| {{uBHF|Окружная}}
+| [[22 марта]] {{год|2018||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Окружная (станция МЦК)}}
+| −65
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.844|37.576|scale:5000|name=Окружная|nogoogle=1|noosm=1}}</small>
+| [[Файл:Okruzhnaya Moscow Metro March '18 07.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|04}}
+| {{uBHF|Петровско-Разумовская}}
+| [[16 сентября]] {{год|2016||метро}}
+| data-sort-value=9 | {{MOSMETRO icon|9|||Петровско-Разумовская}}
+| −61
+| колонная<br>глубокого заложения<br>трёхсводчатая<br><br>колонно-стеновая<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.8351|37.5745|scale:5000|name=Петровско-Разумовская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Petrovsko-Razymovskaya.jpg|100px]]<br>[[Файл:MosMetro P-Razumovskaya new hall 01-2017.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|05}}
+| [[Фонвизинская]]
+| [[16 сентября]] {{год|2016||метро}}
+| data-sort-value=13 | {{MOSMETRO icon|13||Улица Милашенкова (станция монорельса)}}
+| −65
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.8228|37.5881|scale:5000|name=Фонвизинская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Fonvizinskaya 01-2017.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|06}}
+| {{uBHF|Бутырская}}
+| [[16 сентября]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+| −60
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.8133|37.6028|scale:5000|name=Бутырская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MosMetro Butyrskaya 01-2017.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|07}}
+| {{uBHF|Марьина Роща}}
+| [[19 июня]] {{год|2010||метро}}
+| data-sort-value="Infinity" |
+| −60
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7954|37.6162|scale:5000|name=Марьина Роща|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line10 Maryina Roshcha.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|08}}
+| {{uBHF|Достоевская|Москва}}
+| [[19 июня]] {{год|2010||метро}}
+| data-sort-value="Infinity" |
+| −60
+| колонно-стеновая<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7816|37.6151|scale:5000|name=Достоевская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Достоевская 6.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|09}}
+| {{uBHF|Трубная}}
+| [[30 августа]] {{год|2007||метро}}
+| data-sort-value=9 | {{MOSMETRO icon|9|||Цветной бульвар}}
+| −60
+| колонно-стеновая<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7688|37.6200|scale:5000|name=Трубная|nogoogle=1|noosm=1}}</small>
+| [[Файл:Станция «Трубная», центральный зал.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|10}}
+| {{uBHF|Сретенский бульвар}}
+| [[29 декабря]] {{год|2007||метро}}
+| data-sort-value=1.06 | {{MOSMETRO icon|1|||Чистые пруды}} {{MOSMETRO icon|6|||Тургеневская}}
+| −60
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7668|37.6392|scale:5000|name=Сретенский бульвар|nogoogle=1|noosm=1}}</small>
+| [[Файл:Sretensky Bulvar (Сретенский Бульвар) (4612075604).jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|11}}
+| {{uBHF|Чкаловская|Москва}}
+| [[28 декабря]] {{год|1995||метро}}
+| data-sort-value=3.05 | {{MOSMETRO icon|3||Курская (станция метро, Арбатско-Покровская линия)}} {{MOSMETRO icon|5||Курская (станция метро, Кольцевая линия)}}
+| −51
+| пилонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7565|37.6573|scale:5000|name=Чкаловская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Chkalovskaya 07.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|12}}
+| {{uBHF|Римская}}
+| [[28 декабря]] {{год|1995||метро}}
+| data-sort-value=8 | {{MOSMETRO icon|8|||Площадь Ильича}}
+| −54
+| колонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7463|37.6819|scale:5000|name=Римская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Rimskaya-mm.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|13}}
+| {{uBHF|Крестьянская застава}}
+| [[28 декабря]] {{год|1995||метро}}
+| data-sort-value=7 | {{MOSMETRO icon|7||Пролетарская (станция метро, Москва)}}
+| −47
+| колонно-стеновая<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7331|37.6673|scale:5000|name=Крестьянская застава|nogoogle=1|noosm=1}}</small>
+| [[Файл:Krestian 02.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|14}}
+| {{uBHF|Дубровка}}
+| [[11 декабря]] {{год|1999||метро}}
+| data-sort-value=14 | {{MOSMETRO icon|14||Дубровка (станция МЦК)}}
+| −62
+| колонно-стеновая<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.7186|37.6760|scale:5000|name=Дубровка|nogoogle=1|noosm=1}}</small>
+| [[Файл:Dubrov 02.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|15}}
+| {{uBHF|Кожуховская}}
+| [[28 декабря]] {{год|1995||метро}}
+| data-sort-value="Infinity" |
+| −12
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.7074|37.6851|scale:5000|name=Кожуховская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kozhukhovskaya-mm.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|16}}
+| {{uBHF|Печатники|Люблинско-Дмитровская линия}}
+| [[28 декабря]] {{год|1995||метро}}
+| data-sort-value="Infinity" |
+| −5
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6934|37.7270|scale:5000|name=Печатники|nogoogle=1|noosm=1}}</small>
+| [[Файл:Pechatniki-mm.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|17}}
+| {{uBHF|Волжская}}
+| [[28 декабря]] {{год|1995||метро}}
+| data-sort-value="Infinity" |
+| −8
+| [[Однопролётная станция|однопролётная]]<br>мелкого заложения
+| <small>{{coord|55.6909|37.7530|scale:5000|name=Волжская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Volzhskaya-mm.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|18}}
+| {{uBHF|Люблино}}
+| [[25 декабря]] {{год|1996||метро}}
+| data-sort-value="Infinity" |
+| −8
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.6758|37.7618|scale:5000|name=Люблино|nogoogle=1|noosm=1}}</small>
+| [[Файл:Lyublino-mm.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|19}}
+| {{uBHF|Братиславская|Москва}}
+| [[25 декабря]] {{год|1996||метро}}
+| data-sort-value="Infinity" |
+| −8
+| колонная<br>мелкого заложения<br>двухпролётная
+| <small>{{coord|55.6597|37.7505|scale:5000|name=Братиславская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Bratislavskaya-mm.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|20}}
+| {{uBHF|Марьино}}
+| [[25 декабря]] {{год|1996||метро}}
+| data-sort-value="Infinity" |
+| −8
+| однопролётная<br>мелкого заложения
+| <small>{{coord|55.6500|37.7431|scale:5000|name=Марьино|nogoogle=1|noosm=1}}</small>
+| [[Файл:Maryino (Moscow Metro) 001.jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|21}}
+| {{uBHF|Борисово}}
+| [[2 декабря]] {{год|2011||метро}}
+| data-sort-value="Infinity" |
+| −10
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.6334|37.7436|scale:5000|name=Борисово|nogoogle=1|noosm=1}}</small>
+| [[Файл:Borisovo (Борисово) (7180833804).jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|22}}
+| {{uBHF|Шипиловская}}
+| [[2 декабря]] {{год|2011||метро}}
+| data-sort-value="Infinity" |
+| −10
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.6211|37.7437|scale:5000|name=Шипиловская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Shipilovskaya (Шипиловская) (7209075414).jpg|100px]]
+|-
+| data-sort-value=10 style="background:#{{Московский метрополитен/цвет линии|10}}"|{{MOSMETRO icon|10}}{{hs|23}}
+| {{uBHF|Зябликово}}
+| [[2 декабря]] {{год|2011||метро}}
+| data-sort-value=2 | {{MOSMETRO icon|2|||Красногвардейская}}
+| −15
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.6124|37.7453|scale:5000|name=Зябликово|nogoogle=1|noosm=1}}</small>
+| [[Файл:Metro MSK Line10 Zyablikovo.jpg|100px]]
+|-
+| data-sort-value=11 style="background:#{{Московский метрополитен/цвет линии|11}}"|{{MOSMETRO icon|11}}{{hs|01}}
+| {{uBHF|Деловой центр|Большая кольцевая линия}}
+| [[26 февраля]] {{год|2018||метро}}
+| data-sort-value=4.085 | {{MOSMETRO icon|4|||Выставочная}} {{MOSMETRO icon|8А||Деловой центр (станция метро, Калининско-Солнцевская линия)}}
+| −30
+| Колонная<br>глубокого заложения<br>трёхсводчатая
+| <small>{{coord|55.4457|37.3222|scale:5000|name=Деловой центр|nogoogle=1|noosm=1}}</small>
+| [[Файл:Станция «Деловой центр», Большая кольцевая линия.jpg|100px]]
+|-class="shadow"
+| data-sort-value=11.5 |{{MOSMETRO icon|11А}}{{hs|01}}
+| {{uBHF|Каширская}}<br><small>(закрыта с [[26 октября]] {{год|2019||метро}})</small>
+| [[11 августа]] {{год|1969||метро}}
+| data-sort-value=2 | {{MOSMETRO icon|2|||Каширская|CPIC}}
+| −7
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6551|37.6487|scale:5000|name=Каширская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kashirskaya station, both halls, 2015.png|100px]]
+|-class="shadow"
+| data-sort-value=11.5 |{{MOSMETRO icon|11А}}{{hs|02}}
+| {{uBHF|Варшавская}}<br><small>(закрыта с [[26 октября]] {{год|2019||метро}})</small>
+| [[11 августа]] {{год|1969||метро}}
+| data-sort-value="Infinity" |
+| −9
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6533|37.6194|scale:5000|name=Варшавская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Varshavskaya station.JPG|100px]]
+|-class="shadow"
+| data-sort-value=11.5 |{{MOSMETRO icon|11А}}{{hs|03}}
+| {{uBHF|Каховская}}<br><small>(закрыта с [[30 марта]] {{год|2019||метро}})</small>
+| [[11 августа]] {{год|1969||метро}}
+| data-sort-value=9 | {{MOSMETRO icon|9|||Севастопольская}}
+| −8
+| колонная<br>мелкого заложения<br>трёхпролётная
+| <small>{{coord|55.6530|37.5983|scale:5000|name=Каховская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Kakhovskaya (Каховская) (5404633837).jpg|100px]]
+|-
+| data-sort-value=12 style="background:#{{Московский метрополитен/цвет линии|12}}"|{{MOSMETRO icon|12}}{{hs|01}}
+| {{uBHF|Битцевский парк}}
+| [[27 февраля]] {{год|2014||метро}}
+| data-sort-value=6 | {{MOSMETRO icon|6|||Новоясеневская}}
+| −10
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.6004|37.5562|scale:5000|name=Битцевский парк|nogoogle=1|noosm=1}}</small>
+| [[Файл:Bitsevskiy park (Moscow metro).jpg|100px]]
+|-
+| data-sort-value=12 style="background:#{{Московский метрополитен/цвет линии|12}}"|{{MOSMETRO icon|12}}{{hs|02}}
+| {{uBHF|Лесопарковая}}
+| [[27 февраля]] {{год|2014||метро}}
+| data-sort-value="Infinity" |
+| −10
+| односводчатая<br>мелкого заложения
+| <small>{{coord|55.5821|37.5769|scale:5000|name=Лесопарковая|nogoogle=1|noosm=1}}</small>
+|[[Файл:Метро Лесопарковая 01.jpg|100px]]
+|-
+| data-sort-value=12 style="background:#{{Московский метрополитен/цвет линии|12}}"|{{MOSMETRO icon|12}}{{hs|03}}
+| {{uBHF|Улица Старокачаловская}}
+| [[27 декабря]] {{год|2003||метро}}
+| data-sort-value=9 | {{MOSMETRO icon|9|||Бульвар Дмитрия Донского}}
+| −10
+| однопролётная<br>мелкого заложения,<br>два зала
+| <small>{{coord|55.5690|37.5767|scale:5000|name=Улица Старокачаловская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Метро Улица Старокачаловская 02.jpg|100px]]
+|-
+| data-sort-value=12 style="background:#{{Московский метрополитен/цвет линии|12}}"|{{MOSMETRO icon|12}}{{hs|04}}
+| {{uBHF|Улица Скобелевская}}
+| [[27 декабря]] {{год|2003||метро}}
+| data-sort-value="Infinity" |
+| +9,6
+| [[Эстакадная станция|эстакадная]]<br>открытая
+| <small>{{coord|55.5481|37.5546|scale:5000|name=Улица Скобелевская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Ulitsa Skobelevskaya station.jpg|100px]]
+|-
+| data-sort-value=12 style="background:#{{Московский метрополитен/цвет линии|12}}"|{{MOSMETRO icon|12}}{{hs|05}}
+| {{uBHF|Бульвар Адмирала Ушакова}}
+| [[27 декабря]] {{год|2003||метро}}
+| data-sort-value="Infinity" |
+| +9,6
+| эстакадная<br>открытая
+| <small>{{coord|55.5455|37.5430|scale:5000|name=Бульвар Адмирала Ушакова|nogoogle=1|noosm=1</small>}}
+| [[Файл:Bulushakova-mm.jpg|100px]]
+|-
+| data-sort-value=12 style="background:#{{Московский метрополитен/цвет линии|12}}"|{{MOSMETRO icon|12}}{{hs|06}}
+| {{uBHF|Улица Горчакова}}
+| [[27 декабря]] {{год|2003||метро}}
+| data-sort-value="Infinity" |
+| +9,6
+| эстакадная<br>открытая
+| <small>{{coord|55.5418|37.5308|scale:5000|name=Улица Горчакова|nogoogle=1|noosm=1}}</small>
+| [[Файл:Ulitsa Gorchakova station.jpg|100px]]
+|-
+| data-sort-value=12 style="background:#{{Московский метрополитен/цвет линии|12}}"|{{MOSMETRO icon|12}}{{hs|07}}
+| {{uBHF|Бунинская аллея}}
+| [[27 декабря]] {{год|2003||метро}}
+| data-sort-value="Infinity" |
+| +9,6
+| эстакадная<br>открытая
+| <small>{{coord|55.5380|37.5158|scale:5000|name=Бунинская аллея|nogoogle=1|noosm=1}}</small>
+| [[Файл:Buninskaya.jpg|100px]]
+|-
+| data-sort-value=13 style="background:#{{Московский метрополитен/цвет линии|15}}"|{{MOSMETRO icon|15}}{{hs|01}}
+| {{uBHF|Косино}}
+| [[3 июня]] {{год|2019||метро}}
+| data-sort-value=7 | {{MOSMETRO icon|7|||Лермонтовский проспект}}
+| −27
+| колонная<br>мелкого заложения<br>трёхпролётная
+|
+|[[Файл:Moscow metro Kosino 2019-06-03 12.jpg|100px]]
+|-
+| data-sort-value=13 style="background:#{{Московский метрополитен/цвет линии|15}}"|{{MOSMETRO icon|15}}{{hs|02}}
+| {{uBHF|Улица Дмитриевского}}
+| [[3 июня]] {{год|2019||метро}}
+| data-sort-value="Infinity" |
+| −18
+| колонная<br>мелкого заложения<br>двухпролётная
+|
+|[[Файл:Moscow metro ulitsa Dmitrievskogo 2019-06-03 6.jpg|100px]]
+|-
+| data-sort-value=13 style="background:#{{Московский метрополитен/цвет линии|15}}"|{{MOSMETRO icon|15}}{{hs|03}}
+| {{uBHF|Лухмановская}}
+| [[3 июня]] {{год|2019||метро}}
+| data-sort-value="Infinity" |
+| −15
+| колонная<br>мелкого заложения<br>трёхпролётная
+|
+|[[Файл:Лухмановская. Техпуск.jpg|100px]]
+|-
+| data-sort-value=13 style="background:#{{Московский метрополитен/цвет линии|15}}"|{{MOSMETRO icon|15}}{{hs|04}}
+| {{uBHF|Некрасовка}}
+| [[3 июня]] {{год|2019||метро}}
+| data-sort-value="Infinity" |
+| −16
+| колонная<br>мелкого заложения<br>двухпролётная
+|
+|[[Файл:Некрасовка. Техпуск.jpg|100px]]

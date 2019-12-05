@@ -1,0 +1,248 @@
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|01}}
+| {{мцк.|Окружная}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=10 | {{MOSMETRO icon|10|||Окружная}}
+| 0
+| <small>{{coord|55.8489|37.5711|scale:5000|name=Окружная|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC Okruzhnaya.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|02}}
+| {{мцк.|Владыкино}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=9 | {{MOSMETRO icon|9|||Владыкино}}
+| 0
+| <small>{{coord|55.8472|37.5919|scale:5000|name=Владыкино|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC Vladykino 2.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|03}}
+| {{мцк.|Ботанический сад}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=6 | {{MOSMETRO icon|6||Ботанический сад (станция метро, Москва)}}
+| 0
+| <small>{{coord|55.8456|37.6403|scale:5000|name=Ботанический сад|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC Botanicheskiy Sad.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|04}}
+| {{мцк.|Ростокино}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+| 0
+| <small>{{coord|55.8394|37.6678|scale:5000|name=Ростокино|nogoogle=1|noosm=1}}</small>
+| [[Файл:Yaroslavskaya platform.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|05}}
+| {{мцк.|Белокаменная}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+| 0
+| <small>{{coord|55.83|37.7006|scale:5000|name=Белокаменная|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC 01-2017 img06 Belokamennaya station.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|06}}
+| {{мцк.|Бульвар Рокоссовского}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=1 | {{MOSMETRO icon|1|||Бульвар Рокоссовского}}
+| 0
+| <small>{{coord|55.8172|37.7369|scale:5000|name=Бульвар Рокоссовского|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC Bulvar Rokossovskogo station.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|07}}
+| {{мцк.|Локомотив}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=1 | {{MOSMETRO icon|1|||Черкизовская}}
+| 0
+| <small>{{coord|55.8039|37.746|scale:5000|name=Локомотив|nogoogle=1|noosm=1}}</small>
+| [[Файл:ES2G-033, Locomotive platform.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|08}}
+| {{мцк.|Измайлово}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=3 | {{MOSMETRO icon|3||Партизанская (станция метро, Москва)}}
+| 0
+| <small>{{coord|55.7886|37.7428|scale:5000|name=Измайлово|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC Izmaylovo station.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|09}}
+| {{мцк.|Соколиная Гора}}
+| data-sort-value="11 октября 2016" | [[11 октября]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+| 0
+| <small>{{coord|55.77|37.7453|scale:5000|name=Соколиная гора|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC 01-2017 img05 Sokolinaya Gora station.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|10}}
+| {{мцк.|Шоссе Энтузиастов}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=8 | {{MOSMETRO icon|8|||Шоссе Энтузиастов}}
+| 0
+| <small>{{coord|55.7590|37.7463|scale:5000|name=Шоссе Энтузиастов|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC 01-2017 img02 Entuziastov station.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|11}}
+| {{мцк.|Андроновка}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+| 0
+| <small>{{coord|55.7411|37.7344|scale:5000|name=Андроновка|nogoogle=1|noosm=1}}</small>
+| [[Файл:Andronovka-Platform1.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|12}}
+| {{мцк.|Нижегородская}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+| +5
+| <small>{{coord|55.7322|37.7282|scale:5000|name=Нижегородская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC 21NIZH 6859 PLAT.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|13}}
+| {{мцк.|Новохохловская}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+| 0
+| <small>{{coord|55.7239|37.7161|scale:5000|name=Новохохловская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC 20NOVO 6886 PLAT.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|14}}
+| {{мцк.|Угрешская}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=7 | {{MOSMETRO icon|7|||Волгоградский проспект}}
+| 0
+| <small>{{coord|55.7183|37.6978|scale:5000|name=Угрешская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC 01-2017 img01 Ugreshskaya station.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|15}}
+| {{мцк.|Дубровка}}
+| data-sort-value="11 октября 2016" | [[11 октября]] {{год|2016||метро}}
+| data-sort-value=10 | {{MOSMETRO icon|10|||Дубровка}}
+| 0
+| <small>{{coord|55.7127|37.6778|scale:5000|name=Дубровка|nogoogle=1|noosm=1}}</small>
+| [[Файл:Дубровка МЦК, вид с путепровода (окт.2016).jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|16}}
+| {{мцк.|Автозаводская}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=2 | {{MOSMETRO icon|2||Автозаводская (станция метро, Москва)}}
+| 0
+| <small>{{coord|55.7063|37.6631|scale:5000|name=Автозаводская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC 01-2017 img16 Avtozavodskaya station.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|17}}
+| {{мцк.|ЗИЛ}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+| 0
+| <small>{{coord|55.6983|37.6483|scale:5000|name=ЗИЛ|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC ZIL.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|18}}
+| {{мцк.|Верхние Котлы}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=9 | {{MOSMETRO icon|9|||Нагатинская}}
+| 0
+| <small>{{coord|55.69|37.6189|scale:5000|name=Верхние Котлы|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC Verkhnie Kotly.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|19}}
+| {{мцк.|Крымская}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+| 0
+| <small>{{coord|55.69|37.605|scale:5000|name=Крымская|nogoogle=1|noosm=1}}</small>
+| [[Файл:Строительство платформы Севастопольский проспект МЦК (август 2016).jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|20}}
+| {{мцк.|Площадь Гагарина}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=6 | {{MOSMETRO icon|6||Ленинский проспект (станция метро, Москва)|}}
+| -5
+| <small>{{coord|55.7069|37.5858|scale:5000|name=Площадь Гагарина|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC Ploschad Gagarina.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|21}}
+| {{мцк.|Лужники}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=1 | {{MOSMETRO icon|1||Спортивная (станция метро, Москва)}}
+| +5
+| <small>{{coord|55.7203|37.5631|scale:5000|name=Лужники|nogoogle=1|noosm=1}}</small>
+| [[Файл:Станция МЦК «Лужники» (сентябрь 2016).jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|22}}
+| {{мцк.|Кутузовская}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=4 | {{MOSMETRO icon|4|||Кутузовская}}
+| 0
+| <small>{{coord|55.7408|37.5333|scale:5000|name=Кутузовская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC 01-2017 img09 Kutuzovskaya station.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|23}}
+| {{мцк.|Деловой центр}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=4 | {{MOSMETRO icon|4||Международная (станция метро, Москва)}}
+| +7
+| <small>{{coord|55.7472|37.5322|scale:5000|name=Деловой центр|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC Delovoy centr.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|24}}
+| {{мцк.|Шелепиха}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=8.511 | {{mosmetro icon|8А||Шелепиха (станция метро)}}{{MOSMETRO icon|11||Шелепиха (станция метро)}}
+|0
+| <small>{{coord|55.7575|37.5256|scale:5000|name=Шелепиха|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC 01-2017 img10 Shelepiha station.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|25}}
+| {{мцк.|Хорошёво}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=7.0811 | {{MOSMETRO icon|7|||Полежаевская}} {{mosmetro icon|8А||Хорошёвская (станция метро)}}{{MOSMETRO icon|11||Хорошёвская (станция метро)}}
+|0
+| <small>{{coord|55.7772|37.5072|scale:5000|name=Хорошёво|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC Horoshevo.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|26}}
+| {{мцк.|Зорге}}
+| data-sort-value="4 ноября 2016" | [[4 ноября]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+|0
+| <small>{{coord|55.7892|37.5042|scale:5000|name=Зорге|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC 01-2017 img11 Zorge station.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|27}}
+| {{мцк.|Панфиловская}}
+| data-sort-value="8 ноября 2016" | [[8 ноября]] {{год|2016||метро}}
+| data-sort-value=7 | {{MOSMETRO icon|7|||Октябрьское Поле}}
+|0
+| <small>{{coord|55.7980|37.4998|scale:5000|name=Панфиловская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC 01-2017 img12 Panfilovskaya station.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|28}}
+| {{мцк.|Стрешнево}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+| 0
+| <small>{{coord|55.8136|37.4869|scale:5000|name=Стрешнево|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC Streshnevo.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|29}}
+| {{мцк.|Балтийская}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value=2 | {{MOSMETRO icon|2|||Войковская}}
+| 0
+| <small>{{coord|55.8258|37.4961|scale:5000|name=Балтийская|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC 01-2017 img15 Baltiyskaya station.jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|30}}
+| {{мцк.|Коптево}}
+| data-sort-value="1 ноября 2016" | [[1 ноября]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+| 0
+| <small>{{coord|55.8396|37.5200|scale:5000|name=Коптево|nogoogle=1|noosm=1}}</small>
+| [[Файл:RZD ES2G-027 MCK Koptevo (29052350062).jpg|100px]]
+|-
+| style="background:#{{Московский метрополитен/цвет линии|14}}"|{{MOSMETRO icon|14}}{{hs|31}}
+| {{мцк.|Лихоборы}}
+| data-sort-value="10 сентября 2016" | [[10 сентября]] {{год|2016||метро}}
+| data-sort-value="Infinity" |
+| 0
+| <small>{{coord|55.8472|37.5513|scale:5000|name=Лихоборы|nogoogle=1|noosm=1}}</small>
+| [[Файл:MCC Likhobory.jpg|100px]]
