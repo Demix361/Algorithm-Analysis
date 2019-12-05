@@ -135,3 +135,5 @@ def get_stations(f_mtr, size_mtr, f_mck, size_mck):
             if tr[0] != '11' and tr[0] != '8А' and tr[0] != 'КСЛ' and tr[0] != '13':
                 new_transfers.append(tr)
         st.transfers = new_transfers
+
+    return stations
