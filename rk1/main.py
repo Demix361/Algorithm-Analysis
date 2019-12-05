@@ -1,5 +1,5 @@
 from func import create_table, dijkstra
-from parser_v2 import get_stations
+from wiki_parser import get_stations
 from graphviz import render
 
 
@@ -23,7 +23,7 @@ def print_path(beg, end, distance, paths, stations, table):
 
     for i in range(len(path)):
         if i != len(path) - 1:
-            print(path[i].name, ' (', path[i].branch, ') -> [', path_distance[i], '] -> ', end='', sep='')
+            print(path[i].name, ' (', path[i].branch, ') --[', path_distance[i], ']--> ', end='', sep='')
         else:
             print(path[i].name, ' (', path[i].branch, ')', sep='')
 
@@ -94,74 +94,76 @@ def main():
     render('dot', 'png', 'metro_graph.gv')
 
     while True:
-        options = []
+        while True:
+            options = []
 
-        st_1_name = input('Станция отправления: ')
+            st_1_name = input('Станция отправления: ')
 
-        for st in stations:
-            if st.name.lower() == st_1_name.lower():
-                options.append(st)
+            for st in stations:
+                if st.name.lower() == st_1_name.lower():
+                    options.append(st)
 
-        if len(options) == 0:
-            print('Станция с таким названием не найдена.')
-        elif len(options) == 1:
-            st_1 = options[0]
-            break
-        else:
-            print('Есть несколько станций с таким названием: ')
-            for i in range(len(options)):
-                print(str(i + 1) + '. ' + options[i].name + ' - ' + br_names[options[i].branch])
+            if len(options) == 0:
+                print('Станция с таким названием не найдена.')
+            elif len(options) == 1:
+                st_1 = options[0]
+                break
+            else:
+                print('Есть несколько станций с таким названием: ')
+                for i in range(len(options)):
+                    print(str(i + 1) + '. ' + options[i].name + ' - ' + br_names[options[i].branch])
 
-            while True:
-                ch = input('Выберите номер нужной станции: ')
-                try:
-                    ch = int(ch)
-                    if 1 <= ch <= len(options):
-                        st_1 = options[ch - 1]
-                        break
-                    else:
+                while True:
+                    ch = input('Выберите номер нужной станции: ')
+                    try:
+                        ch = int(ch)
+                        if 1 <= ch <= len(options):
+                            st_1 = options[ch - 1]
+                            break
+                        else:
+                            print('Неверный выбор, пожалуйста повторите ввод.')
+                    except ValueError:
                         print('Неверный выбор, пожалуйста повторите ввод.')
-                except ValueError:
-                    print('Неверный выбор, пожалуйста повторите ввод.')
-            break
-    print()
+                break
+        print()
 
-    while True:
-        options = []
+        while True:
+            options = []
 
-        st_1_name = input('Станция прибытия: ')
+            st_1_name = input('Станция прибытия: ')
 
-        for st in stations:
-            if st.name.lower() == st_1_name.lower():
-                options.append(st)
+            for st in stations:
+                if st.name.lower() == st_1_name.lower():
+                    options.append(st)
 
-        if len(options) == 0:
-            print('Станция с таким названием не найдена.')
-        elif len(options) == 1:
-            st_2 = options[0]
-            break
-        else:
-            print('Есть несколько станций с таким названием: ')
-            for i in range(len(options)):
-                print(str(i + 1) + '. ' + options[i].name + ' - ' + br_names[options[i].branch])
+            if len(options) == 0:
+                print('Станция с таким названием не найдена.')
+            elif len(options) == 1:
+                st_2 = options[0]
+                break
+            else:
+                print('Есть несколько станций с таким названием: ')
+                for i in range(len(options)):
+                    print(str(i + 1) + '. ' + options[i].name + ' - ' + br_names[options[i].branch])
 
-            while True:
-                ch = input('Выберите номер нужной станции: ')
-                try:
-                    ch = int(ch)
-                    if 1 <= ch <= len(options):
-                        st_2 = options[ch - 1]
-                        break
-                    else:
+                while True:
+                    ch = input('Выберите номер нужной станции: ')
+                    try:
+                        ch = int(ch)
+                        if 1 <= ch <= len(options):
+                            st_2 = options[ch - 1]
+                            break
+                        else:
+                            print('Неверный выбор, пожалуйста повторите ввод.')
+                    except ValueError:
                         print('Неверный выбор, пожалуйста повторите ввод.')
-                except ValueError:
-                    print('Неверный выбор, пожалуйста повторите ввод.')
-            break
-    print()
+                break
+        print()
 
-    distance, paths = dijkstra(table, stations.index(st_1))
+        distance, paths = dijkstra(table, stations.index(st_1))
 
-    print_path(st_1, st_2, distance, paths, stations, table)
+        print_path(st_1, st_2, distance, paths, stations, table)
+        print()
 
 
 if __name__ == '__main__':
