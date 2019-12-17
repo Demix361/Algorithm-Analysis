@@ -43,7 +43,7 @@ def res_to_file(table, f_1, f_2, f_3):
             f.write(str(table[i][0]) + ' ' + str(table[i][1][2]) + '\n')
 
 
-def test(beg, step, times, prefix):
+def test_sequence(beg, step, times, prefix):
     table = []
 
     for i in range(times):
@@ -51,12 +51,13 @@ def test(beg, step, times, prefix):
         beg += step
 
     res_to_file(table,
-                'res_std' + prefix + '.txt',
-                'res_win' + prefix + '.txt',
-                'res_win_opt' + prefix + '.txt')
+                'Report/res_std_' + prefix + '.txt',
+                'Report/res_win_' + prefix + '.txt',
+                'Report/res_win_opt_' + prefix + '.txt')
 
 
 if __name__ == "__main__":
-    test(100, 100, 5, '0')
-    test(101, 100, 5, '1')
+    #test_sequence(100, 100, 5, '0')
+    #test_sequence(101, 100, 5, '1')
+    print(test_one_size(601))
 
