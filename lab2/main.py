@@ -1,5 +1,5 @@
 from random import randint
-from multiply import mpl, winograd, winograd_opt
+from multiply import std_mpl, winograd, winograd_opt
 
 
 def print_mtr(mtr):
@@ -50,10 +50,31 @@ def read_mtr(fname):
     return res
 
 
+def fill_mtr(row, col):
+    mtr = [[0 for j in range(col)] for i in range(row)]
+
+    for i in range(row):
+        while True:
+            line = input()
+            line = line.split()
+            try:
+                line = list(map(int, line))
+                if len(line) == col:
+                    for j in range(col):
+                        mtr[i][j] = line[j]
+                    break
+            except ValueError:
+                pass
+            print('Неверный ввод, введите строку еще раз.')
+
+    return mtr
+
+
 def main():
-    choice = input('1 - input matrices from file\n'
-                   '2 - generate random matrices\n'
-                   'Input: ')
+    choice = input('1 - Ввести матрицы из файла\n'
+                   '2 - Сгенерировать случайные матрицы\n'
+                   '3 - Ввести матрицы вручную\n'
+                   'Ввод: ')
 
     if choice == '1':
         fname_1 = input('Введите имя первого файла: ')
@@ -70,10 +91,10 @@ def main():
             print('Невозсожно умножить матрицы с такой размерностью.')
             return
     elif choice == '2':
-        row_1 = input('Input 1 matrix raw number: ')
-        col_1 = input('Input 1 matrix column number: ')
-        row_2 = input('Input 2 matrix raw number: ')
-        col_2 = input('Input 2 matrix column number: ')
+        row_1 = input('Введите количество строк для 1 матрицы: ')
+        col_1 = input('Введите количество столбцов для 1 матрицы: ')
+        row_2 = input('Введите количество строк для 2 матрицы: ')
+        col_2 = input('Введите количество столбцов для 2 матрицы: ')
 
         try:
             row_1 = int(row_1)
@@ -85,13 +106,36 @@ def main():
             return
 
         if not check_mtr(row_1, col_1, row_2, col_2):
-            print('Невозсожно умножить матрицы с такой размерностью.')
+            print('Невозможно умножить матрицы с такой размерностью.')
             return
 
         mtr_1 = gen_mtr(row_1, col_1)
         mtr_2 = gen_mtr(row_2, col_2)
+    elif choice == '3':
+        row_1 = input('Введите количество строк для 1 матрицы: ')
+        col_1 = input('Введите количество столбцов для 1 матрицы: ')
+        row_2 = input('Введите количество строк для 2 матрицы: ')
+        col_2 = input('Введите количество столбцов для 2 матрицы: ')
+
+        try:
+            row_1 = int(row_1)
+            col_1 = int(col_1)
+            row_2 = int(row_2)
+            col_2 = int(col_2)
+        except ValueError:
+            print('Неверный ввод.')
+            return
+
+        if not check_mtr(row_1, col_1, row_2, col_2):
+            print('Невозможно умножить матрицы с такой размерностью.')
+            return
+
+        print('\nВведите первую матрицу (%s x %s)' % (row_1, col_1))
+        mtr_1 = fill_mtr(row_1, col_1)
+        print('\nВведите вторую матрицу (%s x %s)' % (row_2, col_2))
+        mtr_2 = fill_mtr(row_2, col_2)
     else:
-        print('Incorrect input.')
+        print('Неверный ввод.')
         return
 
     print('Первая матрица:')
@@ -99,7 +143,7 @@ def main():
     print('Вторая матрица:')
     print_mtr(mtr_2)
 
-    mtr = mpl(mtr_1, mtr_2)
+    mtr = std_mpl(mtr_1, mtr_2)
     print('Умножение матриц стандартным методом:')
     print_mtr(mtr)
 

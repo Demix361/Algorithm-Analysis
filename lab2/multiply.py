@@ -1,4 +1,4 @@
-def mpl(mtr_1, mtr_2):
+def std_mpl(mtr_1, mtr_2):
     row_1 = len(mtr_1)
     col_1 = row_2 = len(mtr_1[0])
     col_2 = len(mtr_2[0])
@@ -74,7 +74,7 @@ def winograd_opt(mtr_1, mtr_2):
                         (mtr_1[i][k] + mtr_2[k + 1][j])
             res[i][j] = buff
 
-    if col_1 % 2 == 1:
+    if col_1_mod == 1:
         col_1_min = col_1 - 1
         for i in range(row_1):
             for j in range(col_2):

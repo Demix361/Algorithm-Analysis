@@ -1,63 +1,62 @@
-import timeit
 from time import time
 from random import choice, randint
-from multiply import mpl, winograd, winograd_opt
-from prettytable import PrettyTable
-import matplotlib.pyplot as plt
+from multiply import std_mpl, winograd, winograd_opt
 
 
 def random_mtr(size):
-    res = [[randint(0, 100) for j in range(size)] for i in range(size)]
+    res = [[randint(-50, 50) for j in range(size)] for i in range(size)]
 
     return res
 
 
-def test_all(size):
+def test_one_size(size):
+    mtr_1 = random_mtr(size)
+    mtr_2 = random_mtr(size)
     res = []
 
+    beg = time()
+    std_mpl(mtr_1, mtr_2)
+    res.append(time() - beg)
 
-def get_table(res):
-    tab = PrettyTable()
-    column_names = ["standart_mpl", "winograd_mpl", "winograd_opt_mpl"]
+    beg = time()
+    winograd(mtr_1, mtr_2)
+    res.append(time() - beg)
 
-    tab.add_column("matrix_size", [i for i in range(2, len(res[0]) + 2, 1)])
+    beg = time()
+    winograd_opt(mtr_1, mtr_2)
+    res.append(time() - beg)
 
-    for i in range(len(res)):
-        tab.add_column(column_names[i], res[i])
-
-    return tab
+    return res
 
 
-def test(max_len):
-    result = [[], [], []]
+def res_to_file(table, f_1, f_2, f_3):
+    with open(f_1, 'w') as f:
+        for i in range(len(table)):
+            f.write(str(table[i][0]) + ' ' + str(table[i][1][0]) + '\n')
 
-    for i in range(2, max_len + 1, 1):
-        beg = time()
-        result[0].append(func_test(i, "lev_table"))
-        result[1].append(func_test(i, "dam_lev_table"))
-        result[2].append(func_test(i, "dam_lev_recursion"))
-        print(i, " done! [", time() - beg, "]", sep="")
+    with open(f_2, 'w') as f:
+        for i in range(len(table)):
+            f.write(str(table[i][0]) + ' ' + str(table[i][1][1]) + '\n')
 
-    table = get_table(result)
-    print(table)
+    with open(f_3, 'w') as f:
+        for i in range(len(table)):
+            f.write(str(table[i][0]) + ' ' + str(table[i][1][2]) + '\n')
 
-    length = [i for i in range(2, max_len + 1, 1)]
 
-    plt.plot(length, result[0], 'r', label="lev_tab")
-    plt.plot(length, result[1], 'b', label="dam_lev_tab")
-    plt.legend(loc='upper left')
-    plt.axis([length[0], length[-1], min(result[0] + result[1]), max(result[0] + result[1])])
-    plt.grid(True)
-    plt.show()
+def test(beg, step, times, prefix):
+    table = []
 
-    plt.plot(length, result[2], 'g', label="dam_lev_rec")
-    plt.plot(length, result[1], 'b', label="dam_lev_tab")
-    plt.legend(loc='upper left')
-    plt.axis([length[0], length[-1], min(result[2] + result[1]), max(result[2] + result[1])])
-    plt.grid(True)
-    plt.show()
+    for i in range(times):
+        table.append((beg, test_one_size(beg)))
+        beg += step
+
+    res_to_file(table,
+                'res_std' + prefix + '.txt',
+                'res_win' + prefix + '.txt',
+                'res_win_opt' + prefix + '.txt')
 
 
 if __name__ == "__main__":
-    # max = 7 takes about 18 minutes to calculate
-    test(4)
+    test(100, 100, 5, '0')
+    test(101, 100, 5, '1')
+

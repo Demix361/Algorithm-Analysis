@@ -1,4 +1,4 @@
-from multiply import mpl, winograd, winograd_opt
+from multiply import std_mpl, winograd, winograd_opt
 from main import read_mtr
 
 
