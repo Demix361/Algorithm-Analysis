@@ -139,8 +139,11 @@ def main():
             if len(options) == 0:
                 print('Станция с таким названием не найдена.')
             elif len(options) == 1:
-                st_2 = options[0]
-                break
+                if options[0] == st_1:
+                    print('Станция совпадает со станцией отправления. Выберите другую.')
+                else:
+                    st_2 = options[0]
+                    break
             else:
                 print('Есть несколько станций с таким названием: ')
                 for i in range(len(options)):
@@ -151,8 +154,11 @@ def main():
                     try:
                         ch = int(ch)
                         if 1 <= ch <= len(options):
-                            st_2 = options[ch - 1]
-                            break
+                            if options[ch - 1] == st_1:
+                                print('Станция совпадает со станцией отправления. Выберите другую.')
+                            else:
+                                st_2 = options[ch - 1]
+                                break
                         else:
                             print('Неверный выбор, пожалуйста повторите ввод.')
                     except ValueError:

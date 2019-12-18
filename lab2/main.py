@@ -38,6 +38,8 @@ def read_mtr(fname):
     except FileNotFoundError:
         return None
 
+    if len(res) == 0:
+        return None
     row_len = len(res[0])
     col_len = len(res)
 

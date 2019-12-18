@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  17 DEC 2019 13:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.10.30)  17 DEC 2019 20:49
 entering extended mode
 **./Report.tex
 (Report.tex
-LaTeX2e <2019-10-01>
+LaTeX2e <2018-12-01>
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
-Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
-File: size10.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -32,7 +32,7 @@ File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
  ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t2aenc.dfu"
-File: t2aenc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
+File: t2aenc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00AB (decimal 171)
@@ -220,18 +220,9 @@ File: t2aenc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
    defining Unicode char U+2329 (decimal 9001)
    defining Unicode char U+232A (decimal 9002)
    defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+27E8 (decimal 10216)
-   defining Unicode char U+27E9 (decimal 10217)
-   defining Unicode char U+FB00 (decimal 64256)
-   defining Unicode char U+FB01 (decimal 64257)
-   defining Unicode char U+FB02 (decimal 64258)
-   defining Unicode char U+FB03 (decimal 64259)
-   defining Unicode char U+FB04 (decimal 64260)
-   defining Unicode char U+FB05 (decimal 64261)
-   defining Unicode char U+FB06 (decimal 64262)
 ))
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
-05.
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 105.
+
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmr.fd
 "
@@ -257,10 +248,10 @@ File: uni-global.def 2013/05/13 UCS: Unicode global data
 \uc@temptokena=\toks18
 )
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2019/09/27 3.34 The Babel package
+Package: babel 2019/07/19 3.33 The Babel package
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
 "
-File: switch.def 2019/09/27 3.34 Babel switching mechanism
+File: switch.def 2019/07/19 3.33 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
@@ -274,7 +265,7 @@ ish.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2019/09/27 3.34 Babel common definitions
+File: babel.def 2019/07/19 3.33 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 
@@ -331,7 +322,7 @@ Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
 sty"
-Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -340,7 +331,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
 x.def"
@@ -361,7 +352,7 @@ Package color Info: Driver file: pdftex.def on input line 147.
 )
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
 y"
-Package: amsmath 2019/04/01 v2.17c AMS math features
+Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -386,20 +377,20 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count99
-LaTeX Info: Redefining \frac on input line 227.
+LaTeX Info: Redefining \frac on input line 223.
 \uproot@=\count100
 \leftroot@=\count101
-LaTeX Info: Redefining \overline on input line 389.
+LaTeX Info: Redefining \overline on input line 385.
 \classnum@=\count102
 \DOTSCASE@=\count103
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box29
 \strutbox@=\box30
 \big@size=\dimen112
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \macc@depth=\count104
 \c@MaxMatrixCols=\count105
 \dotsspace@=\muskip10
@@ -420,8 +411,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2855.
-LaTeX Info: Redefining \] on input line 2856.
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
 )
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgfplots\pgfplots.
 sty"
@@ -878,6 +869,16 @@ File: pgflibraryplotmarks.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/enumitem\enumitem.
+sty"
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip46
+\enit@outerparindent=\dimen183
+\enit@toks=\toks42
+\enit@inbox=\box43
+\enit@count@id=\count139
+\enitdp@description=\count140
+)
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
 r/tikz/libraries\tikzlibrarycalc.code.tex"
 File: tikzlibrarycalc.code.tex 2019/08/03 v3.1.4b (3.1.4b)
@@ -897,7 +898,7 @@ File: tikzlibraryarrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
 flibraryarrows.code.tex"
 File: pgflibraryarrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\arrowsize=\dimen183
+\arrowsize=\dimen184
 ))
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
 r/tikz/libraries\tikzlibrarychains.code.tex"
@@ -950,26 +951,26 @@ File: tikzlibraryshapes.multipart.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
 apes\pgflibraryshapes.multipart.code.tex"
 File: pgflibraryshapes.multipart.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfnodepartlowerbox=\box43
-\pgfnodeparttwobox=\box44
-\pgfnodepartthreebox=\box45
-\pgfnodepartfourbox=\box46
-\pgfnodeparttwentybox=\box47
-\pgfnodepartnineteenbox=\box48
-\pgfnodeparteighteenbox=\box49
-\pgfnodepartseventeenbox=\box50
-\pgfnodepartsixteenbox=\box51
-\pgfnodepartfifteenbox=\box52
-\pgfnodepartfourteenbox=\box53
-\pgfnodepartthirteenbox=\box54
-\pgfnodeparttwelvebox=\box55
-\pgfnodepartelevenbox=\box56
-\pgfnodeparttenbox=\box57
-\pgfnodepartninebox=\box58
-\pgfnodeparteightbox=\box59
-\pgfnodepartsevenbox=\box60
-\pgfnodepartsixbox=\box61
-\pgfnodepartfivebox=\box62
+\pgfnodepartlowerbox=\box44
+\pgfnodeparttwobox=\box45
+\pgfnodepartthreebox=\box46
+\pgfnodepartfourbox=\box47
+\pgfnodeparttwentybox=\box48
+\pgfnodepartnineteenbox=\box49
+\pgfnodeparteighteenbox=\box50
+\pgfnodepartseventeenbox=\box51
+\pgfnodepartsixteenbox=\box52
+\pgfnodepartfifteenbox=\box53
+\pgfnodepartfourteenbox=\box54
+\pgfnodepartthirteenbox=\box55
+\pgfnodeparttwelvebox=\box56
+\pgfnodepartelevenbox=\box57
+\pgfnodeparttenbox=\box58
+\pgfnodepartninebox=\box59
+\pgfnodeparteightbox=\box60
+\pgfnodepartsevenbox=\box61
+\pgfnodepartsixbox=\box62
+\pgfnodepartfivebox=\box63
 )))
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
 r/tikz/libraries\tikzlibrarymatrix.code.tex"
@@ -978,15 +979,15 @@ File: tikzlibrarymatrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titlesec.
 sty"
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box63
-\beforetitleunit=\skip46
-\aftertitleunit=\skip47
-\ttl@plus=\dimen184
-\ttl@minus=\dimen185
-\ttl@toksa=\toks42
-\titlewidth=\dimen186
-\titlewidthlast=\dimen187
-\titlewidthfirst=\dimen188
+\ttl@box=\box64
+\beforetitleunit=\skip47
+\aftertitleunit=\skip48
+\ttl@plus=\dimen185
+\ttl@minus=\dimen186
+\ttl@toksa=\toks43
+\titlewidth=\dimen187
+\titlewidthlast=\dimen188
+\titlewidthfirst=\dimen189
 )
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.
 sty"
@@ -1009,18 +1010,18 @@ Package ifvtex Info: VTeX not detected.
 sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count139
-\Gm@cntv=\count140
-\c@Gm@tempcnt=\count141
-\Gm@bindingoffset=\dimen189
-\Gm@wd@mp=\dimen190
-\Gm@odd@mp=\dimen191
-\Gm@even@mp=\dimen192
-\Gm@layoutwidth=\dimen193
-\Gm@layoutheight=\dimen194
-\Gm@layouthoffset=\dimen195
-\Gm@layoutvoffset=\dimen196
-\Gm@dimlist=\toks43
+\Gm@cnth=\count141
+\Gm@cntv=\count142
+\c@Gm@tempcnt=\count143
+\Gm@bindingoffset=\dimen190
+\Gm@wd@mp=\dimen191
+\Gm@odd@mp=\dimen192
+\Gm@even@mp=\dimen193
+\Gm@layoutwidth=\dimen194
+\Gm@layoutheight=\dimen195
+\Gm@layouthoffset=\dimen196
+\Gm@layoutvoffset=\dimen197
+\Gm@dimlist=\toks44
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
 cfg"))
@@ -1032,12 +1033,6 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ontents.sty"
 Package: filecontents 2019/09/20 v1.5 Create an external file from within a LaT
 eX document
-
-
-Package filecontents Warning: This package is obsolete. Disabling it and
-(filecontents)                passing control to the filecontents environment
-(filecontents)                defined by the LaTeX kernel.
-
 )
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
 r/tikz/libraries/datavisualization\tikzlibrarydatavisualization.code.tex"
@@ -1049,20 +1044,20 @@ File: pgfmoduledatavisualization.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
 oduleoo.code.tex"
-\pgfoo@objectcount=\count142
-\pgfoothis@count=\count143
-\pgfoo@toks=\toks44
+\pgfoo@objectcount=\count144
+\pgfoothis@count=\count145
+\pgfoo@toks=\toks45
 )
-\pgf@lib@dv@cache@count=\count144
-\pgf@lib@dv@cache@count=\count145
+\pgf@lib@dv@cache@count=\count146
+\pgf@lib@dv@cache@count=\count147
 )
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
 r/tikz/libraries\tikzlibrarybackgrounds.code.tex"
 File: tikzlibrarybackgrounds.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@layerbox@background=\box64
-\pgf@layerboxsaved@background=\box65
+\pgf@layerbox@background=\box65
+\pgf@layerboxsaved@background=\box66
 )
-\tikzdvvisualizercounter=\count146
+\tikzdvvisualizercounter=\count148
 )
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
 r/tikz/libraries/datavisualization\tikzlibrarydatavisualization.formats.functio
@@ -1095,42 +1090,51 @@ LaTeX Warning: Label `some-code' multiply defined.
 
 LaTeX Warning: Label `some-code' multiply defined.
 
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
 )
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
  ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-\c@lstlisting=\count147
+\c@lstlisting=\count149
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count148
-\scratchdimen=\dimen197
-\scratchbox=\box66
-\nofMPsegments=\count149
-\nofMParguments=\count150
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count151
-\MPscratchDim=\dimen198
-\MPnumerator=\count152
-\makeMPintoPDFobject=\count153
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count150
+\scratchdimen=\dimen198
+\scratchbox=\box67
+\nofMPsegments=\count151
+\nofMParguments=\count152
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count153
+\MPscratchDim=\dimen199
+\MPnumerator=\count154
+\makeMPintoPDFobject=\count155
+\everyMPtoPDFconversion=\toks47
 )
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
 base.sty"
@@ -1189,7 +1193,7 @@ G,.JBIG2,.JB2,.eps]
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 55.
+ on input line 56.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1239,163 +1243,163 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 \openout4 = `Report.toc'.
 
  [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--151
+Underfull \hbox (badness 10000) in paragraph at lines 147--152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--161
+Underfull \hbox (badness 10000) in paragraph at lines 158--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 165--167
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
-
- []
-
-
-LaTeX Warning: Command \cyrs invalid in math mode on input line 167.
-
-Missing character: There is no с in font cmr7!
-
-LaTeX Warning: Command \cyrs invalid in math mode on input line 167.
-
-Missing character: There is no с in font cmr7!
-
 Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 168.
+
+Missing character: There is no с in font cmr7!
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 168.
+
+Missing character: There is no с in font cmr7!
 
 Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 
-LaTeX Warning: Command \cyrs invalid in math mode on input line 169.
-
-Missing character: There is no с in font cmr7!
-
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+LaTeX Warning: Command \cyrs invalid in math mode on input line 170.
+
+Missing character: There is no с in font cmr7!
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 <scheme_std.png, id=33, 151.56625pt x 668.4975pt>
 File: scheme_std.png Graphic file (type png)
 <use scheme_std.png>
-Package pdftex.def Info: scheme_std.png  used on input line 182.
+Package pdftex.def Info: scheme_std.png  used on input line 183.
 (pdftex.def)             Requested size: 65.17221pt x 287.44832pt.
 [6 <./scheme_std.png (PNG copy)>]
 <scheme_win.png, id=37, 959.585pt x 983.675pt>
 File: scheme_win.png Graphic file (type png)
 <use scheme_win.png>
-Package pdftex.def Info: scheme_win.png  used on input line 188.
+Package pdftex.def Info: scheme_win.png  used on input line 189.
 (pdftex.def)             Requested size: 412.61351pt x 422.97202pt.
  [7 <./scheme_win.png (PNG copy)>]
 <scheme_win_opt.png, id=42, 959.585pt x 983.675pt>
 File: scheme_win_opt.png Graphic file (type png)
 <use scheme_win_opt.png>
-Package pdftex.def Info: scheme_win_opt.png  used on input line 194.
+Package pdftex.def Info: scheme_win_opt.png  used on input line 195.
 (pdftex.def)             Requested size: 412.61351pt x 422.97202pt.
  [8 <./scheme_win_opt.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
 <scheme_idef0.png, id=49, 944.52875pt x 166.6225pt>
 File: scheme_idef0.png Graphic file (type png)
 <use scheme_idef0.png>
-Package pdftex.def Info: scheme_idef0.png  used on input line 210.
+Package pdftex.def Info: scheme_idef0.png  used on input line 211.
 (pdftex.def)             Requested size: 425.03401pt x 74.97942pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--214
+Underfull \hbox (badness 10000) in paragraph at lines 208--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--218
+Underfull \hbox (badness 10000) in paragraph at lines 216--219
 
  []
 
 [10 <./scheme_idef0.png (PNG copy)>]
-LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
-222.
+LaTeX Font Info:    Try loading font information for T2A+cmss on input line 223
+.
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmss.f
 d"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
-233.
-LaTeX Font Info:    No file OMScmss.fd. on input line 233.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 234
+.
+LaTeX Font Info:    No file OMScmss.fd. on input line 234.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 233.
+(Font)              for symbol `textasteriskcentered' on input line 234.
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 335--343
+Underfull \hbox (badness 10000) in paragraph at lines 336--344
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 346--359
+Underfull \hbox (badness 10000) in paragraph at lines 347--360
 
  []
 
 [13] [14]
-Overfull \hbox (5.2769pt too wide) in paragraph at lines 479--480
+Overfull \hbox (5.2769pt too wide) in paragraph at lines 464--465
 []\T2A/cmr/m/n/10 На ри-сун-ке 5 при-ве-де-но вре-мя, за-тра-чи-ва-е-мое ал-го-
 рит-ма-ми при мат-ри-цах ра-мер-но-стей 100х100, 200х200,
  []
@@ -1403,11 +1407,15 @@ Overfull \hbox (5.2769pt too wide) in paragraph at lines 479--480
 PGFPlots: reading {res_std_0.txt}
 PGFPlots: reading {res_win_0.txt}
 PGFPlots: reading {res_win_opt_0.txt}
-[15]
 PGFPlots: reading {res_std_1.txt}
 PGFPlots: reading {res_win_1.txt}
 PGFPlots: reading {res_win_opt_1.txt}
- [16] [17]
+[15] [16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 542--544
+[]\T2A/cmr/m/n/10 Библиотека для за-ме-ра вре-ме-ни timeit // [Элек-трон-ный ре
+-сурс]. Ре-жим до-сту-па:
+ []
+
 No file Report.bbl.
 [18] (Report.aux)
 
@@ -1418,20 +1426,20 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 32227 strings out of 492452
- 809589 string characters out of 3120063
- 1252411 words of memory out of 3000000
- 36006 multiletter control sequences out of 15000+200000
+ 32418 strings out of 492895
+ 813488 string characters out of 3123734
+ 1257229 words of memory out of 3000000
+ 35750 multiletter control sequences out of 15000+200000
  16822 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,17n,98p,721b,2247s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,17n,96p,1687b,2250s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\ti-am\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
 ss0900.pk> <C:\Users\ti-am\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/d
 pi600\lasx0900.pk> <C:\Users\ti-am\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/
 lh-t2a/dpi600\larm0500.pk> <C:\Users\ti-am\AppData\Local\MiKTeX\2.9\fonts/pk/lj
-four/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\ti-am\AppData\Local\MiKTeX\2.9\fon
-ts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\ti-am\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\ti-am\AppData\Loca
+four/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\ti-am\AppData\Local\MiKTeX\2.9\fon
+ts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\ti-am\AppData\Local\MiKTeX
+\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\ti-am\AppData\Loca
 l\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\ti-am\AppD
 ata\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\ti
 -am\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lacc1200.pk> <C:\
@@ -1445,9 +1453,9 @@ cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ti-am
 /AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
 :/Users/ti-am/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy9.pfb>
-Output written on Report.pdf (18 pages, 368848 bytes).
+Output written on Report.pdf (18 pages, 378672 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
+ 549 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
