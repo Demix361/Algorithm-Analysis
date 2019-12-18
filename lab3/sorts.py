@@ -1,7 +1,3 @@
-from random import randint
-from time import time
-
-
 def bubble_sort(arr):
     n = len(arr)
 
@@ -29,28 +25,10 @@ def bubble_barrier_sort(arr):
     return arr
 
 
-def shaker_sort_old(arr):
-    left = 0
-    right = len(arr) - 1
-
-    while left <= right:
-        for i in range(left, right, 1):
-            if arr[i] > arr[i + 1]:
-                arr[i], arr[i + 1] = arr[i + 1], arr[i]
-        right -= 1
-
-        for i in range(right, left, -1):
-            if arr[i - 1] > arr[i]:
-                arr[i], arr[i - 1] = arr[i - 1], arr[i]
-        left += 1
-
-    return arr
-
-
 def shaker_sort(arr):
     left = 0
     right = len(arr) - 1
-    bar = left
+    bar = 0
 
     while left != right:
         for i in range(left, right, 1):
@@ -64,5 +42,23 @@ def shaker_sort(arr):
                 arr[i], arr[i - 1] = arr[i - 1], arr[i]
                 bar = i - 1
         left = bar
+
+    return arr
+
+
+def shaker_sort_nonmodified(arr):
+    left = 0
+    right = len(arr) - 1
+
+    while left <= right:
+        for i in range(left, right, 1):
+            if arr[i] > arr[i + 1]:
+                arr[i], arr[i + 1] = arr[i + 1], arr[i]
+        right -= 1
+
+        for i in range(right, left, -1):
+            if arr[i - 1] > arr[i]:
+                arr[i], arr[i - 1] = arr[i - 1], arr[i]
+        left += 1
 
     return arr
