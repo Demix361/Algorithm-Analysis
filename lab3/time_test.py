@@ -85,4 +85,4 @@ def write_res(fname, res):
 
 
 if __name__ == '__main__':
-    test_all(100, 1501, 100)
+    test_all(100, 1001, 100)
