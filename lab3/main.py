@@ -9,7 +9,7 @@ def main():
             arr = list(map(int, line.split()))
 
             if len(arr) == 0:
-                print('Ошибка ввода')
+                print('Пустой массив.')
             else:
                 print('\nСортировка пузырьком: ')
                 print(bubble_sort(arr.copy()))
