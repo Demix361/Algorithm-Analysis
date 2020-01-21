@@ -1,1 +1,1 @@
-# algorithm-analysis
+# Анализ Алгоритмов - 5 сем
