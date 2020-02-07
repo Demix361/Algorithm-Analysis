@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.10.30)  19 DEC 2019 17:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.10.30)  7 FEB 2020 20:54
 entering extended mode
 **./lab3.tex
 (lab3.tex
@@ -1290,7 +1290,7 @@ File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) [9 <./idef0_scheme.png (PNG copy)>]
 Overfull \hbox (1.81584pt too wide) in paragraph at lines 279--280
 \T2A/cmr/m/n/10 ¬ дан-ном раз-де-ле бы-ли да-ны ре-а-ли-за-ции сор-ти-ров-ки пу
--зырь-ком, пу-зырь-ком с ба-рье-ром и шейкер-сортировки,
+-зырь-ком, пу-зырь-ком с ба-рье-ром и шейкер-сортировки. 
  []
 
 [10] [11]
@@ -1321,13 +1321,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33252 strings out of 492895
- 820535 string characters out of 3123734
+ 33250 strings out of 492895
+ 820483 string characters out of 3123734
  1134725 words of memory out of 3000000
- 36582 multiletter control sequences out of 15000+200000
+ 36580 multiletter control sequences out of 15000+200000
  16822 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,17n,96p,1324b,2245s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,17n,96p,1508b,2245s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\ti-am\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
 ss0900.pk> <C:\Users\ti-am\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/d
 pi600\lasx0900.pk> <C:\Users\ti-am\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/
@@ -1349,7 +1349,7 @@ ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
 Users/ti-am/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 sy7.pfb><C:/Users/ti-am/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmsy9.pfb>
-Output written on lab3.pdf (16 pages, 321126 bytes).
+Output written on lab3.pdf (16 pages, 320852 bytes).
 PDF statistics:
  523 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
