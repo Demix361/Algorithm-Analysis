@@ -1,0 +1,26 @@
+\babel@toc {russian}{}
+\contentsline {section}{Введение}{3}% 
+\contentsline {section}{\numberline {1}Аналитический раздел}{4}% 
+\contentsline {subsection}{\numberline {1.1}Описание алгоритмов}{4}% 
+\contentsline {subsubsection}{\numberline {1.1.1}Стандартный алгоритм}{4}% 
+\contentsline {subsubsection}{\numberline {1.1.2}Алгоритм Винограда}{4}% 
+\contentsline {subsection}{Вывод}{5}% 
+\contentsline {section}{\numberline {2}Конструкторский раздел}{6}% 
+\contentsline {subsection}{\numberline {2.1}Разработка алгоритмов}{6}% 
+\contentsline {subsubsection}{\numberline {2.1.1}Неоптимизированнный алгоритм Винограда}{6}% 
+\contentsline {subsubsection}{\numberline {2.1.2}Оптимизация алгоритма Винограда}{6}% 
+\contentsline {subsubsection}{\numberline {2.1.3}Реализация многопоточности}{8}% 
+\contentsline {subsection}{Вывод}{13}% 
+\contentsline {section}{\numberline {3}Технологический раздел}{14}% 
+\contentsline {subsection}{\numberline {3.1}Требования к программному обеспечению}{14}% 
+\contentsline {subsection}{\numberline {3.2}Средства реализации}{14}% 
+\contentsline {subsection}{\numberline {3.3}Листинг программы}{15}% 
+\contentsline {subsection}{\numberline {3.4}Тестовые данные}{16}% 
+\contentsline {subsection}{Вывод}{17}% 
+\contentsline {section}{\numberline {4}Исследовательский раздел}{18}% 
+\contentsline {subsection}{\numberline {4.1}Примеры работы}{18}% 
+\contentsline {subsection}{\numberline {4.2}Постановка эксперимента}{20}% 
+\contentsline {subsection}{\numberline {4.3}Сравнительный анализ на материале экспериментальных данных}{20}% 
+\contentsline {subsection}{Вывод}{21}% 
+\contentsline {section}{Заключение}{24}% 
+\contentsline {section}{Список литературы}{25}% 

@@ -1,0 +1,3 @@
+D:/GitHub/Algorithm-Analysis/lab4/code/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GitHub/Algorithm-Analysis/lab4/code/cmake-build-debug/CMakeFiles/egor_code.dir
+D:/GitHub/Algorithm-Analysis/lab4/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
