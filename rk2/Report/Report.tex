@@ -1,6 +1,171 @@
+\documentclass[a4paper, 14pt]{article}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{listings}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usetikzlibrary{calc,trees,positioning,arrows,chains,shapes.geometric,%
+    decorations.pathreplacing,decorations.pathmorphing,shapes,%
+    matrix,shapes.symbols}
 
+\usepackage{titlesec}
+\titleformat*{\section}{\LARGE\bfseries\centering}
+\titleformat*{\subsection}{\Large\bfseries\centering}
+\titleformat*{\subsubsection}{\large\bfseries}
+\titleformat*{\paragraph}{\large\bfseries}
+\titleformat*{\subparagraph}{\large\bfseries}
+\lstset{ %
+inputencoding=utf8x, extendedchars=\true,
+language=python,                 % выбор языка для подсветки (здесь это С)
+basicstyle=\small\sffamily, % размер и начертание шрифта для подсветки кода
+numbers=left,               % где поставить нумерацию строк (слева\справа)
+numberstyle=\tiny,           % размер шрифта для номеров строк
+stepnumber=1,                   % размер шага между двумя номерами строк
+numbersep=5pt,                % как далеко отстоят номера строк от подсвечиваемого кода
+showspaces=false,            % показывать или нет пробелы специальными отступами
+showstringspaces=false,      % показывать или нет пробелы в строках
+showtabs=false,             % показывать или нет табуляцию в строках
+frame=single,              % рисовать рамку вокруг кода
+tabsize=2,                 % размер табуляции по умолчанию равен 2 пробелам
+captionpos=t,              % позиция заголовка вверху [t] или внизу [b] 
+breaklines=true,           % автоматически переносить строки (да\нет)
+breakatwhitespace=false, % переносить строки только если есть пробел
+escapeinside={\#*}{*)}   % если нужно добавить комментарии в коде
+}
 
-# Класс инструкции автомата
+\usepackage{geometry}
+\geometry{left=2cm}
+\geometry{right=1.5cm}
+\geometry{top=1cm}
+\geometry{bottom=2cm}
+
+\usepackage{pgfplots}
+\usepackage{indentfirst}
+\usepackage{filecontents}
+\usetikzlibrary{datavisualization}
+\usetikzlibrary{datavisualization.formats.functions}
+\usepackage{graphicx}
+
+\begin{document}
+
+    \begin{titlepage}
+
+        \begin{center}
+            \large
+            Государственное образовательное учреждение высшего профессионального образования\\
+            “Московский государственный технический университет имени Н.Э.Баумана”
+            \vspace{3cm}
+            
+            \textsc{Дисциплина: Анализ алгоритмов}
+            \vspace{0.5cm}
+                
+            \textsc{Рубежный контроль 2}
+            \vspace{1.5cm}
+            
+            {\LARGE Нахождение подстроки в строке с помощью регулярных выражений и конечного автомата.\\}
+            \vspace{1.5cm}
+            Студент группы ИУ7-55,\\   
+            Аминов Тимур Саидович
+            \vfill
+            
+            2019 г.
+            
+            \end{center}
+
+    \end{titlepage}
+    \setcounter{page}{2}
+
+	
+	\newpage       
+
+        \label{sec:intro}
+
+    	\newpage
+        \section{Аналитическая часть}
+		\parindent=1cm
+		
+		В рамках раздела будет дано аналитическое описание регулярных выражений и конечного автомата.
+		
+
+        \subsection{Описание алгоритмов}
+        	\subsubsection{Регулярные выражения}
+        
+		\textbf{Регулярные выражения} – формальный язык поиска и осуществления манипуляций с подстроками в тексте, основанный на использовании метасимволов. Для поиска используется строка-образец, состоящая из символов и метасимволов и задающая правило поиска. Для манипуляций с текстом дополнительно задаётся строка замены, которая также может содержать в себе специальные символы.\\
+			\subsubsection{Конечный автомат}
+			
+		\textbf{Конечный автомат} можно охарактеризовать множеством состояний (вершин) и переходов (дуг, соединяющих вершины). Среди состояний есть два специальных - состояние начала и конца. Если строка читается данным автоматом, то после прохода по строке, автомат должен оказаться в одном из заключительных состояний. На этом основывается алгоритм поиска подстроки в строке с помощью конечного автомата.\\
+		
+		
+        \section{Конструкторская часть}
+        
+		В данной части будут рассмотрены схемы разработанных автоматов. \\
+        \subsection{Разработка алгоритмов}
+        На рисунках 1-4 приведены схемы автоматов поиска даты в русском, английском и текстовом форматах.\\
+    	\begin{figure}[h]
+        	\center{\includegraphics[scale = 0.43]{ru_date.png}}
+        	\caption{Автомат для поиска даты в русском формате}
+        	\label{fig:schema_standart}
+        \end{figure}
+        %\newpage
+    	\begin{figure}[h]
+        	\center{\includegraphics[scale = 0.43]{us_date.png}}
+        	\caption{Автомат для поиска даты в английском формате}
+        	\label{fig:schema_vinograd}
+        \end{figure}
+        \newpage    
+    	\begin{figure}[!ht]
+        	\center{\includegraphics[scale = 0.43]{text_date.png}}
+        	\caption{Автомат для поиска даты в текстовом формате}
+        	\label{fig:schema_vinograd_optimized}
+        \end{figure}
+        \newpage
+        \begin{figure}[!ht]
+        	\center{\includegraphics[scale = 0.43]{text_date_2.png}}
+        	\caption{Автомат для поиска даты в текстовом формате (продолжение)}
+        	\label{fig:schema_vinograd_optimized}
+        \end{figure}
+        \newpage     
+
+        \section{Технологическая часть}
+        
+        В рамках этого раздела будут описаны инструментарии разработки, выбор среды, требования к ПО. Также будут предоставлены листинги конкретных реализаций алгоритмов.\\
+		\subsection{Средства реализации}
+		Программа была написана на языке программирования python 3.8 в среде разработки PyCharm. Я выбрал данный язык, так как уже имею определнный опыт работы с ним.\\
+		\subsection{Требования к программному обеспечению}
+		На вход программа должна получать текст, на выход отображать все найденные даты в формате dd.mm.yyyy, mm.dd.yyyy, а также даты, в которых название месяца записано целым или сокращенным словом.
+		
+        \subsection{Листинг кода}
+        В листингах 1-5 представлена реализация поиска даты с помощью регулярных выражений и конечных автоматов. На листинге 1 представлен код регулярных выражений для даты в русском, английском и текстовом формате соответственно. На листинге 2 представлен класс и функции для работы с автоматом. На листинге 3 представлены инструкции автомата для поиска даты в русском формате. На листинге 4 представлены инструкции автомата для поиска даты в английском формате. На листинге 5 представлены инструкции автомата для поиска даты в текстовом формате.
+		\begin{lstlisting}[label=some-code,caption=Листинг разработанных регулярных выражений]
+		months = ['января', 'янв',
+              'февраля', 'фев',
+              'марта', 'мар',
+              'апреля', 'апр',
+              'мая',
+              'июня', 'июн',
+              'июля', 'июл',
+              'августа', 'авг',
+              'сентября', 'сен',
+              'октября', 'окт',
+              'ноября', 'ноя',
+              'декабря', 'дек']
+
+    months_str = get_months_str(months)
+
+    res_re_ru_date = re.findall(r'(0[1-9]|[12][0-9]|3[01])[-/.](0[1-9]|1[0-2])[-/.](1\d\d\d|2[01]\d\d)', text)
+    res_re_us_date = re.findall(r'(0[1-9]|1[0-2])[-/.](0[1-9]|[12][0-9]|3[01])[-/.](1\d\d\d|2[01]\d\d)', text)
+    res_re_text_date = re.findall(r'([1-9]|[12][0-9]|3[01]) (' + months_str + r') (1\d\d\d|2[01]\d\d)', text)
+		\end{lstlisting}
+		\begin{lstlisting}[label=some-code,caption=Класс и функции для работы с автоматом]
+		# Класс инструкции автомата
 class Transition:
     def __init__(self, state_1, state_2, symbols, sym_ins, direction):
         self.state_1 = state_1
@@ -8,9 +173,49 @@ class Transition:
         self.symbols = symbols
         self.sym_ins = sym_ins
         self.direction = direction
+        
+    # Возвращает массив пар индексов подходящих условию подстрок
+def run_automat(instructions, text, final_state):
+    pos = 0
+    end = len(text)
+    state = 1
+    start_pos = 0
+    found = []
 
+    while pos != end:
+        # print(state, text[pos])
+        tran = find_transition(state, text[pos], instructions)
 
-# Автомат для поиска даты в формате dd.mm.yyyy
+        if tran.state_1 == 1 and tran.state_2 != 1:
+            start_pos = pos
+
+        if tran.state_2 == final_state:
+            found.append((start_pos, pos + 1))
+
+        if tran.direction == 'r':
+            pos += 1
+        elif tran.direction == 'l':
+            pos -= 1
+
+        state = tran.state_2
+
+    return found
+    
+    # Возвращает нужную инструкцию из массива инструкций
+def find_transition(state, sym, instructions):
+    for i in instructions:
+        if i.state_1 == state:
+            if i.sym_ins == 'in':
+                if sym in i.symbols:
+                    return i
+            elif i.sym_ins == 'not':
+                if sym not in i.symbols:
+                    return i
+    return None
+		\end{lstlisting}
+		\newpage
+		\begin{lstlisting}[label=some-code,caption=Автомат для поиска даты в формате dd.mm.yyyy]
+		# Автомат для поиска даты в формате dd.mm.yyyy
 def date_ru_automat(text):
     instructions = [Transition(1, 2, ['0'], 'in', 'r'),  # Первая цифра дня
                     Transition(1, 3, ['1', '2'], 'in', 'r'),
@@ -68,9 +273,9 @@ def date_ru_automat(text):
         res.append(text[couple[0]:couple[1]])
 
     return res
-
-
-# Автомат для поиска даты в формате mm.dd.yyyy
+		\end{lstlisting}
+		\begin{lstlisting}[label=some-code,caption=Автомат для поиска даты в формате mm.dd.yyyy]
+		# Автомат для поиска даты в формате mm.dd.yyyy
 def date_us_automat(text):
     instructions = [
                     Transition(1, 2, ['0'], 'in', 'r'),  # Первая цифра месяца
@@ -129,10 +334,10 @@ def date_us_automat(text):
         res.append(text[couple[0]:couple[1]])
 
     return res
-
-
-# Автомат для поиска даты в текстовом формате
-def date_text_automat(text):
+		\end{lstlisting}
+		\begin{lstlisting}[label=some-code,caption=Автомат для поиска даты в текстовом формате]
+		# Автомат для поиска даты в текстовом формате
+		def date_text_automat(text):
     a = 5
     b = 200
     c = 300
@@ -377,49 +582,12 @@ def date_text_automat(text):
         res.append(text[couple[0]:couple[1]])
 
     return res
-
-
-# Возвращает массив пар индексов подходящих условию подстрок
-def run_automat(instructions, text, final_state):
-    pos = 0
-    end = len(text)
-    state = 1
-    start_pos = 0
-    found = []
-
-    while pos != end:
-        # print(state, text[pos])
-        tran = find_transition(state, text[pos], instructions)
-
-        if tran is None:
-            print('exit 1')
-            print('!!!!!!!!!!!!!!!!!')
-            return None
-
-        if tran.state_1 == 1 and tran.state_2 != 1:
-            start_pos = pos
-
-        if tran.state_2 == final_state:
-            found.append((start_pos, pos + 1))
-
-        if tran.direction == 'r':
-            pos += 1
-        elif tran.direction == 'l':
-            pos -= 1
-
-        state = tran.state_2
-
-    return found
-
-
-# Возвращает нужную инструкцию из массива инструкций
-def find_transition(state, sym, instructions):
-    for i in instructions:
-        if i.state_1 == state:
-            if i.sym_ins == 'in':
-                if sym in i.symbols:
-                    return i
-            elif i.sym_ins == 'not':
-                if sym not in i.symbols:
-                    return i
-    return None
+		\end{lstlisting}
+        
+    	\newpage
+        \section*{Заключение}
+        \addcontentsline{toc}{section}{Заключение}
+        
+        Выполнен рубежный контроль по нахождению подстроки в строке при помощи регулярных выражений и конечного автомата.
+     
+\end{document}
