@@ -118,7 +118,7 @@ def date_us_automat(text):
                     Transition(15, 1, ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'], 'not', 'r'),
                     Transition(16, 1, ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'], 'not', 'r'),
 
-                    Transition(100, 1, [], 'not', 'r'),  # Продолжаем поиск
+                    Transition(100, 1, [], 'not', 'r')  # Продолжаем поиск
     ]
 
     final_state = 100
@@ -132,10 +132,10 @@ def date_us_automat(text):
 
 
 # Автомат для поиска даты в текстовом формате
-
 def date_text_automat(text):
     a = 5
     b = 200
+    c = 300
 
     instructions = [
         Transition(1, 2, ['1', '2'], 'in', 'r'),
@@ -347,13 +347,29 @@ def date_text_automat(text):
         Transition(73, 1, ['я'], 'not', 'r'),
         Transition(74, 1, [' '], 'not', 'r'),
 
+        # Год
+        Transition(b, 81, ['1'], 'in', 'r'),  # Первая цифра года
+        Transition(b, 82, ['2'], 'in', 'r'),
+        Transition(b, 1, ['1', '2'], 'not', 'r'),
 
-        Transition(b, 1, [], 'not', 's'),
+        Transition(81, 83, ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'], 'in', 'r'),  # 1000 - 1999
+        Transition(83, 84, ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'], 'in', 'r'),
+        Transition(84, c, ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'], 'in', 'r'),
+        Transition(81, 1, ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'], 'not', 'r'),
+        Transition(83, 1, ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'], 'not', 'r'),
+        Transition(84, 1, ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'], 'not', 'r'),
 
+        Transition(82, 85, ['0', '1'], 'in', 'r'),  # 2000 - 2199
+        Transition(85, 86, ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'], 'in', 'r'),
+        Transition(86, c, ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'], 'in', 'r'),
+        Transition(82, 1, ['0', '1'], 'not', 'r'),
+        Transition(85, 1, ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'], 'not', 'r'),
+        Transition(86, 1, ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'], 'not', 'r'),
 
+        Transition(c, 1, [], 'not', 'r')
     ]
 
-    final_state = 5
+    final_state = c
     found = run_automat(instructions, text, final_state)
     res = []
 
@@ -361,7 +377,6 @@ def date_text_automat(text):
         res.append(text[couple[0]:couple[1]])
 
     return res
-
 
 
 # Возвращает массив пар индексов поддходящих условию подстрок
@@ -373,6 +388,7 @@ def run_automat(instructions, text, final_state):
     found = []
 
     while pos != end:
+        # print(state, text[pos])
         tran = find_transition(state, text[pos], instructions)
 
         if tran is None:
@@ -407,7 +423,3 @@ def find_transition(state, sym, instructions):
                 if sym not in i.symbols:
                     return i
     return None
-
-
-aaa = date_text_automat('qwe 21 января 987ацук')
-print(aaa)

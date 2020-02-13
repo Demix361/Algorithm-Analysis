@@ -1,5 +1,5 @@
 import re
-from automat import date_ru_automat, date_us_automat
+from automat import date_ru_automat, date_us_automat, date_text_automat
 
 
 def get_months_str(months):
@@ -61,6 +61,7 @@ def main():
 
     res_auto_ru_date = date_ru_automat(text)
     res_auto_us_date = date_us_automat(text)
+    res_auto_text_date = date_text_automat(text)
 
     print('Даты в формате dd.mm.yyyy')
     print('Регулярное выражение:')
@@ -77,7 +78,11 @@ def main():
     print()
 
     print('Даты в текстовом формате:')
+    print('Регулярное выражение:')
     print(res_re_text_date)
+    print('Конечный автомат:')
+    print(res_auto_text_date)
+    print()
 
 
 if __name__ == '__main__':
