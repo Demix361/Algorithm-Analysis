@@ -36,17 +36,6 @@ int enter_int_2(std::string message) {
     return number;
 }
 
-// double enter_double() {
-//     double number;
-//     char answer[256];
-//     fgets(answer, sizeof(answer), stdin); // считываем строку
-
-//     while (sscanf(answer, "%f", &number) != 1) {
-//         printf("Incorrect input. Try again: ");
-//         fgets(answer, sizeof(answer), stdin);
-//     }
-//     return number;
-// }
 
 void enter_matr(Matrix &matr) {
 
