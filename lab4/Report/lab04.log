@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  16 FEB 2020 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  17 FEB 2020 02:16
 entering extended mode
 **./lab04.tex
 (lab04.tex
@@ -1377,7 +1377,6 @@ PGFPlots: reading {time_4_th_even.txt}
 PGFPlots: reading {time_8_th_even.txt}
 PGFPlots: reading {time_16_th_even.txt}
 PGFPlots: reading {time_32_th_even.txt}
-[21]
 PGFPlots: reading {time_no_th_odd.txt}
 PGFPlots: reading {time_1_th_odd.txt}
 PGFPlots: reading {time_2_th_odd.txt}
@@ -1385,7 +1384,7 @@ PGFPlots: reading {time_4_th_odd.txt}
 PGFPlots: reading {time_8_th_odd.txt}
 PGFPlots: reading {time_16_th_odd.txt}
 PGFPlots: reading {time_32_th_odd.txt}
- [22] [23]
+[21] [22] [23]
 Underfull \hbox (badness 10000) in paragraph at lines 869--870
 []\T2A/cmr/m/n/12 ћатрицы и опре-де-ли-те-ли [Ёлек-трон-ный ре-сурс].  –е-жим 
 до-сту-па:
@@ -1411,7 +1410,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  31126 strings out of 492452
  761784 string characters out of 3120063
- 1309040 words of memory out of 3000000
+ 1309039 words of memory out of 3000000
  34850 multiletter control sequences out of 15000+200000
  24383 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1437,7 +1436,7 @@ m/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
 /Users/ti-am/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy10.pfb><C:/Users/ti-am/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmsy9.pfb>
-Output written on lab04.pdf (24 pages, 1428282 bytes).
+Output written on lab04.pdf (24 pages, 1428053 bytes).
 PDF statistics:
  582 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
