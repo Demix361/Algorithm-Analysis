@@ -1,13 +1,12 @@
 #include "controller.h"
-#include "metering.h"
-#include "test.h"
+#include "time_test.h"
+#include "mul_test.h"
 
 
 int main(int argc, char *argv[])
 {
-    //metering();
+    time_test();
     //controller();
-    test();
-
+    //mul_test();
     return 0;
 }

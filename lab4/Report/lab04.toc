@@ -21,6 +21,6 @@
 \contentsline {subsection}{\numberline {4.1}Примеры работы}{18}% 
 \contentsline {subsection}{\numberline {4.2}Постановка эксперимента}{20}% 
 \contentsline {subsection}{\numberline {4.3}Сравнительный анализ на материале экспериментальных данных}{20}% 
-\contentsline {subsection}{Вывод}{21}% 
-\contentsline {section}{Заключение}{24}% 
-\contentsline {section}{Список литературы}{25}% 
+\contentsline {subsection}{Вывод}{22}% 
+\contentsline {section}{Заключение}{23}% 
+\contentsline {section}{Список литературы}{24}% 

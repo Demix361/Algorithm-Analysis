@@ -9,10 +9,10 @@ add_executable(app
         controller.cpp
         controller.h
         main.cpp
-        metering.cpp
-        metering.h
+        time_test.cpp
+        time_test.h
         mult_matrix.cpp
         mult_matrix.h
         result.txt
-        test.cpp
-        test.h)
+        mul_test.cpp
+        mul_test.h)

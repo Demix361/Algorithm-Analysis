@@ -21,7 +21,7 @@ bool is_equal(Matrix &mtr_1, Matrix &mtr_2)
 }
 
 
-void test()
+void mul_test()
 {
     std::vector<Matrix> mtr_1 = {{{2}},
 
