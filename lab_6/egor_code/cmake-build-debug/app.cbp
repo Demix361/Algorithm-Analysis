@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="app"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="egor_code">
+				<Option output="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/egor_code.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/."/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 egor_code"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="egor_code/fast">
+				<Option output="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/egor_code.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/."/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 egor_code/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/GitHub/Algorithm-Analysis/lab_6/egor_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/aco.cpp">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/aco.h">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/controller.cpp">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/controller.h">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/main.cpp">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/main_t.cpp">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/matrix.h">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/print.cpp">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/print.h">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/res.cpp">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/res.h">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/research.cpp">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/test.cpp">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/test_.cpp">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/test_.h">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/test_runner.h">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/time.cpp">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/total_search.cpp">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/total_search.h">
+			<Option target="egor_code"/>
+		</Unit>
+		<Unit filename="D:/GitHub/Algorithm-Analysis/lab_6/egor_code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
