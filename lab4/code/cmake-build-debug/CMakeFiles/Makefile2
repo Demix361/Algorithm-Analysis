@@ -52,12 +52,12 @@ CMAKE_BINARY_DIR = D:\GitHub\Algorithm-Analysis\lab4\code\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/egor_code.dir/all
+all: CMakeFiles/app.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/egor_code.dir/clean
+clean: CMakeFiles/app.dir/clean
 
 .PHONY : clean
 
@@ -67,31 +67,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/egor_code.dir
+# Target rules for target CMakeFiles/app.dir
 
 # All Build rule for target.
-CMakeFiles/egor_code.dir/all:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/depend
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GitHub\Algorithm-Analysis\lab4\code\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target egor_code"
-.PHONY : CMakeFiles/egor_code.dir/all
+CMakeFiles/app.dir/all:
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/depend
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GitHub\Algorithm-Analysis\lab4\code\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target app"
+.PHONY : CMakeFiles/app.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/egor_code.dir/rule: cmake_check_build_system
+CMakeFiles/app.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\Algorithm-Analysis\lab4\code\cmake-build-debug\CMakeFiles 6
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/egor_code.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\Algorithm-Analysis\lab4\code\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/egor_code.dir/rule
+.PHONY : CMakeFiles/app.dir/rule
 
 # Convenience name for target.
-egor_code: CMakeFiles/egor_code.dir/rule
+app: CMakeFiles/app.dir/rule
 
-.PHONY : egor_code
+.PHONY : app
 
 # clean rule for target.
-CMakeFiles/egor_code.dir/clean:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/clean
-.PHONY : CMakeFiles/egor_code.dir/clean
+CMakeFiles/app.dir/clean:
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/clean
+.PHONY : CMakeFiles/app.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

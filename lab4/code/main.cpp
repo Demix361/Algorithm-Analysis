@@ -6,8 +6,8 @@
 int main(int argc, char *argv[])
 {
     //metering();
-    controller();
-    //test();
+    //controller();
+    test();
 
     return 0;
 }

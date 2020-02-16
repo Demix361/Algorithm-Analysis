@@ -67,7 +67,7 @@ void metering() {
         for (int j = 0; j < COUNT_CICLE; j++) {
             Matrix matr_res(i, Vector(i, 0));
             start = std::chrono::system_clock::now();
-            mult_matrix_vinograd_optimiz(matr_1, matr_2, matr_res);
+            mul_vinograd(matr_1, matr_2, matr_res);
             end = std::chrono::system_clock::now();
             result += std::chrono::duration_cast<std::chrono::milliseconds> (end - start).count();
         }
@@ -86,7 +86,7 @@ void metering() {
         for (int j = 0; j < COUNT_CICLE; j++) {
             Matrix matr_res(i + 1, Vector(i + 1, 0));
             start = std::chrono::system_clock::now();
-            mult_matrix_vinograd_optimiz(matr_1, matr_2, matr_res);
+            mul_vinograd(matr_1, matr_2, matr_res);
             end = std::chrono::system_clock::now();
             result += std::chrono::duration_cast<std::chrono::milliseconds> (end - start).count();
         }
@@ -111,7 +111,7 @@ void metering() {
             for (int j = 0; j < COUNT_CICLE; j++) {
                 Matrix matr_res(i, Vector(i, 0));
                 start = std::chrono::system_clock::now();
-                mult_matrix_vinograd_optimiz_with_threads(k, matr_1, matr_2, matr_res);
+                mul_vinograd_threads(k, matr_1, matr_2, matr_res);
                 end = std::chrono::system_clock::now();
                 result += std::chrono::duration_cast<std::chrono::milliseconds> (end - start).count();
             }
@@ -129,7 +129,7 @@ void metering() {
             for (int j = 0; j < COUNT_CICLE; j++) {
                 Matrix matr_res(i + 1, Vector(i + 1, 0));
                 start = std::chrono::system_clock::now();
-                mult_matrix_vinograd_optimiz_with_threads(k, matr_1, matr_2, matr_res);
+                mul_vinograd_threads(k, matr_1, matr_2, matr_res);
                 end = std::chrono::system_clock::now();
                 result += std::chrono::duration_cast<std::chrono::milliseconds> (end - start).count();
             }

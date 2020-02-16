@@ -2,17 +2,17 @@
 #include <thread>
 
 
-void print_matr(Matrix &matr, std::string message)
+void print_mtr(Matrix &mtr, std::string message)
 {
     cout << message;
-    size_t n = matr.size();
-    size_t m = matr[0].size();
+    size_t n = mtr.size();
+    size_t m = mtr[0].size();
 
     for (size_t i = 0; i < n; i++)
     {
         for(size_t j = 0; j < m; j++)
         {
-            cout << matr[i][j] << " ";
+            cout << mtr[i][j] << " ";
         }
         cout << endl;
     }
@@ -97,7 +97,7 @@ void calc_mult(Vector &mul_h, Vector &mul_v, Matrix &matr_1, Matrix &matr_2,
 }
 
 
-void mult_matrix_vinograd_optimiz_with_threads(int count_th, Matrix matr_1, Matrix matr_2, Matrix &res_matr)
+void mul_vinograd_threads(int count_th, Matrix matr_1, Matrix matr_2, Matrix &res_matr)
 {
     size_t m = matr_1.size();
     size_t q = matr_1[0].size();
@@ -145,7 +145,7 @@ void mult_matrix_vinograd_optimiz_with_threads(int count_th, Matrix matr_1, Matr
 }
 
 
-void mult_matrix_vinograd_optimiz(Matrix matr_1, Matrix matr_2, Matrix &res_matr)
+void mul_vinograd(Matrix matr_1, Matrix matr_2, Matrix &res_matr)
 {
     size_t m = matr_1.size();
     size_t q = matr_1[0].size();

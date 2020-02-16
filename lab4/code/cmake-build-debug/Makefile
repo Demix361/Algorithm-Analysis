@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named egor_code
+# Target rules for targets named app
 
 # Build rule for target.
-egor_code: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 egor_code
-.PHONY : egor_code
+app: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 app
+.PHONY : app
 
 # fast build rule for target.
-egor_code/fast:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/build
-.PHONY : egor_code/fast
+app/fast:
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/build
+.PHONY : app/fast
 
 controller.obj: controller.cpp.obj
 
@@ -128,7 +128,7 @@ controller.obj: controller.cpp.obj
 
 # target to build an object file
 controller.cpp.obj:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/controller.cpp.obj
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/controller.cpp.obj
 .PHONY : controller.cpp.obj
 
 controller.i: controller.cpp.i
@@ -137,7 +137,7 @@ controller.i: controller.cpp.i
 
 # target to preprocess a source file
 controller.cpp.i:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/controller.cpp.i
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/controller.cpp.i
 .PHONY : controller.cpp.i
 
 controller.s: controller.cpp.s
@@ -146,7 +146,7 @@ controller.s: controller.cpp.s
 
 # target to generate assembly for a file
 controller.cpp.s:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/controller.cpp.s
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/controller.cpp.s
 .PHONY : controller.cpp.s
 
 main.obj: main.cpp.obj
@@ -155,7 +155,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -164,7 +164,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +173,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 metering.obj: metering.cpp.obj
@@ -182,7 +182,7 @@ metering.obj: metering.cpp.obj
 
 # target to build an object file
 metering.cpp.obj:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/metering.cpp.obj
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/metering.cpp.obj
 .PHONY : metering.cpp.obj
 
 metering.i: metering.cpp.i
@@ -191,7 +191,7 @@ metering.i: metering.cpp.i
 
 # target to preprocess a source file
 metering.cpp.i:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/metering.cpp.i
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/metering.cpp.i
 .PHONY : metering.cpp.i
 
 metering.s: metering.cpp.s
@@ -200,7 +200,7 @@ metering.s: metering.cpp.s
 
 # target to generate assembly for a file
 metering.cpp.s:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/metering.cpp.s
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/metering.cpp.s
 .PHONY : metering.cpp.s
 
 mult_matrix.obj: mult_matrix.cpp.obj
@@ -209,7 +209,7 @@ mult_matrix.obj: mult_matrix.cpp.obj
 
 # target to build an object file
 mult_matrix.cpp.obj:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/mult_matrix.cpp.obj
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/mult_matrix.cpp.obj
 .PHONY : mult_matrix.cpp.obj
 
 mult_matrix.i: mult_matrix.cpp.i
@@ -218,7 +218,7 @@ mult_matrix.i: mult_matrix.cpp.i
 
 # target to preprocess a source file
 mult_matrix.cpp.i:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/mult_matrix.cpp.i
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/mult_matrix.cpp.i
 .PHONY : mult_matrix.cpp.i
 
 mult_matrix.s: mult_matrix.cpp.s
@@ -227,7 +227,7 @@ mult_matrix.s: mult_matrix.cpp.s
 
 # target to generate assembly for a file
 mult_matrix.cpp.s:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/mult_matrix.cpp.s
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/mult_matrix.cpp.s
 .PHONY : mult_matrix.cpp.s
 
 test.obj: test.cpp.obj
@@ -236,7 +236,7 @@ test.obj: test.cpp.obj
 
 # target to build an object file
 test.cpp.obj:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/test.cpp.obj
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/test.cpp.obj
 .PHONY : test.cpp.obj
 
 test.i: test.cpp.i
@@ -245,7 +245,7 @@ test.i: test.cpp.i
 
 # target to preprocess a source file
 test.cpp.i:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/test.cpp.i
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/test.cpp.i
 .PHONY : test.cpp.i
 
 test.s: test.cpp.s
@@ -254,7 +254,7 @@ test.s: test.cpp.s
 
 # target to generate assembly for a file
 test.cpp.s:
-	$(MAKE) -f CMakeFiles\egor_code.dir\build.make CMakeFiles/egor_code.dir/test.cpp.s
+	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/test.cpp.s
 .PHONY : test.cpp.s
 
 # Help Target
@@ -263,8 +263,8 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... app
 	@echo ... edit_cache
-	@echo ... egor_code
 	@echo ... rebuild_cache
 	@echo ... controller.obj
 	@echo ... controller.i

@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 include_directories(.)
 
-add_executable(egor_code
+add_executable(app
         controller.cpp
         controller.h
         main.cpp

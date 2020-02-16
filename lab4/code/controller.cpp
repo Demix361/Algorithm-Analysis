@@ -8,6 +8,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+
 int enter_int(std::string message) {
     int number;
 
@@ -21,6 +22,7 @@ int enter_int(std::string message) {
     }
     return number;
 }
+
 
 int enter_int_2(std::string message) {
     int number;
@@ -51,7 +53,6 @@ void enter_matr(Matrix &matr) {
 }
 
 
-
 void controller() {
     std::string source_word, check_word;
     int m = 0, n = 0, q = 0;
@@ -62,7 +63,7 @@ void controller() {
 
     Matrix matr_1(n, Vector(m, 0));
     enter_matr(matr_1);
-    print_matr(matr_1, "standard:\n");
+    print_mtr(matr_1, "standard:\n");
     q = enter_int("Enter number of matrix 2 columns: ");
     Matrix matr_2(m, Vector(q, 0));
     enter_matr(matr_2);
@@ -71,11 +72,9 @@ void controller() {
     Matrix res_matr_3(n, Vector(q, 0));
 
     count_th = enter_int("Enter count threads: ");
-    print_matr(matr_1, "Matrix 1: \n");
-    print_matr(matr_2, "Matrix 2:\n");
+    print_mtr(matr_1, "Matrix 1: \n");
+    print_mtr(matr_2, "Matrix 2:\n");
 
-    mult_matrix_vinograd_optimiz_with_threads(count_th, matr_1, matr_2, res_matr_3);
-    print_matr(res_matr_3, "Result of multiplication by Vinograd is optimized:\n");
-
-
+    mul_vinograd_threads(count_th, matr_1, matr_2, res_matr_3);
+    print_mtr(res_matr_3, "Result of multiplication by Vinograd is optimized:\n");
 }

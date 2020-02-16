@@ -17,8 +17,8 @@ using std::endl;
 
 void mult_matrix_std(Matrix matr_1, Matrix matr_2, Matrix &res_matr);
 void mult_matrix_vinograd(Matrix matr_1, Matrix matr_2, Matrix &res_matr);
-void mult_matrix_vinograd_optimiz_with_threads(int count_th, Matrix matr_1, Matrix matr_2,
-                                  Matrix &res_matr);
-void mult_matrix_vinograd_optimiz(Matrix matr_1, Matrix matr_2,
-                                  Matrix &res_matr);
-void print_matr(Matrix &matr, std::string message);
+void mul_vinograd_threads(int count_th, Matrix matr_1, Matrix matr_2,
+                          Matrix &res_matr);
+void mul_vinograd(Matrix matr_1, Matrix matr_2,
+                  Matrix &res_matr);
+void print_mtr(Matrix &mtr, std::string message);

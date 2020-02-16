@@ -2,76 +2,95 @@
 #include "controller.h"
 #define COUNT_TESTS 10
 
-std::vector<Matrix> matr_1 = {{{2}},
 
-                              {{1, 2},
-                               {3, 4}},
+bool is_equal(Matrix &mtr_1, Matrix &mtr_2)
+{
+    size_t n = mtr_1.size();
+    size_t m = mtr_1[0].size();
 
-                              {{1, 2},
-                               {3, 4}},
+    for (size_t i = 0; i < n; i++)
+    {
+        for(size_t j = 0; j < m; j++)
+        {
+            if (mtr_1[i][j] != mtr_2[i][j])
+                return false;
+        }
+    }
 
-                              {{1, 2},
-                               {3, 4}},
-
-                              {{1, 2},
-                               {3, 4}},
-
-                              {{1, 2, 3},
-                               {4, 5, 6},
-                               {7, 8, 9}},
-
-                              {{1, 2, 3},
-                               {4, 5, 6},
-                               {7, 8, 9}},
-
-                              {{1, 2, 3},
-                               {4, 5, 6}},
-
-                              {{1, 2, 3, 4},
-                               {5, 6, 7, 8}},
-
-                              {{1000, 2000, 3000},
-                               {4000, 5000, 6000},
-                               {7000, 8000, 9000}}};
+    return true;
+}
 
 
-std::vector<Matrix> matr_2 = {{{3}},
+void test()
+{
+    std::vector<Matrix> mtr_1 = {{{2}},
 
-                              {{1, 0},
-                               {0, 1}},
+                                 {{1, 2},
+                                  {3, 4}},
 
-                              {{0, 0},
-                               {0, 0}},
+                                 {{1, 2},
+                                  {3, 4}},
 
-                              {{1, 2},
-                               {3, 4}},
+                                 {{1, 2},
+                                  {3, 4}},
 
-                              {{-1, -2},
-                               {-3, -4}},
+                                 {{1, 2},
+                                  {3, 4}},
 
-                              {{1, 2, 3},
-                               {4, 5, 6},
-                               {7, 8, 9}},
+                                 {{1, 2, 3},
+                                  {4, 5, 6},
+                                  {7, 8, 9}},
 
-                              {{-1, -2, -3},
-                               {-4, -5, -6},
-                               {-7, -8, -9}},
+                                 {{1, 2, 3},
+                                  {4, 5, 6},
+                                  {7, 8, 9}},
 
-                              {{1, 2},
-                               {3, 4},
-                               {5, 6}},
+                                 {{1, 2, 3},
+                                  {4, 5, 6}},
 
-                              {{1, 2},
-                               {3, 4},
-                               {5, 6},
-                               {7, 8}},
+                                 {{1, 2, 3, 4},
+                                  {5, 6, 7, 8}},
 
-                              {{1000, 2000, 3000},
-                               {4000, 5000, 6000},
-                               {7000, 8000, 9000}}};
+                                 {{1000, 2000, 3000},
+                                  {4000, 5000, 6000},
+                                  {7000, 8000, 9000}}};
 
+    std::vector<Matrix> mtr_2 = {{{3}},
 
-std::vector<Matrix> answer_matr {{{6}},
+                                 {{1, 0},
+                                  {0, 1}},
+
+                                 {{0, 0},
+                                  {0, 0}},
+
+                                 {{1, 2},
+                                  {3, 4}},
+
+                                 {{-1, -2},
+                                  {-3, -4}},
+
+                                 {{1, 2, 3},
+                                  {4, 5, 6},
+                                  {7, 8, 9}},
+
+                                 {{-1, -2, -3},
+                                  {-4, -5, -6},
+                                  {-7, -8, -9}},
+
+                                 {{1, 2},
+                                  {3, 4},
+                                  {5, 6}},
+
+                                 {{1, 2},
+                                  {3, 4},
+                                  {5, 6},
+                                  {7, 8}},
+
+                                 {{1000, 2000, 3000},
+                                  {4000, 5000, 6000},
+                                  {7000, 8000, 9000}}};
+
+    std::vector<Matrix> mtr_ans {{{6}},
 
                                  {{1, 2},
                                   {3, 4}},
@@ -103,63 +122,50 @@ std::vector<Matrix> answer_matr {{{6}},
                                   {66000000, 81000000, 96000000},
                                   {102000000, 126000000, 150000000}}};
 
-
-bool is_equal(Matrix &matr_1, Matrix &matr_2) {
-    size_t n = matr_1.size();
-    size_t m = matr_1[0].size();
-    for (size_t i = 0; i < n; i++) {
-        for(size_t j = 0; j < m; j++) {
-            if (matr_1[i][j] != matr_2[i][j])
-                return false;
-        }
-    }
-    return true;
-}
-
-void test()
-{
     int count_success = 0;
-    int prev_suc = 0;
-    for(int i = 0; i < COUNT_TESTS; i++) {
-        print_matr(matr_1[i], "Matr 1:\n");
-        print_matr(matr_2[i], "Matr 2:\n");
-        prev_suc = count_success;
+    int passed;
 
-        Matrix res_matr(matr_1[i].size(), Vector(matr_2[i][0].size(), 0));
-        mult_matrix_vinograd_optimiz(matr_1[i], matr_2[i], res_matr);
-        if (is_equal(res_matr, answer_matr[i]))
+    for(int i = 0; i < COUNT_TESTS; i++)
+    {
+        passed = 0;
+        print_mtr(mtr_1[i], "Matrix 1:\n");
+        print_mtr(mtr_2[i], "Matrix 2:\n");
+
+        Matrix mtr_res(mtr_1[i].size(), Vector(mtr_2[i][0].size(), 0));
+
+        mul_vinograd(mtr_1[i], mtr_2[i], mtr_res);
+
+        if (is_equal(mtr_res, mtr_ans[i]))
+        {
             count_success++;
-        print_matr(res_matr, "Result of multiplication by Vinograd is optimized:\n");
+            passed = 1;
+        }
 
-        if (prev_suc == count_success - 1)
-            std::cout << "TEST OK" << std::endl;
+        print_mtr(mtr_res, "Result:\n");
+
+        if (passed == 1)
+            std::cout << "[TEST PASSED]" << std::endl;
         else
-            std::cout << "TEST FAILED" << std::endl;
+            std::cout << "[TEST FAILED]" << std::endl;
         
-        std::cout << "\n\n";
-
+        std::cout << "\n";
     }
-    std::cout << "Tests no threds success: " << count_success << "/" << COUNT_TESTS << std::endl;
 
-    for(int k = 1; k <= 128; k *= 2) {
+    std::cout << "No threading tests. Passed: " << count_success << "/" << COUNT_TESTS << "\n\n" << std::endl;
+
+    for(int k = 1; k <= 128; k *= 2)
+    {
         count_success = 0;
-        prev_suc = 0;
-        for(int i = 0; i < COUNT_TESTS; i++) {
-            prev_suc = count_success;
 
+        for(int i = 0; i < COUNT_TESTS; i++)
+        {
+            Matrix mtr_res(mtr_1[i].size(), Vector(mtr_2[i][0].size(), 0));
+            mul_vinograd_threads(k, mtr_1[i], mtr_2[i], mtr_res);
 
-            Matrix res_matr(matr_1[i].size(), Vector(matr_2[i][0].size(), 0));
-            mult_matrix_vinograd_optimiz_with_threads(k, matr_1[i], matr_2[i], res_matr);
-            if (is_equal(res_matr, answer_matr[i]))
+            if (is_equal(mtr_res, mtr_ans[i]))
                 count_success++;
         }
-        std::cout << "Tests with " << k << " threds success: " << count_success << "/" << COUNT_TESTS << std::endl;
+
+        std::cout << k << " thread(s) tests. Passed: " << count_success << "/" << COUNT_TESTS << std::endl;
     }
-
-
-
 }
-//int main() {
-//  test();
-//  return 0;
-//}
