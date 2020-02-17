@@ -1,5 +1,6 @@
 #include "processing.h"
 
+
 Processing::Processing(int count, QTime *timer, PostProcessing *p, QMutex *mutex2, QMutex *mutex3)
 {
     this->_count = count;
@@ -9,10 +10,12 @@ Processing::Processing(int count, QTime *timer, PostProcessing *p, QMutex *mutex
     this->_mutex3 = mutex3;
 }
 
+
 void Processing::addToQueue(MyObject obj)
 {
     _queue.push(obj);
 }
+
 
 void Processing::process()
 {
@@ -43,6 +46,7 @@ void Processing::process()
     }
 }
 
+
 unsigned long Processing::nod_pow(unsigned long a, unsigned long b)
 {
     unsigned long int nod = 0;
@@ -63,4 +67,3 @@ unsigned long Processing::nod_pow(unsigned long a, unsigned long b)
 
     return  result;
 }
-

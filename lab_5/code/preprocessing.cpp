@@ -1,5 +1,6 @@
 #include "preprocessing.h"
 
+
 PreProcessing::PreProcessing(int count, QTime *timer, Processing *p, QMutex *mutex2)
 {
     this->_count = count;
@@ -8,10 +9,12 @@ PreProcessing::PreProcessing(int count, QTime *timer, Processing *p, QMutex *mut
     this->_mutex2 = mutex2;
 }
 
+
 void PreProcessing::addToQueue(MyObject obj)
 {
     _queue.push(obj);
 }
+
 
 void PreProcessing::process()
 {
@@ -36,6 +39,7 @@ void PreProcessing::process()
         }
     }
 }
+
 
 unsigned long PreProcessing::fac(unsigned long int num)
 {

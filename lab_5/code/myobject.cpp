@@ -1,14 +1,17 @@
 #include "myobject.h"
 
+
 MyObject::MyObject(int id, int a)
 {
     this->_id = id;
 }
 
+
 void MyObject::setTime(int time)
 {
     this->_times.push_back(time);
 }
+
 
 void MyObject::printTimes()
 {
@@ -17,6 +20,7 @@ void MyObject::printTimes()
         cout << _times.at(i) << "  ";
     cout << endl;
 }
+
 
 void MyObject::timesToFile(ofstream &fout)
 {
