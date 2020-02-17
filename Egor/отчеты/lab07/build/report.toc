@@ -1,0 +1,28 @@
+\babel@toc {russian}{}
+\contentsline {section}{Введение}{3}{section*.2}% 
+\contentsline {section}{\numberline {1}Аналитический раздел}{4}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Описание алгоритмов}{4}{subsection.1.1}% 
+\contentsline {subsubsection}{\numberline {1.1.1}Алгоритм Кнута-Морриса-Пратта}{4}{subsubsection.1.1.1}% 
+\contentsline {subsubsection}{\numberline {1.1.2}Алгоритм Бойера-Мура}{4}{subsubsection.1.1.2}% 
+\contentsline {subsection}{Выводы}{5}{section*.5}% 
+\contentsline {section}{\numberline {2}Конструкторский раздел}{6}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Разработка алгоритмов}{6}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Сравнительный анализ алгоритмов}{9}{subsection.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Пример работы алгоритма Кнута-Морриса-Пратта}{9}{subsubsection.2.2.1}% 
+\contentsline {subsubsection}{\numberline {2.2.2}Пример работы алгоритма Бойера-Мура}{10}{subsubsection.2.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.3}Оценка времени работы алгоритма Кнута-Морриса-Пратта}{11}{subsubsection.2.2.3}% 
+\contentsline {subsubsection}{\numberline {2.2.4}Оценка времени работы алгоритма Бойера-Мура}{11}{subsubsection.2.2.4}% 
+\contentsline {subsection}{Выводы}{11}{section*.13}% 
+\contentsline {section}{\numberline {3}Технологический раздел}{13}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Требования к программному обеспечению}{13}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Средства реализации}{13}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Листинг программы}{14}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Тестовые данные}{16}{subsection.3.4}% 
+\contentsline {subsection}{Выводы}{16}{section*.16}% 
+\contentsline {section}{\numberline {4}Исследовательский раздел}{17}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Примеры работы}{17}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Постановка эксперимента}{19}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Сравнительный анализ на основе эксперимента}{19}{subsection.4.3}% 
+\contentsline {subsection}{Выводы}{20}{section*.25}% 
+\contentsline {section}{Заключение}{21}{section*.26}% 
+\contentsline {section}{Список литературы}{22}{section*.26}% 

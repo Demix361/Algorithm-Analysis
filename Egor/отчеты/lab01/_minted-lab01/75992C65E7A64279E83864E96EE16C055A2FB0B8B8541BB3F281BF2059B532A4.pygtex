@@ -1,0 +1,131 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{Находит расстояние Левенштейна с помощью матрицы}
+
+\PYG{c+cm}{@param source\PYGZus{}word [in] \PYGZhy{} исходная строка}
+\PYG{c+cm}{@param check\PYGZus{}word [in] \PYGZhy{} проверяемая строка}
+
+\PYG{c+cm}{@return Возвращает расстояние Левенштейна}
+\PYG{c+cm}{*/}
+\PYG{k+kt}{int} \PYG{n+nf}{lev\PYGZus{}matr\PYGZus{}dist}\PYG{p}{(}\PYG{n}{string} \PYG{n}{source\PYGZus{}word}\PYG{p}{,} \PYG{n}{string} \PYG{n}{check\PYGZus{}word}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{k+kt}{size\PYGZus{}t} \PYG{n}{n} \PYG{o}{=} \PYG{n}{source\PYGZus{}word}\PYG{p}{.}\PYG{n}{size}\PYG{p}{()} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+    \PYG{k+kt}{size\PYGZus{}t} \PYG{n}{m} \PYG{o}{=} \PYG{n}{check\PYGZus{}word}\PYG{p}{.}\PYG{n}{size}\PYG{p}{()} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+    \PYG{n}{Matrix} \PYG{n}{matr}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,} \PYG{n}{Vector}\PYG{p}{(}\PYG{n}{m}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{));}
+
+    \PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{size\PYGZus{}t} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{n}\PYG{p}{;} \PYG{n}{i}\PYG{o}{++}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+        \PYG{n}{matr}\PYG{p}{[}\PYG{n}{i}\PYG{p}{][}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{=} \PYG{n}{matr}\PYG{p}{[}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{][}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+    \PYG{p}{\PYGZcb{}}
+
+    \PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{size\PYGZus{}t} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{m}\PYG{p}{;} \PYG{n}{i}\PYG{o}{++}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+        \PYG{n}{matr}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{][}\PYG{n}{i}\PYG{p}{]} \PYG{o}{=} \PYG{n}{matr}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{][}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+    \PYG{p}{\PYGZcb{}}
+
+    \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{size\PYGZus{}t} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{n}\PYG{p}{;} \PYG{n}{i}\PYG{o}{++}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+        \PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{size\PYGZus{}t} \PYG{n}{j} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{j} \PYG{o}{\PYGZlt{}} \PYG{n}{m}\PYG{p}{;} \PYG{n}{j}\PYG{o}{++}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+            \PYG{k+kt}{int} \PYG{n}{t}\PYG{p}{;}
+            \PYG{n}{source\PYGZus{}word}\PYG{p}{[}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{==} \PYG{n}{check\PYGZus{}word}\PYG{p}{[}\PYG{n}{j} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{?} \PYG{n}{t} \PYG{o}{=} \PYG{l+m+mi}{0} \PYG{o}{:} \PYG{n}{t} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;}
+            \PYG{n}{matr}\PYG{p}{[}\PYG{n}{i}\PYG{p}{][}\PYG{n}{j}\PYG{p}{]} \PYG{o}{=} \PYG{n}{min}\PYG{p}{(}
+                            \PYG{n}{min}\PYG{p}{(}
+                                \PYG{n}{matr}\PYG{p}{[}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{][}\PYG{n}{j}\PYG{p}{]} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{,}
+                                \PYG{n}{matr}\PYG{p}{[}\PYG{n}{i}\PYG{p}{][}\PYG{n}{j} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{),}
+                            \PYG{n}{matr}\PYG{p}{[}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{][}\PYG{n}{j} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{+} \PYG{n}{t}\PYG{p}{);}
+        \PYG{p}{\PYGZcb{}}
+    \PYG{p}{\PYGZcb{}}
+
+    \PYG{c+c1}{//print\PYGZus{}matr(matr, source\PYGZus{}word, check\PYGZus{}word);}
+    \PYG{k}{return} \PYG{n}{matr}\PYG{p}{[}\PYG{n}{n} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{][}\PYG{n}{m} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{];}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+cm}{/**}
+\PYG{c+cm}{Находит расстояние Дамерау\PYGZhy{}Левенштейна с помощью матрицы}
+
+\PYG{c+cm}{@param source\PYGZus{}word [in] \PYGZhy{} исходная строка}
+\PYG{c+cm}{@param check\PYGZus{}word [in] \PYGZhy{} проверяемая строка}
+
+\PYG{c+cm}{@return Возвращает расстояние Дамерау\PYGZhy{}Левенштейна}
+\PYG{c+cm}{*/}
+\PYG{k+kt}{int} \PYG{n+nf}{dam\PYGZus{}lev\PYGZus{}matr\PYGZus{}dist}\PYG{p}{(}\PYG{n}{string} \PYG{n}{source\PYGZus{}word}\PYG{p}{,} \PYG{n}{string} \PYG{n}{check\PYGZus{}word}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{k+kt}{size\PYGZus{}t} \PYG{n}{n} \PYG{o}{=} \PYG{n}{source\PYGZus{}word}\PYG{p}{.}\PYG{n}{size}\PYG{p}{()} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+    \PYG{k+kt}{size\PYGZus{}t} \PYG{n}{m} \PYG{o}{=} \PYG{n}{check\PYGZus{}word}\PYG{p}{.}\PYG{n}{size}\PYG{p}{()} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+    \PYG{n}{Matrix} \PYG{n}{matr}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,} \PYG{n}{Vector}\PYG{p}{(}\PYG{n}{m}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{));}
+
+    \PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{size\PYGZus{}t} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{n}\PYG{p}{;} \PYG{n}{i}\PYG{o}{++}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+        \PYG{n}{matr}\PYG{p}{[}\PYG{n}{i}\PYG{p}{][}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{=} \PYG{n}{matr}\PYG{p}{[}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{][}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+    \PYG{p}{\PYGZcb{}}
+
+    \PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{size\PYGZus{}t} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{m}\PYG{p}{;} \PYG{n}{i}\PYG{o}{++}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+        \PYG{n}{matr}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{][}\PYG{n}{i}\PYG{p}{]} \PYG{o}{=} \PYG{n}{matr}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{][}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+    \PYG{p}{\PYGZcb{}}
+
+    \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{size\PYGZus{}t} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{n}\PYG{p}{;} \PYG{n}{i}\PYG{o}{++}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+        \PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{size\PYGZus{}t} \PYG{n}{j} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{j} \PYG{o}{\PYGZlt{}} \PYG{n}{m}\PYG{p}{;} \PYG{n}{j}\PYG{o}{++}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+            \PYG{k+kt}{int} \PYG{n}{t} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+            \PYG{n}{source\PYGZus{}word}\PYG{p}{[}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{==} \PYG{n}{check\PYGZus{}word}\PYG{p}{[}\PYG{n}{j} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{?} \PYG{n}{t} \PYG{o}{=} \PYG{l+m+mi}{0} \PYG{o}{:} \PYG{n}{t} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;}
+            \PYG{n}{matr}\PYG{p}{[}\PYG{n}{i}\PYG{p}{][}\PYG{n}{j}\PYG{p}{]} \PYG{o}{=} \PYG{n}{min}\PYG{p}{(}
+                            \PYG{n}{min}\PYG{p}{(}
+                                \PYG{n}{matr}\PYG{p}{[}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{][}\PYG{n}{j}\PYG{p}{]} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{,}
+                                \PYG{n}{matr}\PYG{p}{[}\PYG{n}{i}\PYG{p}{][}\PYG{n}{j} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{),}
+                            \PYG{n}{matr}\PYG{p}{[}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{][}\PYG{n}{j} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{+} \PYG{n}{t}\PYG{p}{);}
+
+            \PYG{k}{if} \PYG{p}{(}\PYG{n}{i} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{1} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n}{j} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{1} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n}{source\PYGZus{}word}\PYG{p}{[}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{==} \PYG{n}{check\PYGZus{}word}\PYG{p}{[}\PYG{n}{j} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{2}\PYG{p}{]}
+                    \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n}{source\PYGZus{}word}\PYG{p}{[}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{2}\PYG{p}{]} \PYG{o}{==} \PYG{n}{check\PYGZus{}word}\PYG{p}{[}\PYG{n}{j} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{])} \PYG{p}{\PYGZob{}}
+                \PYG{n}{matr}\PYG{p}{[}\PYG{n}{i}\PYG{p}{][}\PYG{n}{j}\PYG{p}{]} \PYG{o}{=} \PYG{n}{min}\PYG{p}{(}\PYG{n}{matr}\PYG{p}{[}\PYG{n}{i}\PYG{p}{][}\PYG{n}{j}\PYG{p}{],} \PYG{n}{matr}\PYG{p}{[}\PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{2}\PYG{p}{][}\PYG{n}{j} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{2}\PYG{p}{]} \PYG{o}{+} \PYG{n}{t}\PYG{p}{);}
+            \PYG{p}{\PYGZcb{}}
+
+
+        \PYG{p}{\PYGZcb{}}
+    \PYG{p}{\PYGZcb{}}
+
+    \PYG{n}{print\PYGZus{}matr}\PYG{p}{(}\PYG{n}{matr}\PYG{p}{,} \PYG{n}{source\PYGZus{}word}\PYG{p}{,} \PYG{n}{check\PYGZus{}word}\PYG{p}{);}
+    \PYG{k}{return} \PYG{n}{matr}\PYG{p}{[}\PYG{n}{n} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{][}\PYG{n}{m} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{];}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+cm}{/**}
+\PYG{c+cm}{Рекурсивно находит расстояние Дамерау\PYGZhy{}Левенштейна}
+
+\PYG{c+cm}{@param source\PYGZus{}word [in] \PYGZhy{} исходная строка}
+\PYG{c+cm}{@param check\PYGZus{}word [in] \PYGZhy{} проверяемая строка}
+
+\PYG{c+cm}{@return Возвращает расстояние Дамерау\PYGZhy{}Левенштейна}
+\PYG{c+cm}{*/}
+\PYG{k+kt}{int} \PYG{n+nf}{dam\PYGZus{}lev\PYGZus{}rec\PYGZus{}dist}\PYG{p}{(}\PYG{n}{string} \PYG{n}{source\PYGZus{}word}\PYG{p}{,} \PYG{n}{string} \PYG{n}{check\PYGZus{}word}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+
+    \PYG{k+kt}{size\PYGZus{}t} \PYG{n}{n} \PYG{o}{=} \PYG{n}{source\PYGZus{}word}\PYG{p}{.}\PYG{n}{size}\PYG{p}{();}
+    \PYG{k+kt}{size\PYGZus{}t} \PYG{n}{m} \PYG{o}{=} \PYG{n}{check\PYGZus{}word}\PYG{p}{.}\PYG{n}{size}\PYG{p}{();}
+
+    \PYG{k}{if} \PYG{p}{(}\PYG{o}{!}\PYG{n}{n}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+        \PYG{k}{return} \PYG{n}{m}\PYG{p}{;}
+    \PYG{p}{\PYGZcb{}}
+    \PYG{k}{if} \PYG{p}{(}\PYG{o}{!}\PYG{n}{m}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+        \PYG{k}{return} \PYG{n}{n}\PYG{p}{;}
+    \PYG{p}{\PYGZcb{}}
+
+    \PYG{k+kt}{int} \PYG{n}{t} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+    \PYG{n}{source\PYGZus{}word}\PYG{p}{[}\PYG{n}{n} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{==} \PYG{n}{check\PYGZus{}word}\PYG{p}{[}\PYG{n}{m} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{?} \PYG{n}{t} \PYG{o}{=} \PYG{l+m+mi}{0} \PYG{o}{:} \PYG{n}{t} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{;}
+
+    \PYG{k}{if} \PYG{p}{(}\PYG{n}{n} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{1} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n}{m} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{1} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n}{source\PYGZus{}word}\PYG{p}{[}\PYG{n}{n} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{==} \PYG{n}{check\PYGZus{}word}\PYG{p}{[}\PYG{n}{m} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{2}\PYG{p}{]} \PYG{o}{\PYGZam{}\PYGZam{}}
+            \PYG{n}{source\PYGZus{}word}\PYG{p}{[}\PYG{n}{n} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{2}\PYG{p}{]} \PYG{o}{==} \PYG{n}{check\PYGZus{}word}\PYG{p}{[}\PYG{n}{m} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{])} \PYG{p}{\PYGZob{}}
+        \PYG{k}{return} \PYG{n}{min}\PYG{p}{(}
+                   \PYG{n}{min}\PYG{p}{(}
+                      \PYG{n}{min}\PYG{p}{(}
+                          \PYG{n}{dam\PYGZus{}lev\PYGZus{}rec\PYGZus{}dist}\PYG{p}{(}\PYG{n}{source\PYGZus{}word}\PYG{p}{.}\PYG{n}{substr}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{n} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{),}
+                                            \PYG{n}{check\PYGZus{}word}\PYG{p}{)} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{,}
+                                 \PYG{n}{dam\PYGZus{}lev\PYGZus{}rec\PYGZus{}dist}\PYG{p}{(}\PYG{n}{source\PYGZus{}word}\PYG{p}{,}
+                                    \PYG{n}{check\PYGZus{}word}\PYG{p}{.}\PYG{n}{substr}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{m} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{))} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{),}
+                        \PYG{n}{dam\PYGZus{}lev\PYGZus{}rec\PYGZus{}dist}\PYG{p}{(}\PYG{n}{source\PYGZus{}word}\PYG{p}{.}\PYG{n}{substr}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{n} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{),}
+                                    \PYG{n}{check\PYGZus{}word}\PYG{p}{.}\PYG{n}{substr}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{m} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{))} \PYG{o}{+} \PYG{n}{t}\PYG{p}{),}
+                    \PYG{n}{dam\PYGZus{}lev\PYGZus{}rec\PYGZus{}dist}\PYG{p}{(}\PYG{n}{source\PYGZus{}word}\PYG{p}{.}\PYG{n}{substr}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{n} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{2}\PYG{p}{),}
+                                    \PYG{n}{check\PYGZus{}word}\PYG{p}{.}\PYG{n}{substr}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{m} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{2}\PYG{p}{))} \PYG{o}{+} \PYG{n}{t}\PYG{p}{);}
+    \PYG{p}{\PYGZcb{}}
+    \PYG{k}{else} \PYG{p}{\PYGZob{}}
+        \PYG{k}{return} \PYG{n}{min}\PYG{p}{(}
+                    \PYG{n}{min}\PYG{p}{(}
+                        \PYG{n}{dam\PYGZus{}lev\PYGZus{}rec\PYGZus{}dist}\PYG{p}{(}\PYG{n}{source\PYGZus{}word}\PYG{p}{.}\PYG{n}{substr}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{n} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{),}
+                                         \PYG{n}{check\PYGZus{}word}\PYG{p}{)} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{,}
+                        \PYG{n}{dam\PYGZus{}lev\PYGZus{}rec\PYGZus{}dist}\PYG{p}{(}\PYG{n}{source\PYGZus{}word}\PYG{p}{,}
+                                \PYG{n}{check\PYGZus{}word}\PYG{p}{.}\PYG{n}{substr}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{m} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{))} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{),}
+                    \PYG{n}{dam\PYGZus{}lev\PYGZus{}rec\PYGZus{}dist}\PYG{p}{(}\PYG{n}{source\PYGZus{}word}\PYG{p}{.}\PYG{n}{substr}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{n} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{),}
+                                \PYG{n}{check\PYGZus{}word}\PYG{p}{.}\PYG{n}{substr}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{m} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{))} \PYG{o}{+} \PYG{n}{t}\PYG{p}{);}
+    \PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

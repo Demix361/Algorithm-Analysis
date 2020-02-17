@@ -1,0 +1,6 @@
+C:/sem5/algorythms/aco/build/CMakeFiles/research.dir
+C:/sem5/algorythms/aco/build/CMakeFiles/app.dir
+C:/sem5/algorythms/aco/build/CMakeFiles/rebuild_cache.dir
+C:/sem5/algorythms/aco/build/CMakeFiles/test.dir
+C:/sem5/algorythms/aco/build/CMakeFiles/res.dir
+C:/sem5/algorythms/aco/build/CMakeFiles/edit_cache.dir

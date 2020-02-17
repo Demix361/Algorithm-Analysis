@@ -30,24 +30,23 @@
 \renewcommand{\cftchapleader}{\cftdotfill{\cftchapdotsep}}
 
 
-\begin{filecontents}{thread1.dat}
+\begin{filecontents}{no_thread.dat}
 	0 0
-	5 157
-	10 1057
-	15 1388
-	20 1577	
+	10 917
+	20 1262
+	30 2012
+	40 2535
+	50 3036
 \end{filecontents}
 
-\begin{filecontents}{thread3.dat}
-	0 0 
-	5 297
-	10 1328
-	15 1733
-	20 1957
+\begin{filecontents}{3_thread.dat}
+	0 0
+	10 499
+	20 601
+	30 1039
+	40 1369
+	50 1628
 \end{filecontents}
-
-	
-	
 
 
 
@@ -244,9 +243,9 @@ escapeinside={\#*}{*)}   % если нужно добавить коммента
 \textbf{Требования к программе:}\\
 На выходе программа предоставляет лог-файл, где для каждого обработанного на конвейете объекта записано:
 \begin{enumerate}
-	\item время начала обработки на первой ленте и время конца обработки на первой ленте;
-	\item время начала обработки на первой ленте и время конца обработки на второй ленте;
-	\item время начала обработки на первой ленте и время конца обработки на третьей ленте.
+	\item Время начала обработки на первой ленте и время конца обработки на первой ленте;
+	\item Время начала обработки на второй ленте и время конца обработки на второй ленте;
+	\item Время начала обработки на третьей ленте и время конца обработки на третьей ленте.
 \end{enumerate}
 
 Кроме этого, в лог-файл долнжо быть записано общее время работы конвейера.
@@ -673,10 +672,11 @@ unsigned long PostProcessing::power(unsigned long a, unsigned long b)
 		Кол-во объектов & время, мс  \\ [0.5ex]
 	 	\hline\hline
 		0 & 0 \\ \hline
-		5 & 157 \\ \hline
-		10 & 1057 \\ \hline
-		15 & 1388 \\ \hline
-		20 & 1577 \\ \hline
+		10 & 499 \\ \hline
+		20 & 601 \\ \hline
+		30 & 1039 \\ \hline
+		40 & 1369 \\ \hline
+		50 & 1628 \\ \hline
 	\end{tabular}
 	\end{center}
 \end{table}
@@ -688,12 +688,12 @@ unsigned long PostProcessing::power(unsigned long a, unsigned long b)
 		\begin{tabular}{|c | c | c |}
 	 	\hline
 		Кол-во объектов & время, мс  \\ [0.5ex]
-	 	\hline\hline
 		0 & 0 \\ \hline
-		5 & 297 \\ \hline
-		10 & 1328 \\ \hline
-		15 & 1733 \\ \hline
-		20 & 1957 \\ \hline
+		10 & 917 \\ \hline
+		20 & 1262 \\ \hline
+		30 & 2012 \\ \hline
+		40 & 2535 \\ \hline
+		50 & 3036 \\ \hline
 	\end{tabular}
 	\end{center}
 \end{table}
@@ -708,8 +708,8 @@ unsigned long PostProcessing::power(unsigned long a, unsigned long b)
 		legend pos=north west,
 		ymajorgrids=true
 	]
-	\addplot[color=blue, mark=square] table[x index=0, y index=1] {thread3.dat};
-	\addplot[color=green, mark=square] table[x index=0, y index=1] {thread1.dat};
+	\addplot[color=blue, mark=square] table[x index=0, y index=1] {3_thread.dat};
+	\addplot[color=green, mark=square] table[x index=0, y index=1] {no_thread.dat};
 	\addlegendentry{thread3}
 	\addlegendentry{thread1}
 	\end{axis}
@@ -773,11 +773,34 @@ Total time: 1057
 
 В ходе данной лабораторной работы были получены навыки огранизации асинхронного взаимодействия между потоками на примере конвейерных вычислений. Было спроектировано ПО, реализующее конвейерную обработку. Был проведен сравнительный анализ времени работы конвейера при работе в один поток и в три. Были проанализированы данные из лог-файла.
 
-\chapter*{Список литературы}
+
 \addcontentsline{toc}{chapter}{Список литературы}
+\begin{thebibliography}{10}
 
-1. Amos R. Omondi. Microarchitecture of Pipelined and Superscalar Computers. — Springer, 1999.
+\bibitem{mcconell}
+Дж. Макконнелл. Анализ алгоритмов. Активный 
+обучающий 
+подход.-М.:Техносфера, 2009.
 
-2. Корнеев В.В. Вычислительные системы.-М.:Гелиос APB,  2004.-512с., ил.
+\bibitem{knuth}
+Д. Кнут. Искусство программирования, М., Мир, 1978
+
+\bibitem{voev}
+Воеводин В.В. Математические модели и методы в параллельных процессах. М., 1986
+
+\bibitem{iu7}
+Погорелов Д.А. Применение конвейерной обработки данных на примере сортировки простыми вставками, М., Образование и наука в России и за рубежом
+2019 .- Т. 49 , № 1
+
+\bibitem{korn}
+Корнеев В.В. Параллельные вычислительные системы. М., 1999.
+
+\bibitem{std}
+ISO/IEC 14882:2017 [Электронный ресурс]. – Режим доступа: https://www.iso.org/standard/68564.html, свободный – (27.11.2019)
+
+\bibitem{chrono}
+<chrono> [Электронный ресурс]. – Режим доступа: http://www.cplusplus.com/reference/chrono/, свободный – (20.11.2019)
+
+\end{thebibliography}
 
 \end{document}

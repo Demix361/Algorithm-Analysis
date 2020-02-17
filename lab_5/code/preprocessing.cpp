@@ -48,6 +48,5 @@ unsigned long PreProcessing::fac(unsigned long int num)
     {
         fac *= count;
     }
-
     return  fac;
 }

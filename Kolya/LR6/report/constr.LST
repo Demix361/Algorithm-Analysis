@@ -1,0 +1,27 @@
+conveyor::conveyor(string f, string fname)
+{
+    qstart = new queue<Vinograd_data *>;
+    q1 = new queue<Vinograd_data *>;
+    q2 = new queue<Vinograd_data *>;
+    qotd= new queue<Vinograd_data *>;
+    log_name = fname;
+    num_all = read_data_from_file(f,qstart);
+    stage1 = new conveyorstage1(qstart, q1, fname, num_all);
+    stage2 = new conveyorstage2(q1, q2, fname, num_all);
+    stage3 = new conveyorstage3(q2, qotd, fname, num_all);
+    stage1->moveToThread(&t1);
+    stage2->moveToThread(&t2);
+    stage3->moveToThread(&t3);
+    connect(stage1, SIGNAL(stop_working()), &t1, SLOT(quit()), Qt::QueuedConnection);
+    connect(stage2, SIGNAL(stop_working()), &t2, SLOT(quit()), Qt::QueuedConnection);
+    connect(stage3, SIGNAL(stop_working()), &t3, SLOT(quit()), Qt::QueuedConnection);
+    connect(stage3, SIGNAL(stop_working()), this, SLOT(end_processing()), Qt::QueuedConnection);
+    connect(stage3, SIGNAL(stage_cleared()), stage3, SLOT(process()), Qt::QueuedConnection);
+    connect(stage2, SIGNAL(stage_cleared()), stage2, SLOT(process()), Qt::QueuedConnection);
+    connect(stage2, SIGNAL(stage_cleared()), stage3, SLOT(process()), Qt::QueuedConnection);
+    connect(stage1, SIGNAL(stage_cleared()), stage1, SLOT(process()), Qt::QueuedConnection);
+    connect(stage1, SIGNAL(stage_cleared()), stage2, SLOT(process()), Qt::QueuedConnection);
+    t1.start();
+    t2.start();
+    t3.start();
+}

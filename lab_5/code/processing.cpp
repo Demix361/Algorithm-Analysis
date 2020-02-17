@@ -65,5 +65,6 @@ unsigned long Processing::nod_pow(unsigned long a, unsigned long b)
     for (int i = 0; i < 10000000; i++)
         result *= nod;
 
-    return  result;
+
+    return result;
 }

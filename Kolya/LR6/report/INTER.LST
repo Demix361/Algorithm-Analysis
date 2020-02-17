@@ -1,0 +1,16 @@
+class baseconveyorstage: public QObject
+{
+    Q_OBJECT
+protected:
+    ofstream log;
+    string log_name;
+    int num_all;
+    int num_processed;
+public:
+    baseconveyorstage();
+signals:
+    void stage_cleared();
+    void stop_working();
+public slots:
+    virtual void process() = 0;
+};

@@ -1,0 +1,94 @@
+\documentclass[a4paper, 14pt]{article}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{listings}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage{url}
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,chains,shapes.geometric,%
+    decorations.pathreplacing,decorations.pathmorphing,shapes,%
+    matrix,shapes.symbols}
+
+\usepackage{titlesec}
+\titleformat*{\section}{\LARGE\bfseries\centering}
+\titleformat*{\subsection}{\Large\bfseries\centering}
+\titleformat*{\subsubsection}{\large\bfseries}
+\titleformat*{\paragraph}{\large\bfseries}
+\titleformat*{\subparagraph}{\large\bfseries}
+\lstset{ %
+language=python,                 % выбор языка для подсветки (здесь это С)
+basicstyle=\small\sffamily, % размер и начертание шрифта для подсветки кода
+numbers=left,               % где поставить нумерацию строк (слева\справа)
+numberstyle=\tiny,           % размер шрифта для номеров строк
+stepnumber=1,                   % размер шага между двумя номерами строк
+numbersep=5pt,                % как далеко отстоят номера строк от подсвечиваемого кода
+showspaces=false,            % показывать или нет пробелы специальными отступами
+showstringspaces=false,      % показывать или нет пробелы в строках
+showtabs=false,             % показывать или нет табуляцию в строках
+frame=single,              % рисовать рамку вокруг кода
+tabsize=2,                 % размер табуляции по умолчанию равен 2 пробелам
+captionpos=t,              % позиция заголовка вверху [t] или внизу [b] 
+breaklines=true,           % автоматически переносить строки (да\нет)
+breakatwhitespace=false, % переносить строки только если есть пробел
+escapeinside={\#*}{*)}   % если нужно добавить комментарии в коде
+}
+
+\usepackage{geometry}
+\geometry{left=2cm}
+\geometry{right=1.5cm}
+\geometry{top=1cm}
+\geometry{bottom=2cm}
+
+\usepackage{pgfplots}
+\usepackage{filecontents}
+\usetikzlibrary{datavisualization}
+\usetikzlibrary{datavisualization.formats.functions}
+\usepackage{graphicx}
+\begin{document}
+        \begin{lstlisting}[label=some-code,caption=Функция нахождения расстояния Дамерау-Левенштейна итеративно]
+			l1 = len(s1)
+			l2 = len(s2)
+			for i in range(l1 + 1):
+				matr[i][0]
+			for i in range(21 + 1):
+				matr[0][i]				
+			for i in range(1, l1 + 1):
+				for j in range(1, l2 + 1):
+				    opt4 = math.inf
+				    opt1 = matr[i][j - 1] + 1
+				    opt2 = matr[i - 1][j] + 1
+				    opt3 = matr[i - 1][j - 1] + (0 if s1[i - 1] == s2[j - 1] else 1)
+				    if i > 1 and j > 1 and s1[i - 2] == s2[j - 1] and s1[i - 1] == s2[j - 2]:
+				        opt4 = matr[i - 2][j - 2] + 1 
+				    matr[i][j] = min(opt1, opt2, opt3, opt4) 
+			res = matr[l1][l2]
+        \end{lstlisting}
+      \begin{figure}[h]
+			\center{\includegraphics[width=0.6\linewidth]{DZ.jpg}}
+			\caption{ОГ}
+			\label{ris:image}
+		\end{figure}
+      \begin{figure}[h]
+			\center{\includegraphics[width=1\linewidth]{dz-1.jpg}}
+			\caption{ИГ}
+			\label{ris:image}
+		\end{figure}
+		
+		      \begin{figure}[h]
+			\center{\includegraphics[width=1.1\linewidth]{DZ-OI.jpg}}
+			\caption{ОИ}
+			\label{ris:image}
+		\end{figure}
+		
+		      \begin{figure}[h]
+			\center{\includegraphics[width=1.1\linewidth]{dz-ii.jpg}}
+			\caption{ИИ}
+			\label{ris:image}
+		\end{figure}
+\end{document}

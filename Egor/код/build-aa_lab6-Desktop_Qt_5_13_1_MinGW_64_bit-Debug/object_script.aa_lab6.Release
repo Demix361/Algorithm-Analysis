@@ -1,0 +1,10 @@
+release/aco.o
+release/func.o
+release/main.o
+release/print.o
+release/res.o
+release/research.o
+release/test.o
+release/test_.o
+release/time.o
+release/total_search.o

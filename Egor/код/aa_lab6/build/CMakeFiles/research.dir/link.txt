@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\research.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\X86_64~1\bin\ar.exe cr CMakeFiles\research.dir/objects.a @CMakeFiles\research.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  -std=c++17 -g -Wall -Werror -pedantic   -Wl,--whole-archive CMakeFiles\research.dir/objects.a -Wl,--no-whole-archive  -o research.exe -Wl,--out-implib,libresearch.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\research.dir\linklibs.rsp

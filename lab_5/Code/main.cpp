@@ -18,10 +18,10 @@
 using namespace std;
 const int MIN_RAND =  10;
 const int MAX_RAND =  15;
-const int COUNT = 25;
+const int COUNT = 40;
 
-const string LOG_FILE = "times25_1.txt";
-const string LOG_FILE2 = "times25_2.txt";
+const string LOG_FILE_3_TH = "log_3_th.txt";
+const string LOG_FILE_NO_TH = "log_no_th.txt";
 
 void consistent(MyObject **objs);
 
@@ -37,7 +37,6 @@ int main(int argc, char *argv[])
         int myrand = rand() % MAX_RAND + MIN_RAND;
 
         objs[i] = new MyObject(i, myrand);
-        cout << myrand << endl;
     }
 
     consistent(objs);
@@ -74,16 +73,16 @@ int main(int argc, char *argv[])
 
     int total_time = timer.elapsed() - start_time;
 
-    ofstream fout(LOG_FILE);
+    ofstream fout(LOG_FILE_3_TH);
     if (fout.is_open())
     {
         for (unsigned int i = 0; i < dump.size(); ++i)
             dump.at(i).timesToFile(fout);
         fout << "Total time: " << total_time << endl;
-        cout << "Results in: " << LOG_FILE << endl;
+        cout << "Results in: " << LOG_FILE_3_TH << endl;
     }
     else
-        cout << "I cant open file " << LOG_FILE << endl;
+        cout << "I cant open file " << LOG_FILE_3_TH << endl;
     fout.close();
 
 
@@ -114,10 +113,6 @@ void consistent(MyObject **objs)
 
     for (int i = 0; i < COUNT; ++i)
     {
-//        int myrand = rand() % MAX_RAND + 10;
-
-//        MyObject obj(i, myrand);
-
         preproc->addToQueue(*objs[i]);
     }
 
@@ -127,16 +122,16 @@ void consistent(MyObject **objs)
 
     int total_time = timer.elapsed() - start_time;
 
-    ofstream fout(LOG_FILE2);
+    ofstream fout(LOG_FILE_NO_TH);
     if (fout.is_open())
     {
         for (unsigned int i = 0; i < dump.size(); ++i)
             dump.at(i).timesToFile(fout);
         fout << "Total time: " << total_time << endl;
-        cout << "Results in: " << LOG_FILE2 << endl;
+        cout << "Results in: " << LOG_FILE_NO_TH << endl;
     }
     else
-        cout << "I cant open file " << LOG_FILE2 << endl;
+        cout << "I cant open file " << LOG_FILE_NO_TH << endl;
     fout.close();
 
 

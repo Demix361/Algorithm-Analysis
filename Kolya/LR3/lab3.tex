@@ -1,0 +1,511 @@
+\documentclass[a4paper, 14pt]{article}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{listings}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage{url}
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,chains,shapes.geometric,%
+    decorations.pathreplacing,decorations.pathmorphing,shapes,%
+    matrix,shapes.symbols}
+
+\usepackage{titlesec}
+\titleformat*{\section}{\LARGE\bfseries\centering}
+\titleformat*{\subsection}{\Large\bfseries\centering}
+\titleformat*{\subsubsection}{\large\bfseries}
+\titleformat*{\paragraph}{\large\bfseries}
+\titleformat*{\subparagraph}{\large\bfseries}
+\lstset{ %
+language=python,                 % выбор языка для подсветки (здесь это С)
+basicstyle=\small\sffamily, % размер и начертание шрифта для подсветки кода
+numbers=left,               % где поставить нумерацию строк (слева\справа)
+numberstyle=\tiny,           % размер шрифта для номеров строк
+stepnumber=1,                   % размер шага между двумя номерами строк
+numbersep=5pt,                % как далеко отстоят номера строк от подсвечиваемого кода
+showspaces=false,            % показывать или нет пробелы специальными отступами
+showstringspaces=false,      % показывать или нет пробелы в строках
+showtabs=false,             % показывать или нет табуляцию в строках
+frame=single,              % рисовать рамку вокруг кода
+tabsize=2,                 % размер табуляции по умолчанию равен 2 пробелам
+captionpos=t,              % позиция заголовка вверху [t] или внизу [b] 
+breaklines=true,           % автоматически переносить строки (да\нет)
+breakatwhitespace=false, % переносить строки только если есть пробел
+escapeinside={\#*}{*)}   % если нужно добавить комментарии в коде
+}
+
+\usepackage{geometry}
+\geometry{left=2cm}
+\geometry{right=1.5cm}
+\geometry{top=1cm}
+\geometry{bottom=2cm}
+
+\usepackage{pgfplots}
+\usepackage{filecontents}
+\usetikzlibrary{datavisualization}
+\usetikzlibrary{datavisualization.formats.functions}
+\usepackage{graphicx}
+
+\begin{document}
+
+    \begin{titlepage}
+
+        \begin{center}
+            \large
+            Государственное образовательное учреждение высшего профессионального образования\\
+            “Московский государственный технический университет имени Н.Э.Баумана”
+            \vspace{3cm}
+            
+            \textsc{Дисциплина: Анализ алгоритмов}
+            \vspace{0.5cm}
+                
+            \textsc{Лабораторная работа 3}
+            \vspace{1.5cm}
+            
+            {\LARGE Алгоритмы сортировки массива.\\}
+            \vspace{1.5cm}
+            Студент группы ИУ7-55,\\   
+            Шестовских Николай Александрович
+            \vfill
+            
+            2019 г.
+            
+            \end{center}
+
+    \end{titlepage}
+    
+\tableofcontents
+	\setcounter{page}{2}
+	\newpage
+	
+        \section*{Введение}
+        \addcontentsline{toc}{section}{Введение}
+        Цель лабораторной работы: изучение алгоритмов сортировки массивов, сравнительный анализ времени работы данных алгоритмов, анализ трудоемкости алгоритмов.\\
+Задачи работы:\\
+1. реализация следующих алгоритмов сортировки массивов –  сортировка пузырьком, пузырьком с барьером и шейкер-сортировка;\\
+2. оценка трудоемкости алгоритмов;\\
+3. анализ времени работы программы;\\
+4. сравнительный анализ работы алгоритмов для массивов размера от 100 до 1500 элементов.
+
+        \parindent=1cm
+		
+
+        \label{sec:intro}
+
+
+    	\newpage
+        \section{Аналитическая часть}
+
+		\parindent=1cm
+		В данной части будут рассмотрены теоретические основы алгоритмов и приведена модель вычислений для оценок трудоемкости.
+		\subsection{Сортировка пузырьком}
+		\parindent=1cm
+Алгоритм состоит из повторяющихся проходов по сортируемому массиву. За каждый проход элементы последовательно сравниваются попарно и,
+если порядок в паре неверный, выполняется обмен элементов. Проходы по
+массиву повторяются N − 1 раз или до тех пор, пока на очередном проходе
+не окажется, что обмены больше не нужны, что означает — массив отсортирован. При каждом проходе алгоритма по внутреннему циклу, очередной
+наибольший элемент массива ставится на своё место в конце массива рядом
+с предыдущим «наибольшим элементом», а наименьший элемент перемещается на одну позицию к началу массива («всплывает» до нужной позиции,
+как пузырёк в воде — отсюда и название алгоритма).\\
+		Сложность алгоритма - $O(n^2)$\cite{knut}.
+		\subsection{Сортировка пузырьком с барьером}
+		\parindent=1cm
+		Модификация алгоритма пузырьком, одной из проблем которого является проход по уже отсортированному массиву.	Второй проблемой пузырьковой сортировки является то, что она будет проходит по отсортированной области. Обе эти проблемы решаются введением барьера - местом последнего обмена. Проход по массиву осуществляется не до последнего элемента, а до барьерного, то есть мы проходим только по неотсортированной части массива.\\
+		Сложность алгоритма - $O(n^2)$\cite{knut}.
+		\subsection{Шейкер-сортировка}
+		\parindent=1cm
+		Еще одной проблемой пузырька является то, что при движении от начала массива к концу максимальный элемент становится на последнюю позицию, а минимальный элемент сдвигается только на одну позицию влево. Эта проблема решается поочередными проходами от начала к концу и от конца к началу, постоянно сокращая "рабочую область" массива.\\
+		Сложность алгоритма будет вычислена в разделе 3.4.
+	
+		\subsection{Модель вычислений}
+
+			В рамках данной работы используется следующая модель вычислений:
+			\begin{enumerate}
+  				\item Базовые операции имеют трудоемкость 1 (<, >, =, <=, =>, ==, +, -, *, /, \%, \&, +=, -=, *=, /=,  [ ]);
+				\item оператор if, else if имеет трудоемкость $F_{if} = F_{body} + F_{cheсk}$,  $F_{body}$ - трудоемкость операций тела оператора,  $F_{cheсk}$ - трудоемкость проверки условия;
+				\item оператор else имеет трудоемкость $F_{body}$;
+				\item оператор for имеет трудоемкость  $F_{for} = 2 + N \cdot (F_{body} + F_{cheсk})$, где $F_{body}$ – трудоемкость операций в теле цикла.
+\end{enumerate}
+
+
+    \subsection{Вывод}
+    В данном разделе была поверхностно рассмотрена сортировка пузырьком, а также три модификации, ее оптимизирующие: введение флага, введение барьера для сортируемой области массива и чередование проходов по массиву - от начала к концу и от конца к началу.
+    \newpage
+        \section{Конструкторская часть}
+        В данном разделе будут рассмотрены схемы алгоритмов, рассматриваемых в ходе лабораторной работы.
+		        
+        \subsection{Схемы алгоритмов}
+        	\begin{figure}[h]
+        	\begin{center}
+        		{\includegraphics[scale=0.48]{bubble}}
+        		\caption{Схема алгоритма сортировки пузырьком}
+        	\end{center}
+        \end{figure}
+        \newpage
+        	\begin{figure}[h]
+        	\begin{center}
+        		{\includegraphics[scale=0.41]{barrier}}
+        		\caption{Схема алгоритма сортировки пузырьком с барьером}
+        	\end{center}
+        \end{figure}
+        \newpage        
+        	\begin{figure}[h]
+        	\begin{center}
+        		{\includegraphics[scale=0.41]{shaker}}
+        		\caption{Схема алгоритма сортировки пузырьком с барьером}
+        	\end{center}
+        \end{figure}
+		\subsection{Вывод}
+		В данном разделе были рассмотрены схемы алгоритмов сортировки пузырьком, пузырьком с барьером и шейкер-сортировки, приведенные на рисунках 1-3.
+		
+		\newpage
+		\section{Технологическая часть}
+		В данной части будет рассмотрена трудоемкость каждого из рассматриваемых в данной лабораторной работе алгоритма, а также будут сформулированы требования к программному обеспечению.
+		\subsection{Требования к программному обеспечению}
+		Входные данные - массив, его длина.
+		Выходные данные - отсортированный массив.
+        	\begin{figure}[h]
+        	\begin{center}
+        		{\includegraphics[scale=0.48]{idef0}}
+        		\caption{IDEF0-диаграмма, описывающая сортировку массива}
+        	\end{center}
+        \end{figure}
+		\subsection{Средства реализации}
+		\parindent=0cm		
+		Программа была написана на языке С. Проект выполнен с помощью сборки в утилите make.\\
+		Программа корректно работает с пустыми и неправильно введенными данными.\\
+		Для замеров времени использовалась функция замеров тиков tick(), приведенная в листинге 1:\\
+		\begin{lstlisting}[label=some-code,caption=Функция замера времени]
+		unsigned long long tick(void)
+		{
+    		unsigned long long d;
+    		__asm__ __volatile__ ("rdtsc" : "=A" (d) );
+    		return d;
+		}
+		\end{lstlisting}
+        \subsection{Листинг кода} 
+        В листингах 2-4 представлена реализация заявленных алгоритмов.
+		\begin{lstlisting}[label=some-code,caption=Алгоритм сортировки пузырьком]
+		void bubblesort(int * arr, int n)
+		{
+			int tmp;
+			for(int i = 0; i < n; i++)	
+			{
+				for(int j = 0; j < n - 1; j++)
+				{
+					if(arr[j] > arr[j + 1])
+					{
+						tmp = arr[j] ;
+						arr[j] = arr[j + 1] ;
+						arr[j + 1] = tmp;
+					}
+				}
+			}
+		}
+		\end{lstlisting}        
+		
+		\begin{lstlisting}[label=some-code,caption=Алгоритм сортировки пузырьком с барьером]
+		void bubblebar(int *arr, int n)
+		{
+			int tmp;
+			int barrier;
+			do 
+			{
+				barrier = 0;
+				for (int i = 0; i < n - 1; i++) 
+				{
+					if (arr[i] > arr[i + 1]) 
+					{
+						tmp = arr[i];
+						arr[i] = arr[i + 1];
+						arr[i + 1] = tmp;
+						barrier = i + 1;
+					}
+				}
+				n = barrier;
+		  } while (n != 0);
+		}
+		\end{lstlisting} 
+		\begin{lstlisting}[label=some-code,caption=Алгоритм шейкер-сортировки]
+		void shakersort(int *arr, int n)
+		{
+			int left = 0, right = n - 1, barrier = 0, tmp = 0;
+			do
+			{
+				barrier = left;
+				for(int i = left; i < right; i++)
+				{
+					if (arr[i] > arr[i + 1]) 
+					{
+						tmp = arr[i];
+						arr[i] = arr[i + 1];
+						arr[i + 1] = tmp;
+						barrier = i;
+					}
+				}
+				right = barrier;
+		
+				barrier = right;
+				for(int i = right; i > left; i--)
+				{
+					if (arr[i] < arr[i - 1]) 
+					{
+						tmp = arr[i];
+						arr[i] = arr[i - 1];
+						arr[i - 1] = tmp;               
+						barrier = i - 1;
+					}
+				}
+				left = barrier;		
+			}
+			while(left != right);	
+		}
+		\end{lstlisting} 
+        \subsection{Оценки трудоемкости}
+        \parindent=0cm
+		\textbf{Трудоемкость обычного алгоритма пузырьком.}\\
+		В лучшем случае - $O(n^2)$(отсортированный массив)\cite{knut}\\
+		В лучшем случае - $O(n^2)$(отсортированный в обратную сторону массив)\cite{knut}\\
+		\textbf{Трудоемкость алгоритма пузырьком c барьером.}\\
+		В лучшем случае - $O(n)$(отсортированный массив)\cite{knut}\\
+		В лучшем случае - $O(n^2)$(отсортированный в обратную сторону массив)\cite{knut}\\
+		\textbf{Трудоемкость шейкер-сортировки.}\\
+		В лучшем случае: \\
+		\parindent=1cm
+		Посчитаем количество итераций. Для внешнего цикла $do while$ это 1, для внутреннего $for_{1}$ - это n - 1, причем, так как массив отсортированный, условие if(arr[i] > arr[i + 1]) не выполнится ни разу, из-за чего после выхода из $for_{1}$ left == barrier == right. Поэтому в тело цикла $for_{2}$ мы не зайдем ни разу, лишь один раз отработав условие. Итоговые вычисления представлены в таблице 1:\\
+        	\begin{center}
+  	Таблица 1. Трудоемкость шейкер-сортировки в лучшем случае.\\
+  		
+		\begin{tabular}{ | c | c | }
+        \hline
+		Трудоемкость & Оценка\\ \hline
+		$F$ & 4 + $F_{dowhile}$\\ \hline
+		$F_{dowhile}$ & 5 + $F_{for1}$ + $F_{for2}$\\ \hline
+		$F_{for1}$ & $1 + (n - 1)(2 + 4) = 6n - 5$\\ \hline
+		$F_{for2}$ & 2\\ \hline
+		\textbf{$F_{best}$} & \textbf{$6n + 6 \approx O(n)$}\\ \hline
+		\hline
+        \end{tabular}\\
+        \end{center}
+		В худшем случае: \\
+		Посчитаем количество итераций. Для внешнего цикла $do while$ это n/2(так как за одну итерацию pleft и pright будут инкрементированы, то есть "сближены" на 2, начальное "расстояние" между ними n - 1). Для внутреннего $for_{1}$ суммарное количество итераций - это сумма последовательности n - 1, n - 3, ... , 1. Эта сумма равна $S_{1} = \frac{n - 1 + 1}{2}\cdot \frac{n}{2} = \frac{n^2}{4}$ , причем, так как массив отсортированный в обратном порядке, условие if(arr[i] > arr[i + 1]) выполнится при каждой итерации $for_{1}$.  Для внутреннего $for_{2}$ суммарное количество итераций - это сумма последовательности n - 2, n - 4, ... , 0 . Эта сумма равна $S_{1} = \frac{n - 2}{2}\cdot \frac{n}{2} = \frac{n^2 - 2n}{4}$, в этом цикле также условие if(arr[i] < arr[i - 1]) будет всегда верно. Итоговые вычисления представлены в таблице 2:\\
+        	\begin{center}
+  	Таблица 2. Трудоемкость шейкер-сортировки в лучшем случае.\\
+  		
+		\begin{tabular}{ | c | c | }
+        \hline
+		Трудоемкость & Оценка\\ \hline
+		$F$ & 4 + $F_{dowhile}$\\ \hline
+		$F_{dowhile}$ & $2.5n$ + $F_{for1}$ + $F_{for2}$\\ \hline
+		$F_{for1}$ & $\frac{n}{2} + 16\frac{n^2}{4} = 0.5n + 4n^2$\\ \hline
+		$F_{for2}$ & $\frac{n}{2} + 17\frac{n^2 - 2n}{4} = -8n + 4.25n^2$\\ \hline
+		\textbf{$F_{worst}$} & \textbf{$4 - 5n + 8.25n^2 \approx O(n^2)$}\\ \hline
+		\hline
+        \end{tabular}\\
+        \end{center}
+        Итого по таблицам 1 и 2 мы можем сделать вывод, что трудоемкость алгоритма шейкер-сортировки равна трудоемкости сортировки пузырьком с барьером($O(n)$ в лучшем случае и $O(n^2)$ - в худшем).
+   \subsection{Вывод}
+   В данном разделе были даны реализации сортировки пузырьком, пузырьком с барьером и шейкер-сортировки, а также был проведен анализ трудоемкости шейкер-сортировки. 
+   
+
+       	\newpage
+       	
+        \section{Экспериментальная часть}
+        В данной части будут даны примеры работы всех сортировок и рассмотрен эксперимент, изучающий затрачиваемое ими время.
+        \subsection{Примеры работы программы}
+		\begin{lstlisting}[label=some-code,caption=Пример работы 1]        
+15 8 9 13 4 -5 17 22 3 
+bubblesort: -5 3 4 8 9 13 15 17 22 
+
+bubblebar: -5 3 4 8 9 13 15 17 22 
+
+shakersort: -5 3 4 8 9 13 15 17 22 
+
+		\end{lstlisting}
+		В данном примере все алгоритмы дали верный результат.
+		\begin{lstlisting}[label=some-code,caption=Пример работы 2]		
+-1 1 2 3 4 
+bubblesort: -1 1 2 3 4 
+
+bubblebar: -1 1 2 3 4 
+
+shakersort: -1 1 2 3 4 
+
+		\end{lstlisting}
+		В данном примере все алгоритмы дали верный результат.
+		\begin{lstlisting}[label=some-code,caption=Пример работы 3]		
+10 9 8 7 6 5 4 3 2 1 
+bubblesort: 1 2 3 4 5 6 7 8 9 10 
+
+bubblebar: 1 2 3 4 5 6 7 8 9 10 
+
+shakersort: 1 2 3 4 5 6 7 8 9 10 
+		\end{lstlisting}
+		Во всех трех случаях все сортировки дали верный результат, что подтвердило их правильность.
+		
+		\subsection{Постановка эксперимента}
+		\parindent=1cm
+		В данном эксперименте будет проверено время на сортировку массивов длиной от 100 до 1500 с шагом 100. Для каждого значения длины будет сгенерировано 3 массива: с произвольными значениями, отсортированный и отсортированный в обратном порядке. Замеры будут проводиться по 100 раз для сокращения влияния случайных факторов на итоговый результат. 
+		\subsection{Результаты эксперимента}
+		На рисунках 5-10 представлены сравнение времени сортировок на массивах различной длины, на осях абсцисс отложена длина массива, на осях ординат - затрачиваемое время(в тиках), bubble - сортировка пузырьком, bubblebar - сортировка пузырьком с барьером, shaker - шейкер-сортировка. 
+\begin{center}
+\newpage
+	\begin{tikzpicture}
+
+\begin{axis}[
+    	axis lines = left,
+	legend pos=north west,
+	ymajorgrids=true
+] 
+\addplot[color=orange, mark = square] table[x index=0, y index=1] {r_b.txt};
+\addplot[color=green, mark=square] table[x index=0, y index=1] {r_b_b.txt};
+
+%\addlegendentry{LevR}
+\addlegendentry{bubble}
+\addlegendentry{bubblebar}
+
+\end{axis}
+
+\end{tikzpicture}
+\begin{flushleft}
+Pис. 5: сравнение времени на сортировку произвольно заполненного массива пузырьком и пузырьком с барьером.\\
+\end{flushleft}
+	\begin{tikzpicture}
+
+\begin{axis}[
+    	axis lines = left,
+	legend pos=north west,
+	ymajorgrids=true
+] 
+\addplot[color=green, mark=square] table[x index=0, y index=1] {r_b_b.txt};
+\addplot[color=blue, mark=square] table[x index=0, y index=1] {r_s.txt};
+
+%\addlegendentry{LevR}
+\addlegendentry{bubblebar}
+\addlegendentry{shaker}
+
+\end{axis}
+
+\end{tikzpicture}
+\begin{flushleft}
+Pис. 6: сравнение времени на сортировку произвольно заполненного массива пузырьком с барьером и шейкер-сортировкой.\\
+\end{flushleft}
+
+	\begin{tikzpicture}
+
+\begin{axis}[
+    	axis lines = left,
+	legend pos=north west,
+	ymajorgrids=true
+] 
+\addplot[color=orange, mark=square] table[x index=0, y index=1] {s_b.txt};
+\addplot[color=green, mark=square] table[x index=0, y index=1] {s_b_b.txt};
+
+%\addlegendentry{LevR}
+\addlegendentry{bubble}
+\addlegendentry{bubblebar}
+
+\end{axis}
+
+\end{tikzpicture}
+\begin{flushleft}
+Pис. 7: сравнение времени на сортировку отсортированного массива пузырьком и пузырьком с барьером.\\
+\end{flushleft}
+
+	\begin{tikzpicture}
+
+\begin{axis}[
+    	axis lines = left,
+	legend pos=north west,
+	ymajorgrids=true
+] 
+\addplot[color=green, mark=square] table[x index=0, y index=1] {s_b_b.txt};
+\addplot[color=blue, mark=square] table[x index=0, y index=1] {s_s.txt};
+
+%\addlegendentry{LevR}
+\addlegendentry{bubblebar}
+\addlegendentry{shaker}
+
+\end{axis}
+
+\end{tikzpicture}
+\begin{flushleft}
+Pис. 8: сравнение времени на сортировку отсортированного массива пузырьком с барьером и шейкер-сортировкой.\\
+\end{flushleft}
+
+	\begin{tikzpicture}
+
+\begin{axis}[
+    	axis lines = left,
+	legend pos=north west,
+	ymajorgrids=true
+] 
+\addplot[color=orange, mark=square] table[x index=0, y index=1] {sr_b.txt};
+\addplot[color=green, mark=square] table[x index=0, y index=1] {sr_b_b.txt};
+
+%\addlegendentry{LevR}
+\addlegendentry{bubble}
+\addlegendentry{bubblebar}
+
+\end{axis}
+
+\end{tikzpicture}
+\begin{flushleft}
+Pис. 9: сравнение времени на сортировку отсортированного в обратном порядке массива пузырьком и пузырьком с барьером.\\
+\end{flushleft}
+
+	\begin{tikzpicture}
+
+\begin{axis}[
+    	axis lines = left,
+	legend pos=north west,
+	ymajorgrids=true
+] 
+\addplot[color=green, mark=square] table[x index=0, y index=1] {sr_b_b.txt};
+\addplot[color=blue, mark=square] table[x index=0, y index=1] {sr_s.txt};
+
+%\addlegendentry{LevR}
+\addlegendentry{bubblebar}
+\addlegendentry{shaker}
+
+\end{axis}
+
+\end{tikzpicture}
+\begin{flushleft}
+Pис. 10: сравнение времени на сортировку отсортированного в обратном порядке массива пузырьком с барьером и шейкер-сортировкой.\\
+\end{flushleft}
+\end{center}
+\subsection{Анализ экспериментальных данных}
+	На рисунках 5, 7 и 9 мы видим, что сортировка пузырьком значительно оптимизируется введением барьера - разница при произвольном массиве от 100 до 1440, при отсортированном массиве - от 95 до 1550, при отсортированном в обратном порядке - от 45 до 78.\\
+	На рисунке 6 мы видим, что разница между шейкер-сортировкой и пузырьком с барьером слабо заметна в большинстве случаев - шейкер более затратный от 5\% до 10\%, похожая картина наблюдается на рисунке 6 - разница между алгоритмами колеблется от 2\% до 6\% в пользу пузырька с барьером, однако при отсортированном в обратном порядке шейкер-сортировка оказывается быстрее от 1\% до  7\%. В целом такие данные обусловлены тем, что в шейкер-сортировке больше побочных вычислений, и ее оптимизации по сравнению с пузырьком с барьером заметны только в худшем случае. 
+	\subsection{Вывод}
+		В данном разделе сортировки были протестированы на правильность, также был проведен эксперимент по замеру времени работы каждой из них.
+  
+
+
+    	\newpage
+        \section*{Заключение}
+        \addcontentsline{toc}{section}{Заключение}
+        В данной лабораторной работе были рассмотрены различные модификации алгоритма сортировки пузырьком - классический алгоритм, с барьером и шейкер-сортировка. Была выбрана модель вычислений и с помощью нее вычислена трудоемкость каждого из алгоритмов, после чего был поставлен эксперимент, подтверддивший правильность посчитаной трудоемкости. Помимо этого было выявлено, что добавление барьера в сортировку пузырьком на порядки увеличивает скорость работы, в то время как введение двухстороннего прохода по отношению к пузырьку с барьером может сыграть роль только в худшем случае - при обратно отсортированном массиве.
+
+
+    \begin{center}
+    	\newpage
+\newpage
+\addcontentsline{toc}{section}{Список  литературы}
+
+\begin{thebibliography}{11} 
+   \bibitem{knut} Кнут Д. Э. 5.2.2 Обменная сортировка // Искусство программирования. Том 3. Сортировка и поиск = The Art of Computer Programming. Volume 3. Sorting and Searching / под ред. В. Т. Тертышного (гл. 5) и И. В. Красикова (гл. 6). — 2-е изд. — Москва: Вильямс, 2007. — Т. 3. — 832 с. — ISBN 5-8459-0082-1.
+     \bibitem{macconel} Макконнелл Дж. Основы современных алгоритмов = Analysis of Algorithms: An Active Learning Approach / Под ред. С. К. Ландо. — М.: Техносфера, 2004. — С. 72-76. — ISBN 5-94836-005-9.
+        
+    \end{thebibliography}
+	\newpage
+	\bibliographystyle{alpha}
+	\bibliography{mybib}
+    \end{center}        
+\end{document}
