@@ -1,8 +1,8 @@
-# Install script for directory: D:/GitHub/Algorithm-Analysis/lab_5/Code
+# Install script for directory: S:/GitHub/algorithm-analysis/lab_5/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Code")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/code")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/GitHub/Algorithm-Analysis/lab_5/Code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "S:/GitHub/algorithm-analysis/lab_5/code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

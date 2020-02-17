@@ -34,30 +34,30 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\GitHub\Algorithm-Analysis\lab_5\Code
+CMAKE_SOURCE_DIR = S:\GitHub\algorithm-analysis\lab_5\code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\GitHub\Algorithm-Analysis\lab_5\Code\cmake-build-debug
+CMAKE_BINARY_DIR = S:\GitHub\algorithm-analysis\lab_5\code\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Code.dir/all
+all: CMakeFiles/code.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Code.dir/clean
+clean: CMakeFiles/code.dir/clean
 
 .PHONY : clean
 
@@ -67,31 +67,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/Code.dir
+# Target rules for target CMakeFiles/code.dir
 
 # All Build rule for target.
-CMakeFiles/Code.dir/all:
-	$(MAKE) -f CMakeFiles\Code.dir\build.make CMakeFiles/Code.dir/depend
-	$(MAKE) -f CMakeFiles\Code.dir\build.make CMakeFiles/Code.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GitHub\Algorithm-Analysis\lab_5\Code\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Code"
-.PHONY : CMakeFiles/Code.dir/all
+CMakeFiles/code.dir/all:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/depend
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=S:\GitHub\algorithm-analysis\lab_5\code\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target code"
+.PHONY : CMakeFiles/code.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Code.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\Algorithm-Analysis\lab_5\Code\cmake-build-debug\CMakeFiles 3
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Code.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\Algorithm-Analysis\lab_5\Code\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Code.dir/rule
+CMakeFiles/code.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start S:\GitHub\algorithm-analysis\lab_5\code\cmake-build-debug\CMakeFiles 6
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/code.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start S:\GitHub\algorithm-analysis\lab_5\code\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/code.dir/rule
 
 # Convenience name for target.
-Code: CMakeFiles/Code.dir/rule
+code: CMakeFiles/code.dir/rule
 
-.PHONY : Code
+.PHONY : code
 
 # clean rule for target.
-CMakeFiles/Code.dir/clean:
-	$(MAKE) -f CMakeFiles\Code.dir\build.make CMakeFiles/Code.dir/clean
-.PHONY : CMakeFiles/Code.dir/clean
+CMakeFiles/code.dir/clean:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/clean
+.PHONY : CMakeFiles/code.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\GitHub\Algorithm-Analysis\lab_5\Code
+CMAKE_SOURCE_DIR = S:\GitHub\algorithm-analysis\lab_5\code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\GitHub\Algorithm-Analysis\lab_5\Code\cmake-build-debug
+CMAKE_BINARY_DIR = S:\GitHub\algorithm-analysis\lab_5\code\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\GitHub\Algorithm-Analysis\lab_5\Code\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\Algorithm-Analysis\lab_5\Code\cmake-build-debug\CMakeFiles D:\GitHub\Algorithm-Analysis\lab_5\Code\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start S:\GitHub\algorithm-analysis\lab_5\code\cmake-build-debug\CMakeFiles S:\GitHub\algorithm-analysis\lab_5\code\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\Algorithm-Analysis\lab_5\Code\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start S:\GitHub\algorithm-analysis\lab_5\code\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,44 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Code
+# Target rules for targets named code
 
 # Build rule for target.
-Code: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Code
-.PHONY : Code
+code: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 code
+.PHONY : code
 
 # fast build rule for target.
-Code/fast:
-	$(MAKE) -f CMakeFiles\Code.dir\build.make CMakeFiles/Code.dir/build
-.PHONY : Code/fast
-
-conveyor.obj: conveyor.cpp.obj
-
-.PHONY : conveyor.obj
-
-# target to build an object file
-conveyor.cpp.obj:
-	$(MAKE) -f CMakeFiles\Code.dir\build.make CMakeFiles/Code.dir/conveyor.cpp.obj
-.PHONY : conveyor.cpp.obj
-
-conveyor.i: conveyor.cpp.i
-
-.PHONY : conveyor.i
-
-# target to preprocess a source file
-conveyor.cpp.i:
-	$(MAKE) -f CMakeFiles\Code.dir\build.make CMakeFiles/Code.dir/conveyor.cpp.i
-.PHONY : conveyor.cpp.i
-
-conveyor.s: conveyor.cpp.s
-
-.PHONY : conveyor.s
-
-# target to generate assembly for a file
-conveyor.cpp.s:
-	$(MAKE) -f CMakeFiles\Code.dir\build.make CMakeFiles/Code.dir/conveyor.cpp.s
-.PHONY : conveyor.cpp.s
+code/fast:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/build
+.PHONY : code/fast
 
 main.obj: main.cpp.obj
 
@@ -155,7 +128,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Code.dir\build.make CMakeFiles/Code.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -164,7 +137,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\Code.dir\build.make CMakeFiles/Code.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,8 +146,116 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\Code.dir\build.make CMakeFiles/Code.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+myobject.obj: myobject.cpp.obj
+
+.PHONY : myobject.obj
+
+# target to build an object file
+myobject.cpp.obj:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/myobject.cpp.obj
+.PHONY : myobject.cpp.obj
+
+myobject.i: myobject.cpp.i
+
+.PHONY : myobject.i
+
+# target to preprocess a source file
+myobject.cpp.i:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/myobject.cpp.i
+.PHONY : myobject.cpp.i
+
+myobject.s: myobject.cpp.s
+
+.PHONY : myobject.s
+
+# target to generate assembly for a file
+myobject.cpp.s:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/myobject.cpp.s
+.PHONY : myobject.cpp.s
+
+postprocessing.obj: postprocessing.cpp.obj
+
+.PHONY : postprocessing.obj
+
+# target to build an object file
+postprocessing.cpp.obj:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/postprocessing.cpp.obj
+.PHONY : postprocessing.cpp.obj
+
+postprocessing.i: postprocessing.cpp.i
+
+.PHONY : postprocessing.i
+
+# target to preprocess a source file
+postprocessing.cpp.i:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/postprocessing.cpp.i
+.PHONY : postprocessing.cpp.i
+
+postprocessing.s: postprocessing.cpp.s
+
+.PHONY : postprocessing.s
+
+# target to generate assembly for a file
+postprocessing.cpp.s:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/postprocessing.cpp.s
+.PHONY : postprocessing.cpp.s
+
+preprocessing.obj: preprocessing.cpp.obj
+
+.PHONY : preprocessing.obj
+
+# target to build an object file
+preprocessing.cpp.obj:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/preprocessing.cpp.obj
+.PHONY : preprocessing.cpp.obj
+
+preprocessing.i: preprocessing.cpp.i
+
+.PHONY : preprocessing.i
+
+# target to preprocess a source file
+preprocessing.cpp.i:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/preprocessing.cpp.i
+.PHONY : preprocessing.cpp.i
+
+preprocessing.s: preprocessing.cpp.s
+
+.PHONY : preprocessing.s
+
+# target to generate assembly for a file
+preprocessing.cpp.s:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/preprocessing.cpp.s
+.PHONY : preprocessing.cpp.s
+
+processing.obj: processing.cpp.obj
+
+.PHONY : processing.obj
+
+# target to build an object file
+processing.cpp.obj:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/processing.cpp.obj
+.PHONY : processing.cpp.obj
+
+processing.i: processing.cpp.i
+
+.PHONY : processing.i
+
+# target to preprocess a source file
+processing.cpp.i:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/processing.cpp.i
+.PHONY : processing.cpp.i
+
+processing.s: processing.cpp.s
+
+.PHONY : processing.s
+
+# target to generate assembly for a file
+processing.cpp.s:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/processing.cpp.s
+.PHONY : processing.cpp.s
 
 # Help Target
 help:
@@ -182,15 +263,24 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Code
+	@echo ... code
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... conveyor.obj
-	@echo ... conveyor.i
-	@echo ... conveyor.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... myobject.obj
+	@echo ... myobject.i
+	@echo ... myobject.s
+	@echo ... postprocessing.obj
+	@echo ... postprocessing.i
+	@echo ... postprocessing.s
+	@echo ... preprocessing.obj
+	@echo ... preprocessing.i
+	@echo ... preprocessing.s
+	@echo ... processing.obj
+	@echo ... processing.i
+	@echo ... processing.s
 .PHONY : help
 
 

@@ -1,13 +1,16 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Code.dir/conveyor.cpp.obj"
-  "CMakeFiles/Code.dir/main.cpp.obj"
-  "Code.exe"
-  "Code.exe.manifest"
-  "Code.pdb"
-  "libCode.dll.a"
+  "CMakeFiles/code.dir/main.cpp.obj"
+  "CMakeFiles/code.dir/myobject.cpp.obj"
+  "CMakeFiles/code.dir/postprocessing.cpp.obj"
+  "CMakeFiles/code.dir/preprocessing.cpp.obj"
+  "CMakeFiles/code.dir/processing.cpp.obj"
+  "code.exe"
+  "code.exe.manifest"
+  "code.pdb"
+  "libcode.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Code.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/code.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

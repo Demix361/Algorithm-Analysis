@@ -1,0 +1,783 @@
+\documentclass[a4paper,14pt]{report}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{listings}
+\usepackage{geometry}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[14pt]{extsizes}
+\geometry{left=2cm}
+\geometry{right=1.5cm}
+\geometry{top=1cm}
+\geometry{bottom=2cm}
+\pagestyle{plain}
+\usepackage{pgfplots}
+\usepackage{filecontents}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\DeclareGraphicsExtensions{.png}
+\graphicspath{{images/}}
+\usetikzlibrary{datavisualization}
+\usetikzlibrary{datavisualization.formats.functions}
+\usepackage{tabularx}
+\pgfplotsset{width=7 cm}
+
+\usepackage{tocloft}
+
+\renewcommand\cftchapdotsep{\cftdot}
+\renewcommand\cftsecdotsep{\cftdot}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftchapdotsep}}
+
+
+\begin{filecontents}{thread1.dat}
+	0 0
+	5 157
+	10 1057
+	15 1388
+	20 1577	
+\end{filecontents}
+
+\begin{filecontents}{thread3.dat}
+	0 0 
+	5 297
+	10 1328
+	15 1733
+	20 1957
+\end{filecontents}
+
+	
+	
+
+
+
+% Для листинга кода:
+\lstset{ %
+language=c++,                 % выбор языка для подсветки
+basicstyle=\small\sffamily, % размер и начертание шрифта для подсветки кода
+numbers=left,               % где поставить нумерацию строк (слева\справа)
+numberstyle=\tiny,           % размер шрифта для номеров строк
+stepnumber=1,                   % размер шага между двумя номерами строк
+numbersep=5pt,                % как далеко отстоят номера строк от подсвечиваемого кода
+showspaces=false,            % показывать или нет пробелы специальными отступами
+showstringspaces=false,      % показывать или нет пробелы в строках
+showtabs=false,             % показывать или нет табуляцию в строках
+frame=single,              % рисовать рамку вокруг кода
+tabsize=4,                 % размер табуляции по умолчанию равен 2 пробелам
+captionpos=t,              % позиция заголовка вверху [t] или внизу [b]
+breaklines=true,           % автоматически переносить строки (да\нет)
+breakatwhitespace=false, % переносить строки только если есть пробел
+escapeinside={\#*}{*)}   % если нужно добавить комментарии в коде
+}
+
+% Для измененных титулов глав:
+\usepackage{titlesec, blindtext, color} % подключаем нужные пакеты
+\definecolor{gray75}{gray}{0.75} % определяем цвет
+\newcommand{\hsp}{\hspace{20pt}} % длина линии в 20pt
+% titleformat определяет стиль
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+
+
+
+\begin{document}
+\begin{titlepage}
+	\centering
+	{\scshape\LARGE МГТУ им. Баумана \par}
+	\vspace{3cm}
+	{\scshape\Large Лабораторная работа №5\par}
+	\vspace{0.5cm}
+	{\scshape\Large По курсу: "Анализ алгоритмов"\par}
+	\vspace{1.5cm}
+	{\huge\bfseries Вычислительный конвейер\par}
+	\vspace{2cm}
+	\Large Работу выполнила: Шатохин Максим, ИУ7-55Б\par
+	\vspace{0.5cm}
+	\LargeПреподаватели:  Волкова Л.Л., Строганов Ю.В.\par
+
+	\vfill
+	\large \textit {Москва, 2019} \par
+\end{titlepage}
+
+\tableofcontents
+
+\newpage
+\chapter*{Введение}
+\addcontentsline{toc}{chapter}{Введение}
+
+Целью данной работы является получение навыка организации асинхронного взаимодействия между потоками на примере конвейерных вычислений.
+
+Задачи лабораторной работы:
+\begin{enumerate}
+	\item[1)] поставить задачу стадийной обработки данных;
+	\item[2)] спроектировать ПО, реализующее конвейерную обработку;
+	\item[3)] описать реализацию;
+  	\item[4)] провести исследование времени обработки данных на основании журнала(лога);
+	\item[5)] интерпретировать данные лога.
+\end{enumerate}
+
+
+\chapter*{Аналитическая часть}
+\addcontentsline{toc}{chapter}{Аналитическая часть}
+Конвейер — способ организации вычислений, используемый в современных процессорах и контроллерах с целью повышения их производительности (увеличения числа инструкций, выполняемых в единицу времени).
+
+Один из самых простых и наиболее распространенных способов повышения быстродействия процессоров — конвейеризация процесса вычислений.
+
+Конвейеризация – это техника, в результате которой задача или  команда разбивается  на некоторое число подзадач, которые  выполняются последовательно.
+Каждая  подкоманда   выполняется на своем логическом  устройстве.
+Все логические устройства (ступени) соединяются последовательно таким образом, что выход i-ой  ступени  связан   с   входом   (i+1)-ой   ступени,  все ступени  работают  одновременно.
+Множество  ступеней называется конвейером. Выигрыш во времени достигается при выполнении  нескольких задач  за  счет параллельной   работы   ступеней,  вовлекая  на  каждом такте новую задачу или команду.
+
+\section*{Оценка производительности конвейера}
+\addcontentsline{toc}{section}{Оценка производительности конвейера}
+
+Пусть задана операция, выполнение которой разбито на n последовательных этапов. При последовательном их выполнении операция выполняется за время
+
+\begin{equation}\label{form:way}
+ \tau _{e}={\sum\limits_{i=1}^n \tau _{i}}
+ \end{equation}
+ \begin{align*}
+    \text{где} \\
+    n &- \text{количество последовательных этапов;} \\
+   \tau _{i} &- \text{время выполнения i-го этапа;}
+\end{align*}
+
+Быстродействие одного процессора, выполняющего только эту операцию, составит
+
+\begin{equation}\label{form:way}
+ S_{e}={\frac{1}{\tau _{e}}}={\frac{1}{\sum\limits_{i=1}^n \tau _{i}}}
+ \end{equation}
+ \begin{align*}
+    \text{где} \\
+    \tau _{e} &- \text{время выполнения одной операции;} \\
+    n &- \text{количество последовательных этапов;} \\
+   \tau _{i} &- \text{время выполнения i-го этапа;}
+\end{align*}
+
+Выберем время такта — величину $t _{T} = max{\sum\limits_{i=1}^n(\tau_{i})}$ и потребуем при разбиении на этапы, чтобы для любого i = 1, ... , n выполнялось условие $(\tau_{i} + \tau_{i+1}) mod n = \tau_{T}$. То есть чтобы никакие два последовательных этапа (включая конец и новое начало операции) не могли быть выполнены за время одного такта.
+
+Максимальное быстродействие процессора при полной загрузке конвейера составляет
+
+\begin{equation}\label{form:way}
+ S_{max}={\frac{1}{\tau _{T}}}
+ \end{equation}
+ \begin{align*}
+    \text{где} \\
+    \tau _{T} &- \text{выбранное нами время такта;}
+\end{align*}
+
+Число n — количество уровней конвейера, или глубина перекрытия, так как каждый такт на конвейере параллельно выполняются n операций. Чем больше число уровней (станций), тем больший выигрыш в быстродействии может быть получен.
+
+Известна оценка
+\begin{equation}\label{form:way}
+{\frac{n}{n/2} \leq {\frac{S_{max}}{S_{e}}} \leq n}
+ \end{equation}
+ \begin{align*}
+    \text{где} \\
+    S_{max} &- \text{максимальное быстродействие процессора  при полной загрузке конвейера;} \\
+    S_{e} &- \text{стандартное быстродействие процессора;} \\
+   n &- \text{количество этапов.}
+\end{align*}
+
+то есть выигрыш в быстродействии получается от n/2  до n раз [2].
+
+
+Реальный выигрыш в быстродействии оказывается всегда меньше, чем указанный выше, поскольку:
+
+\begin{enumerate}
+\item[1)] некоторые операции, например, над целыми, могут выполняться за меньшее количество этапов, чем другие арифметические операции. Тогда отдельные станции конвейера будут простаивать;
+\item[2)] при выполнении некоторых операций на определённых этапах могут требоваться результаты более поздних, ещё не выполненных этапов предыдущих операций. Приходится приостанавливать конвейер;
+\item[3)] поток команд(первая ступень) порождает недостаточное количество операций для полной загрузки конвейера.
+\end{enumerate}
+
+\chapter*{Конструкторская часть}
+\addcontentsline{toc}{chapter}{Конструкторская часть}
+
+\section*{Разработка реализаций алгоритмов}
+\addcontentsline{toc}{section}{Разработка реализаций алгоритмов}
+
+Общая идея конвейера связана с разбиением некоторого процесса обработки объектов на независимые этапы и организацией параллельного выполнения во времени различных этапов обработки различных объектов, передвигающихся по конвейеру от одного этапа к другому.
+Поэтому основой разработки конвейера является разбиение процесса на независимые этапы.
+
+Конвейер состоит из трех лент, которые называеются PreProcessing, Processing и PostProcessing. Каждый объект проходит три этапа обработки на каждой из лент. Объект представляет собой экземпляр специально созданного класса MyObject. Объекты класса MyObject по сути являются абрстракцией объектов, которые обрабатывались бы в реальной конкретной системе с конвейерными вычислениями. Три ленты конвейера представляют собой три отдельных класса, каждый из которых имеет функцию, выполняющую условно полезную работу, определяющую время нахождения объекта на ленте. Каждая лента запускается в отдельном потоке.
+
+В программе N объектов генерируются и помещаются в очередь первой ленты (PreProcessing). После того, как i-й объект (i = 1, ..., N) был обработан на первой ленте, он передается в очередь второй ленты (Processing). После обработки на второй ленте объект передается в очередь третьей ленты (PostProcessing). После обработки на третьей ленты объект помещается в контейнер обработанных объектов. Объект считается обработанным, если он прошел все три ленты конвейера. Эти действия выполняются для каждого из N сгенерированных объектов.
+Для каждой ленты были определены следующие функции, выполняющие условно полезную работу: вычисление факториала числа, вычисление наибольшего общего делителя, помноженного на константу для числа и константы, возведение числа в заранее заданную степень для PreProcessing, Processing и PostProcessing соответственно. Класс MyObject имеет целочисленное поле a. Данное число является условно полезной информацией, которая и преобразуется в конвейере путем поочередной подачи числа а на вход в функцию каждой ленты. 
+
+На рисунке 1 изображена схема алгоритма обработки объектов класса MyObject.
+Принцип обработки объектов на ленте PreProcessing изображен на рисунке 2.
+Принцип обработки объектов на ленте Processing изображен на рисунке 3.
+Принцип обработки объектов на ленте PostProcessing изображен на рисунке 4.
+
+
+\begin{figure}
+\center{\includegraphics{obj_proc}}
+\caption{Алгоритм обработки объектов класса MyObject}
+\label{fig:image}
+\end{figure}
+
+\begin{figure}
+\center{\includegraphics[height=20cm]{preproc}}
+\caption{Алгоритм обработки объектов на ленте PreProcessing}
+\label{fig:image}
+\end{figure}
+
+\begin{figure}
+\center{\includegraphics[height=20cm]{processing}}
+\caption{Алгоритм обработки объектов на ленте Processing}
+\label{fig:image}
+\end{figure}
+
+\begin{figure}
+\center{\includegraphics[height=17cm]{postproc}}
+\caption{Алгоритм обработки объектов на ленте PostProcessing}
+\label{fig:image}
+\end{figure}
+
+\newpage
+
+\section*{Требования к программе}
+\addcontentsline{toc}{section}{Требования к программе}
+
+\textbf{Требования к вводу:}\\
+Программа не имеет входных данных.
+
+\textbf{Требования к программе:}\\
+На выходе программа предоставляет лог-файл, где для каждого обработанного на конвейете объекта записано:
+\begin{enumerate}
+	\item время начала обработки на первой ленте и время конца обработки на первой ленте;
+	\item время начала обработки на первой ленте и время конца обработки на второй ленте;
+	\item время начала обработки на первой ленте и время конца обработки на третьей ленте.
+\end{enumerate}
+
+Кроме этого, в лог-файл долнжо быть записано общее время работы конвейера.
+
+\chapter*{Технологическая часть}
+\addcontentsline{toc}{chapter}{Технологическая часть}
+
+В данном разделе будут определены средства реализации и приведен листинг кода.
+
+\section*{Выбор языка программирования}
+\addcontentsline{toc}{section}{Выбор языка программирования}
+
+В качестве языка программирования для реализации программы был выбран язык C++ и фреймворк Qt, потому что:
+\begin{itemize}
+	\item язык C++ имеет высокую вычислительную производительность;
+	\item язык C++ поддерживает различные стили программирования;
+	\item в Qt существует удобный инструмент для тестирования - QtTest - который позволяет собирать тесты в группы, собирать результаты выполнения тестов, а также уменьшить дублирование кода при схожих объектах тестирования.
+\end{itemize}
+
+Для замеров времени использовался методы restart() и elapsed() класса QTime. Метод elapsed() возвращает количество миллисекунд, прошедших с момента последнего вызова start() или restart().
+
+Для работы с мьютексами и потоками в лабораторной работе используются классы QMutex, QThread фреймворка Qt.
+
+Для реализации очереди использовался класс queue из стандартной библиотеки C++.
+
+\section*{Сведения о модулях программы}
+\addcontentsline{toc}{section}{Сведения о модулях программы}
+
+Программа состоит из следующих файлов:
+\begin{itemize}
+	\item myobject.h, myobject.cpp - заголовочный файл и файл, в котором расположена реализация обрабатываемых объектов;
+	\item main.cpp - главный файл программы, в котором расположен запуск конвейера;
+	\item preprocessing.h, preprocessing.cpp - файл и заголовочный файл, в котором расположена реализация первой ленты конвейера;
+	\item processing.h, processing.cpp - файл и заголовочный файл, в котором расположена реализация второй ленты конвейера;
+	\item postprocessing.h, postprocessing.cpp - файл и заголовочный файл, в котором расположена реализация третьей ленты конвейера.
+\end{itemize}
+
+\section*{Листинги кода алгоритмов}
+\addcontentsline{toc}{section}{Листинги кода алгоритмов}
+
+\begin{lstlisting}[label=some-code,caption=Запуск конвейера]
+const int COUNT = 10;
+
+const string LOG_FILE = "times.txt";
+const string LOG_FILE2 = "times2.txt";
+
+void consistent(MyObject **objs);
+
+int main(int argc, char *argv[])
+{
+    QCoreApplication a(argc, argv);
+    srand(static_cast<unsigned int>(time(nullptr)));
+
+    MyObject *objs[COUNT];
+
+    for (int i = 0; i < COUNT; ++i)
+    {
+        int myrand = rand() % MAX_RAND + 10;
+
+        objs[i] = new MyObject(i, myrand);
+    }
+
+    consistent(objs);
+
+    QTime timer;
+    timer.restart();
+
+    int start_time = timer.elapsed();
+
+    vector<MyObject> dump;
+
+    QMutex *mutex2 = new QMutex;
+    QMutex *mutex3 = new QMutex;
+
+    PostProcessing *postproc = new PostProcessing(COUNT, &timer, &dump, mutex2);
+    Processing *proc = new Processing(COUNT, &timer, postproc, mutex2, mutex3);
+    PreProcessing *preproc = new PreProcessing(COUNT, &timer, proc, mutex3);
+
+    for (int i = 0; i < COUNT; ++i)
+    {
+        preproc->addToQueue(*objs[i]);
+    }
+
+    vector<thread> threads;
+    threads.push_back(thread(&PreProcessing::process, preproc));
+    threads.push_back(thread(&Processing::process, proc));
+    threads.push_back(thread(&PostProcessing::process, postproc));
+
+    for (unsigned int i = 0; i <  threads.size(); ++i)
+    {
+        if (threads.at(i).joinable())
+            threads.at(i).join();
+    }
+
+    int total_time = timer.elapsed() - start_time;
+
+    ofstream fout(LOG_FILE);
+    if (fout.is_open())
+    {
+        for (unsigned int i = 0; i < dump.size(); ++i)
+            dump.at(i).timesToFile(fout);
+        fout << "Total time: " << total_time << endl;
+        cout << "Results in: " << LOG_FILE << endl;
+    }
+    else
+        cout << "I cant open file " << LOG_FILE << endl;
+    fout.close();
+
+
+    delete mutex2;
+    delete mutex3;
+    delete preproc;
+    delete proc;
+    delete postproc;
+
+    return 0;
+}
+\end{lstlisting}
+
+\begin{lstlisting}[label=some-code,caption=Объявление класса MyObject]
+class MyObject
+{
+public:
+    MyObject(int id, int a);
+    void setTime(int time);
+    void printTimes();
+    void timesToFile(ofstream &fout);
+    void set_a(unsigned long int a) {this->a = a;}
+    unsigned long int get_a() {return  this->a;}
+
+private:
+    unsigned long int a;
+    int _id;
+    vector<int> _times;
+};
+\end{lstlisting}
+
+\begin{lstlisting}[label=some-code,caption=Реализация класса MyObject]
+MyObject::MyObject(int id)
+{
+    this->_id = id;
+}
+
+void MyObject::setTime(int time)
+{
+    this->_times.push_back(time);
+}
+
+void MyObject::printTimes()
+{
+    cout << "Object" << _id << "\t\t";
+    for (unsigned int i = 0; i < _times.size(); ++i)
+        cout << _times.at(i) << "  ";
+    cout << endl;
+}
+
+void MyObject::timesToFile(ofstream &fout)
+{
+    fout << "Object" << _id << "\t\t";
+    for (unsigned int i = 0; i < _times.size(); ++i)
+    {
+        fout << _times.at(i) << "  ";
+    }
+    fout << endl;
+}
+\end{lstlisting}
+
+\begin{lstlisting}[label=some-code,caption=Объявление класса PreProcessing]
+class PreProcessing
+{
+public:
+    PreProcessing(int count, QTime *timer, Processing *p, QMutex *mutex2);
+    void addToQueue(MyObject obj);
+    void process();
+private:
+    queue<MyObject> _queue;
+    QTime *_timer;
+    Processing *_proc;
+    QMutex *_mutex2;
+    int _count;
+    int preprocessed = 0;
+    unsigned long int fac(unsigned long int num);
+};
+\end{lstlisting}
+
+\begin{lstlisting}[label=some-code,caption=Реализация класса PreProcessing]
+PreProcessing::PreProcessing(int count, QTime *timer, Processing *p, QMutex *mutex2)
+{
+    this->_count = count;
+    this->_timer = timer;
+    this->_proc = p;
+    this->_mutex2 = mutex2;
+}
+
+void PreProcessing::addToQueue(MyObject obj)
+{
+    _queue.push(obj);
+}
+
+void PreProcessing::process()
+{
+    while (preprocessed != _count)
+    {
+        if (_queue.size() != 0)
+        {
+            // cout << "PreProcessing" << _timer->elapsed() << endl;
+            MyObject obj = _queue.front();
+
+            obj.setTime(_timer->elapsed());
+
+            unsigned long fac = this->fac(obj.get_a());
+            obj.set_a(fac);
+
+            obj.setTime(_timer->elapsed());
+            _queue.pop();
+            _mutex2->lock();
+            _proc->addToQueue(obj);
+            _mutex2->unlock();
+            preprocessed++;
+        }
+    }
+}
+
+unsigned long PreProcessing::fac(unsigned long int num)
+{
+    unsigned long int fac = 1;
+    for (unsigned long int count = 1; count <= num; count++)
+    {
+        fac *= count;
+    }
+
+    return  fac;
+}
+\end{lstlisting}
+
+\begin{lstlisting}[label=some-code,caption=Объявление класса Processing]
+class Processing
+{
+public:
+    Processing(int count, QTime *timer, PostProcessing *p, QMutex *mutex2, QMutex *mutex3);
+    void addToQueue(MyObject obj);
+    void process();
+private:
+    queue<MyObject> _queue;
+    QTime *_timer;
+    PostProcessing *_proc;
+    QMutex *_mutex2;
+    QMutex *_mutex3;
+    int _count;
+    int processed = 0;
+    unsigned long int nod_pow(unsigned long int a, unsigned long int b);
+};
+\end{lstlisting}
+
+\begin{lstlisting}[label=some-code,caption=Реализация класса Processing]
+Processing::Processing(int count, QTime *timer, PostProcessing *p, QMutex *mutex2, QMutex *mutex3)
+{
+    this->_count = count;
+    this->_timer = timer;
+    this->_proc = p;
+    this->_mutex2 = mutex2;
+    this->_mutex3 = mutex3;
+}
+
+void Processing::addToQueue(MyObject obj)
+{
+    _queue.push(obj);
+}
+
+void Processing::process()
+{
+    while (processed != _count)
+    {
+        if (_queue.size() != 0)
+        {
+            // cout << "Processing" << _timer->elapsed() << endl;
+            MyObject obj = _queue.front();
+            QThread thread;
+            obj.setTime(_timer->elapsed());
+
+            unsigned long nod_pow = this->nod_pow(obj.get_a(), 357);
+            obj.set_a(nod_pow);
+
+            obj.setTime(_timer->elapsed());
+
+            _mutex2->lock();
+            _queue.pop();
+            _mutex2->unlock();
+
+            _mutex3->lock();
+            _proc->addToQueue(obj);
+            _mutex3->unlock();
+
+            processed++;
+        }
+    }
+}
+
+unsigned long Processing::nod_pow(unsigned long a, unsigned long b)
+{
+    unsigned long int nod = 0;
+
+    for (unsigned long int i = a; i > 0; i--)
+    {
+        if (a % i == 0 && b % i == 0)
+        {
+            nod = i;
+            break;
+        }
+    }
+
+    unsigned long result = 1;
+
+    for (int i = 0; i < 10000000; i++)
+        result *= nod;
+
+    return  result;
+}
+\end{lstlisting}
+
+\begin{lstlisting}[label=some-code,caption=Объявление класса PostProcessing]
+class PostProcessing
+{
+public:
+    PostProcessing(int count, QTime *timer, vector<MyObject> *dump, QMutex *mutex3);
+    void addToQueue(MyObject obj);
+    void process();
+private:
+    queue<MyObject> _queue;
+    QTime *_timer;
+    vector<MyObject> *_dump;
+    QMutex *_mutex3;
+    int _count;
+    int postprocessed = 0;
+    unsigned long int power(unsigned long int a, unsigned long int b);
+};
+\end{lstlisting}
+
+\begin{lstlisting}[label=some-code,caption=Реализация класса PostProcessing]
+PostProcessing::PostProcessing(int count, QTime *timer, vector<MyObject> *dump, QMutex *mutex3)
+{
+    this->_count = count;
+    this->_timer = timer;
+    this->_dump = dump;
+    this->_mutex3 = mutex3;
+}
+
+void PostProcessing::addToQueue(MyObject obj)
+{
+    _queue.push(obj);
+}
+
+void PostProcessing::process()
+{
+    while (postprocessed != _count)
+    {
+        if (_queue.size() != 0)
+        {
+            // cout << "PostProcessing" << _timer->elapsed() << endl;
+            MyObject obj = _queue.front();
+            QThread thread;
+            obj.setTime(_timer->elapsed());
+
+            unsigned long int power = this->power(obj.get_a(), 1000000000);
+            obj.set_a(power);
+
+            obj.setTime(_timer->elapsed());
+
+            _mutex3->lock();
+            _queue.pop();
+            _mutex3->unlock();
+
+            _dump->push_back(obj);
+            postprocessed++;
+        }
+    }
+}
+
+unsigned long PostProcessing::power(unsigned long a, unsigned long b)
+{
+    unsigned long int res = 1;
+
+    for (unsigned long int i = 0; i < b; i++)
+    {
+        res *= a;
+    }
+
+    return  res;
+}
+
+\end{lstlisting}
+
+\section*{Тесты}
+\addcontentsline{toc}{section}{Тесты}
+
+Тестирование ПО проводилось вручную на основании данных лог-файла. Проверялась работа и корректное завершение программы для разного количества объектов: для 1 - 5 объектов, от 10 до 100 с шагом 10. Все тесты были пройдены.
+
+\chapter*{Экспериментальная часть}
+\addcontentsline{toc}{chapter}{Исследовательская часть}
+
+В данном разделе будет сравнительный анализ реализаций конвейера при разной нагруженности компонентов конвейера.
+
+\section*{Постановка эксперимента}
+\addcontentsline{toc}{section}{Постановка эксперимента}
+
+В рамках данной работы были проведены следующие эксперименты.
+
+\begin{enumerate}
+	\item Измерение времени работы конвейера в три потока при его загруженности от 0 до 20 элементами с шагом 15.
+	\item Измерение времени работы конвейера в один поток (последовательно) при его загруженности от 0 до 25 элементами с шагом 5.
+\end{enumerate}
+
+\section*{Сравнительный анализ на материале экспериментальных данных}
+\addcontentsline{toc}{section}{Сравнительный анализ на материале экспериментальных данных}
+
+Результаты замеров времени работы конвейера в три потока отображены в таблице 1. Результаты замеров времени работы конвейера в один поток отображены в таблице 2.
+
+\begin{table}
+	\caption{Результаты замеров времени для трех потоков}
+	\begin{center}
+	\tabcolsep=0.11cm
+		\begin{tabular}{|c | c | c |}
+	 	\hline
+		Кол-во объектов & время, мс  \\ [0.5ex]
+	 	\hline\hline
+		0 & 0 \\ \hline
+		5 & 157 \\ \hline
+		10 & 1057 \\ \hline
+		15 & 1388 \\ \hline
+		20 & 1577 \\ \hline
+	\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}
+	\caption{Результаты замеров времени для одного потока}
+	\begin{center}
+	\tabcolsep=0.11cm
+		\begin{tabular}{|c | c | c |}
+	 	\hline
+		Кол-во объектов & время, мс  \\ [0.5ex]
+	 	\hline\hline
+		0 & 0 \\ \hline
+		5 & 297 \\ \hline
+		10 & 1328 \\ \hline
+		15 & 1733 \\ \hline
+		20 & 1957 \\ \hline
+	\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{figure}[!h]
+	\center{
+	\begin{tikzpicture}
+	\begin{axis}[
+	    	axis lines = left,
+	    	xlabel = {кол-во объектов},
+	    	ylabel = {время, мс},
+		legend pos=north west,
+		ymajorgrids=true
+	]
+	\addplot[color=blue, mark=square] table[x index=0, y index=1] {thread3.dat};
+	\addplot[color=green, mark=square] table[x index=0, y index=1] {thread1.dat};
+	\addlegendentry{thread3}
+	\addlegendentry{thread1}
+	\end{axis}
+\end{tikzpicture}
+\caption{Результаты замеров времени для конвейера в три потока и в один поток}}
+\end{figure}
+
+\newpage
+
+\section*{Выводы}
+\addcontentsline{toc}{section}{Выводы}
+
+В результате проведенных экспериментов было установлено следующее.
+\begin{enumerate}
+	\item Время работы конвейера в три потока практически линейно зависит от количества обрабатываемых объектов.
+	\item Время обработки объектов в один поток практически линейно зависит от количества обрабатываемых объектов.
+	\item Время обработки объектов в один поток растет быстрее времени работы конвейера в три потока при росте количества обрабатываемых объектов.
+\end{enumerate}
+
+\section*{Лог-файл и его интерпретация}
+\addcontentsline{toc}{section}{Выводы}
+
+Ниже представлены данные из лог-файл, который создает программа.
+
+Условные обозначения:
+\begin{enumerate}
+	\item t11, t12 - время поступления объекта на первую ленту и время конца его обработки на первой ленте соответсвенно в мс;
+	\item t21, t22 - время поступления объекта на вторую ленту и время конца его обработки на первой ленте соответсвенно в мс;
+	\item t31, t32 - время поступления объекта на третью ленту и время конца его обработки на первой ленте соответсвенно в мс;
+	\item id объекта - его номер в очереди.
+\end{enumerate}
+
+\begin{table}[!h]
+	\caption{Данные из лог-файла}
+	%\begin{center}
+	\tabcolsep=0.11cm
+		\begin{tabular}{| c | c | c | c | c | c | c |}
+	 	\hline
+		ID объекта & t11, мс & t12, мс & t21, мс & t22, мс & t31, мс & t32, мс \\ [0.5ex]
+	 	\hline\hline
+		0	& 	0 &  110 & 110 & 125 & 125 & 156  \\ \hline
+		1	&	110 & 203  & 203  & 235  & 235  & 250 \\ \hline 
+		2	&	203  & 313 & 313  & 328  & 328  & 360 \\ \hline 
+		3	&	313  & 406 & 406  & 438  & 438  & 453 \\ \hline 
+		4	&	406  & 500  & 500  & 516  & 516  & 547 \\ \hline  
+		5	&	500  & 605  & 605  & 627  & 627  & 649 \\ \hline 
+		6	&	605  & 703  & 703  & 723  & 723  & 739 \\ \hline 
+		7	&	703  & 802  & 802  & 817  & 817  & 833 \\ \hline 
+		8	&	802  & 912  & 912  & 932  & 932  & 954 \\ \hline 
+		9	&	912  & 1014  & 1014  & 1036  & 1036  & 1057 \\ \hline 
+	\end{tabular}
+	%\end{center}
+\end{table}
+
+Total time: 1057
+
+Из данных лог-файла можно сделать вывод, что конвеер работает корректно. Общее время работы конвейера для 10 объектов составило 1057 мс.
+
+\chapter*{Заключение}
+\addcontentsline{toc}{chapter}{Заключение}
+
+В ходе данной лабораторной работы были получены навыки огранизации асинхронного взаимодействия между потоками на примере конвейерных вычислений. Было спроектировано ПО, реализующее конвейерную обработку. Был проведен сравнительный анализ времени работы конвейера при работе в один поток и в три. Были проанализированы данные из лог-файла.
+
+\chapter*{Список литературы}
+\addcontentsline{toc}{chapter}{Список литературы}
+
+1. Amos R. Omondi. Microarchitecture of Pipelined and Superscalar Computers. — Springer, 1999.
+
+2. Корнеев В.В. Вычислительные системы.-М.:Гелиос APB,  2004.-512с., ил.
+
+\end{document}
