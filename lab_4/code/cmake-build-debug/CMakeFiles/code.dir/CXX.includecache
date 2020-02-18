@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+S:/GitHub/algorithm-analysis/lab_4/code/controller.h
+iostream
+-
+string
+-
+memory
+-
+vector
+-
+
+S:/GitHub/algorithm-analysis/lab_4/code/main.cpp
+controller.h
+S:/GitHub/algorithm-analysis/lab_4/code/controller.h
+time_test.h
+S:/GitHub/algorithm-analysis/lab_4/code/time_test.h
+mul_test.h
+S:/GitHub/algorithm-analysis/lab_4/code/mul_test.h
+
+S:/GitHub/algorithm-analysis/lab_4/code/mul_test.h
+
+S:/GitHub/algorithm-analysis/lab_4/code/time_test.h
+

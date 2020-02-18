@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\GitHub\Algorithm-Analysis\lab4\code
+CMAKE_SOURCE_DIR = S:\GitHub\algorithm-analysis\lab_4\code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\GitHub\Algorithm-Analysis\lab4\code\cmake-build-debug
+CMAKE_BINARY_DIR = S:\GitHub\algorithm-analysis\lab_4\code\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\GitHub\Algorithm-Analysis\lab4\code\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\Algorithm-Analysis\lab4\code\cmake-build-debug\CMakeFiles D:\GitHub\Algorithm-Analysis\lab4\code\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start S:\GitHub\algorithm-analysis\lab_4\code\cmake-build-debug\CMakeFiles S:\GitHub\algorithm-analysis\lab_4\code\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\Algorithm-Analysis\lab4\code\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start S:\GitHub\algorithm-analysis\lab_4\code\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named app
+# Target rules for targets named code
 
 # Build rule for target.
-app: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 app
-.PHONY : app
+code: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 code
+.PHONY : code
 
 # fast build rule for target.
-app/fast:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/build
-.PHONY : app/fast
+code/fast:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/build
+.PHONY : code/fast
 
 controller.obj: controller.cpp.obj
 
@@ -128,7 +128,7 @@ controller.obj: controller.cpp.obj
 
 # target to build an object file
 controller.cpp.obj:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/controller.cpp.obj
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/controller.cpp.obj
 .PHONY : controller.cpp.obj
 
 controller.i: controller.cpp.i
@@ -137,7 +137,7 @@ controller.i: controller.cpp.i
 
 # target to preprocess a source file
 controller.cpp.i:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/controller.cpp.i
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/controller.cpp.i
 .PHONY : controller.cpp.i
 
 controller.s: controller.cpp.s
@@ -146,7 +146,7 @@ controller.s: controller.cpp.s
 
 # target to generate assembly for a file
 controller.cpp.s:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/controller.cpp.s
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/controller.cpp.s
 .PHONY : controller.cpp.s
 
 main.obj: main.cpp.obj
@@ -155,7 +155,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -164,7 +164,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +173,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 mul_test.obj: mul_test.cpp.obj
@@ -182,7 +182,7 @@ mul_test.obj: mul_test.cpp.obj
 
 # target to build an object file
 mul_test.cpp.obj:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/mul_test.cpp.obj
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/mul_test.cpp.obj
 .PHONY : mul_test.cpp.obj
 
 mul_test.i: mul_test.cpp.i
@@ -191,7 +191,7 @@ mul_test.i: mul_test.cpp.i
 
 # target to preprocess a source file
 mul_test.cpp.i:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/mul_test.cpp.i
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/mul_test.cpp.i
 .PHONY : mul_test.cpp.i
 
 mul_test.s: mul_test.cpp.s
@@ -200,7 +200,7 @@ mul_test.s: mul_test.cpp.s
 
 # target to generate assembly for a file
 mul_test.cpp.s:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/mul_test.cpp.s
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/mul_test.cpp.s
 .PHONY : mul_test.cpp.s
 
 mult_matrix.obj: mult_matrix.cpp.obj
@@ -209,7 +209,7 @@ mult_matrix.obj: mult_matrix.cpp.obj
 
 # target to build an object file
 mult_matrix.cpp.obj:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/mult_matrix.cpp.obj
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/mult_matrix.cpp.obj
 .PHONY : mult_matrix.cpp.obj
 
 mult_matrix.i: mult_matrix.cpp.i
@@ -218,7 +218,7 @@ mult_matrix.i: mult_matrix.cpp.i
 
 # target to preprocess a source file
 mult_matrix.cpp.i:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/mult_matrix.cpp.i
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/mult_matrix.cpp.i
 .PHONY : mult_matrix.cpp.i
 
 mult_matrix.s: mult_matrix.cpp.s
@@ -227,7 +227,7 @@ mult_matrix.s: mult_matrix.cpp.s
 
 # target to generate assembly for a file
 mult_matrix.cpp.s:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/mult_matrix.cpp.s
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/mult_matrix.cpp.s
 .PHONY : mult_matrix.cpp.s
 
 time_test.obj: time_test.cpp.obj
@@ -236,7 +236,7 @@ time_test.obj: time_test.cpp.obj
 
 # target to build an object file
 time_test.cpp.obj:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/time_test.cpp.obj
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/time_test.cpp.obj
 .PHONY : time_test.cpp.obj
 
 time_test.i: time_test.cpp.i
@@ -245,7 +245,7 @@ time_test.i: time_test.cpp.i
 
 # target to preprocess a source file
 time_test.cpp.i:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/time_test.cpp.i
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/time_test.cpp.i
 .PHONY : time_test.cpp.i
 
 time_test.s: time_test.cpp.s
@@ -254,7 +254,7 @@ time_test.s: time_test.cpp.s
 
 # target to generate assembly for a file
 time_test.cpp.s:
-	$(MAKE) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/time_test.cpp.s
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/time_test.cpp.s
 .PHONY : time_test.cpp.s
 
 # Help Target
@@ -263,7 +263,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... app
+	@echo ... code
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... controller.obj

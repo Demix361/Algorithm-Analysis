@@ -39,13 +39,13 @@ void PostProcessing::process()
     }
 }
 
-unsigned long PostProcessing::power(unsigned long nok, unsigned long nod)
+unsigned long PostProcessing::power(unsigned long a, unsigned long b)
 {
     unsigned long int res = 1;
 
-    for (unsigned long int i = 0; i < nod; i++)
+    for (unsigned long int i = 0; i < b; i++)
     {
-        res *= nok;
+        res *= a;
     }
 
     return  res;

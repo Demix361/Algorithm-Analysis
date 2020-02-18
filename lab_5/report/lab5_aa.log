@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  18 FEB 2020 01:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.10.30)  18 FEB 2020 15:01
 entering extended mode
 **./lab5_aa.tex
 (lab5_aa.tex
-LaTeX2e <2019-10-01>
+LaTeX2e <2018-12-01>
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
-Document Class: report 2019/08/27 v1.4j Standard LaTeX document class
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
-File: size10.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -30,7 +30,7 @@ File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
  ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t2aenc.dfu"
-File: t2aenc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
+File: t2aenc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00AB (decimal 171)
@@ -218,18 +218,9 @@ File: t2aenc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
    defining Unicode char U+2329 (decimal 9001)
    defining Unicode char U+232A (decimal 9002)
    defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+27E8 (decimal 10216)
-   defining Unicode char U+27E9 (decimal 10217)
-   defining Unicode char U+FB00 (decimal 64256)
-   defining Unicode char U+FB01 (decimal 64257)
-   defining Unicode char U+FB02 (decimal 64258)
-   defining Unicode char U+FB03 (decimal 64259)
-   defining Unicode char U+FB04 (decimal 64260)
-   defining Unicode char U+FB05 (decimal 64261)
-   defining Unicode char U+FB06 (decimal 64262)
 ))
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
-05.
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 105.
+
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmr.fd
 "
@@ -241,11 +232,11 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@posthook=\toks15
 ) ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
 y"
-Package: babel 2019/09/27 3.34 The Babel package
+Package: babel 2019/07/19 3.33 The Babel package
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
 "
-File: switch.def 2019/09/27 3.34 Babel switching mechanism
+File: switch.def 2019/07/19 3.33 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
@@ -259,7 +250,7 @@ ish.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2019/09/27 3.34 Babel common definitions
+File: babel.def 2019/07/19 3.33 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 
@@ -352,13 +343,12 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks19
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
 y"
-Package: amsmath 2019/04/01 v2.17c AMS math features
+Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -383,20 +373,20 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count102
-LaTeX Info: Redefining \frac on input line 227.
+LaTeX Info: Redefining \frac on input line 223.
 \uproot@=\count103
 \leftroot@=\count104
-LaTeX Info: Redefining \overline on input line 389.
+LaTeX Info: Redefining \overline on input line 385.
 \classnum@=\count105
 \DOTSCASE@=\count106
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box29
 \strutbox@=\box30
 \big@size=\dimen118
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \macc@depth=\count107
 \c@MaxMatrixCols=\count108
 \dotsspace@=\muskip10
@@ -417,8 +407,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2855.
-LaTeX Info: Redefining \] on input line 2856.
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
 )
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\extsizes.
 sty"
@@ -445,7 +435,7 @@ Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
 sty"
-Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -454,7 +444,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
 x.def"
@@ -911,12 +901,6 @@ File: pgflibraryplotmarks.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ontents.sty"
 Package: filecontents 2019/09/20 v1.5 Create an external file from within a LaT
 eX document
-
-
-Package filecontents Warning: This package is obsolete. Disabling it and
-(filecontents)                passing control to the filecontents environment
-(filecontents)                defined by the LaTeX kernel.
-
 )
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\indentfirst.
 sty"
@@ -962,7 +946,7 @@ File: pgflibrarydatavisualization.formats.functions.code.tex 2019/08/03 v3.1.4b
 "
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
  ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen191
 \ar@mcellbox=\box45
 \extrarowheight=\dimen192
@@ -1021,12 +1005,22 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cfttabnumwidth=\skip81
 )
 
-LaTeX Warning: File `no_thread.dat' already exists on the system.
-               Not generating it from this source.
+LaTeX Warning: Overwriting file `./no_thread.dat'.
+
+\openout15 = `no_thread.dat'.
 
 
-LaTeX Warning: File `3_thread.dat' already exists on the system.
-               Not generating it from this source.
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+
+LaTeX Warning: Overwriting file `./3_thread.dat'.
+
+\openout15 = `3_thread.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
 
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.
@@ -1253,12 +1247,12 @@ your preamble.
 
 {C:/Users/ti-am/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (lab5_aa.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
@@ -1310,8 +1304,8 @@ Package pdftex.def Info: postproc.png  used on input line 230.
 
 ] [6 <./obj_proc.png (PNG copy)>] [7 <./preproc.png (PNG copy)>] [8 <./processi
 ng.png (PNG copy)>] [9 <./postproc.png (PNG copy)>] [10]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
-63.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 263.
+
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1327,15 +1321,15 @@ Overfull \hbox (11.25757pt too wide) in paragraph at lines 268--269
 [11
 
 ]
-LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
-289.
+LaTeX Font Info:    Try loading font information for T2A+cmss on input line 289
+.
 
 ("C:\Users\ti-am\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmss.f
 d"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
-295.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 295
+.
 LaTeX Font Info:    No file OMScmss.fd. on input line 295.
 
 
@@ -1376,13 +1370,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29583 strings out of 492452
- 734909 string characters out of 3120063
- 1178663 words of memory out of 3000000
- 33411 multiletter control sequences out of 15000+200000
+ 29230 strings out of 492895
+ 731130 string characters out of 3123734
+ 1175365 words of memory out of 3000000
+ 32609 multiletter control sequences out of 15000+200000
  27165 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,19n,98p,1090b,2331s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,19n,96p,1090b,2331s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\ti-am\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
 si1200.pk> <C:\Users\ti-am\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/d
 pi600\lass1200.pk> <C:\Users\ti-am\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/
@@ -1405,9 +1399,9 @@ am/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 C:/Users/ti-am/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr12.pfb><C:/Users/ti-am/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb>
-Output written on lab5_aa.pdf (25 pages, 378603 bytes).
+Output written on lab5_aa.pdf (25 pages, 377754 bytes).
 PDF statistics:
- 598 PDF objects out of 1000 (max. 8388607)
+ 596 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

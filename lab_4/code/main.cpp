@@ -5,8 +5,8 @@
 
 int main(int argc, char *argv[])
 {
-    time_test();
-    //controller();
+    //time_test();
+    controller();
     //mul_test();
     return 0;
 }

@@ -1,18 +1,17 @@
 cmake_minimum_required(VERSION 3.15)
-project(egor_code)
+project(code)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(app
+add_executable(code
         controller.cpp
         controller.h
         main.cpp
-        time_test.cpp
-        time_test.h
+        mul_test.cpp
+        mul_test.h
         mult_matrix.cpp
         mult_matrix.h
-        result.txt
-        mul_test.cpp
-        mul_test.h)
+        time_test.cpp
+        time_test.h)

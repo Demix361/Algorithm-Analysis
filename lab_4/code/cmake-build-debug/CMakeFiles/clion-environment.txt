@@ -1,4 +1,4 @@
 ToolSet: w64 3.0 (local)@C:\mingw64
 Options: 
 
-Options:-DCMAKE_CXX_COMPILER=c:/mingw64/bin/g++.exe
+Options:
