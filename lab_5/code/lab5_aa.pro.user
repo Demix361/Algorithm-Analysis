@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.11.1, 2020-02-17T21:58:05. -->
+<!-- Written by QtCreator 4.11.1, 2020-02-18T01:37:39. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -287,8 +287,9 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:D:/GitHub/Algorithm-Analysis/lab_5_max/code/lab5_aa.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/GitHub/Algorithm-Analysis/lab_5_max/code/lab5_aa.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">lab5_aa2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:D:/GitHub/Algorithm-Analysis/lab_5/code/lab5_aa.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/GitHub/Algorithm-Analysis/lab_5/code/lab5_aa.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
