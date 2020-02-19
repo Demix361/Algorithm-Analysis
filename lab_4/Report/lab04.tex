@@ -208,23 +208,15 @@ a_{m1}*b_{11} + ... + a_{mq}*b_{q1} & ... & ... & a_{m1}*b_{1n} + ... + a_{mq}*b
     \subsection{Разработка алгоритмов}
     \subsubsection{Неоптимизированнный алгоритм Винограда}
     
-        На рис. \ref{fig:schema_mult_v_1} и \ref{fig:schema_mult_v_2} приведена схема неоптимизированного алгоритма Винограда.
+        На рис. \ref{fig:schema_mult_v_1} приведена схема неоптимизированного алгоритма Винограда.
         
         
         
         \begin{figure}[h!]
         	\begin{center}
-        		{\includegraphics[scale = 0.5]{schema06.pdf}}
+        		{\includegraphics[scale = 0.35]{winograd.png}}
         		\caption{Схема алгоритма умножения матриц по Винограду (часть 1)}
         		\label{fig:schema_mult_v_1}
-        	\end{center}
-        \end{figure}
-        
-        \begin{figure}[h!]
-        	\begin{center}
-        		{\includegraphics[scale = 0.5]{schema07.pdf}}
-        		\caption{Схема алгоритма умножения матриц по Винограду (часть 2)}
-        		\label{fig:schema_mult_v_2}
         	\end{center}
         \end{figure}
         
@@ -265,7 +257,7 @@ a_{m1}*b_{11} + ... + a_{mq}*b_{q1} & ... & ... & a_{m1}*b_{1n} + ... + a_{mq}*b
 	На рис. \ref{fig:schema_main}, \ref{fig:schema_h}, \ref{fig:schema_v}, \ref{fig:schema_m} и \ref{fig:schema_in_if} представлены схемы оптимизированного алгоритма Винограда, разбитого на потоки.
 	    \begin{figure}[h!]
 	    	\begin{center}
-	    		{\includegraphics[scale = 0.5]{schema01.pdf}}
+	    		{\includegraphics[scale = 0.5]{threaded_winograd.png}}
 	    		\caption{Схема основной функции}
 	    		\label{fig:schema_main}
 	    	\end{center}
@@ -273,7 +265,7 @@ a_{m1}*b_{11} + ... + a_{mq}*b_{q1} & ... & ... & a_{m1}*b_{1n} + ... + a_{mq}*b
 	    
 	    	    \begin{figure}[h!]
 	    	\begin{center}
-	    		{\includegraphics[scale = 0.5]{schema02.pdf}}
+	    		{\includegraphics[scale = 0.5]{mul_h.png}}
 	    		\caption{Схема функции, вычисляющей горизонтальные произведений}
 	    		\label{fig:schema_h}
 	    	\end{center}
@@ -281,7 +273,7 @@ a_{m1}*b_{11} + ... + a_{mq}*b_{q1} & ... & ... & a_{m1}*b_{1n} + ... + a_{mq}*b
 	    
 	    	    \begin{figure}[h!]
 	    	\begin{center}
-	    		{\includegraphics[scale = 0.5]{schema03.pdf}}
+	    		{\includegraphics[scale = 0.5]{mul_v.png}}
 	    		\caption{Схема функции, вычисляющей вертикальные произведений}
 	    		\label{fig:schema_v}
 	    	\end{center}
@@ -289,7 +281,7 @@ a_{m1}*b_{11} + ... + a_{mq}*b_{q1} & ... & ... & a_{m1}*b_{1n} + ... + a_{mq}*b
 	    
 	    	    \begin{figure}[h!]
 	    	\begin{center}
-	    		{\includegraphics[scale = 0.5]{schema04.pdf}}
+	    		{\includegraphics[scale = 0.5]{triple_cycle.png}}
 	    		\caption{Схема функции вычислений в тройном цикле}
 	    		\label{fig:schema_m}
 	    	\end{center}
@@ -298,7 +290,7 @@ a_{m1}*b_{11} + ... + a_{mq}*b_{q1} & ... & ... & a_{m1}*b_{1n} + ... + a_{mq}*b
 	    
 	    	    \begin{figure}[h!]
 	    	\begin{center}
-	    		{\includegraphics[scale = 0.5]{schema05.pdf}}
+	    		{\includegraphics[scale = 0.5]{if_cycle.png}}
 	    		\caption{Схема функции вычислений внутри условного перехода}
 	    		\label{fig:schema_in_if}
 	    	\end{center}
@@ -762,7 +754,7 @@ void calc_mult(Vector &mul_h, Vector &mul_v, Matrix &matr_1, Matrix &matr_2,
     	
     	Из этого следует, что последовательная и параллельная (с 1 рабочим потоком) реализации приблизительно одинаковы по скорости выполнения, но параллельная реализация немного быстрее.
     	
-        На рис. \ref{fig:gtaf_1} и \ref{fig:graf_2} приводятся графики времени выполнения оптимизированного алгоритма Винограда для параллельной реализации с количеством рабочих потоков от 1 до 32 на матрицах четной и неченой размерности.
+        На рис. 12 и 13 приводятся графики времени выполнения оптимизированного алгоритма Винограда для параллельной реализации с количеством рабочих потоков от 1 до 32 на матрицах четной и неченой размерности.
         
 \begin{center}
 
