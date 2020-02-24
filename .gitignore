@@ -15,7 +15,7 @@ lab_4/code/cmake-build-debug
 
 lab_5/code/.idea
 lab_5/code/__pycache__
-lab_5/code/build*
+lab_5/code/*build-*
 
 lab_6/code/.idea
 lab_6/code/__pycache__
