@@ -33,7 +33,6 @@ def lev_table(str_1, str_2):
 
             table[i][j] = min(step_1, step_2, step_3)
 
-    print_matrix(table)
     return table[len_1][len_2]
 
 
@@ -121,34 +120,15 @@ def main():
         str_1 = input("Введите первое слово: ")
         str_2 = input("Введите второе слово: ")
 
-        menu = "1 - Ливенштейн(итеративно)\n" \
-        "2 - Ливенштейн-Дамерау(итеративно)\n"\
-        "3 - Ливенштейн-Дамерау(рекурсивно)\n"\
-        "0 - выход"
+        l_t = lev_table(str_1, str_2)
+        l_r = lev_recursion(str_1, str_2)
+        d_l_t = dam_lev_table(str_1, str_2)
+        d_l_r = dam_lev_recursion(str_1, str_2)
 
-        print(menu)
-
-        while True:
-            choice = input("Выберите пункт меню: ")
-            try:
-                choice = int(choice)
-
-                if 0 <= choice <= 3:
-                    break
-                else:
-                    print("Неверное число!")
-            except ValueError:
-                print("Неверный выбор!")
-        if choice == 1:
-            d = lev_table(str_1, str_2)
-        elif choice == 2:
-            d = dam_lev_table(str_1, str_2)
-        elif choice == 3:
-            d = dam_lev_recursion(str_1, str_2)
-        else:
-            break
-
-        print("Штраф: ", d, "\n")
+        print('\nРасстояние итеративного Левенштейна: ', l_t)
+        print('Расстояние итеративного Дамерау-Левенштейна: ', d_l_t)
+        print('Расстояние рекурсивного Дамерау-Левенштейна: ', d_l_r)
+        print()
 
 
 if __name__ == "__main__":
