@@ -15,6 +15,7 @@ lab_4/code/cmake-build-debug
 
 lab_5/code/.idea
 lab_5/code/__pycache__
+lab_5/code/build*
 
 lab_6/code/.idea
 lab_6/code/__pycache__
@@ -22,10 +23,10 @@ lab_6/code/__pycache__
 lab_7/code/.idea
 lab_7/code/__pycache__
 
-rk_1/.idea
-rk_1/__pycache__
-rk_1/metro_graph.gv
-rk_1/metro_graph.gv.png
+rk_1/code/.idea
+rk_1/code/__pycache__
+rk_1/code/metro_graph.gv
+rk_1/code/metro_graph.gv.png
 
-rk_2/.idea
-rk_2/.__pycache__
+rk_2/code/.idea
+rk_2/code/.__pycache__
