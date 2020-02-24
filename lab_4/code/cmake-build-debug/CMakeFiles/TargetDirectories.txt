@@ -1,3 +1,0 @@
-S:/GitHub/algorithm-analysis/lab_4/code/cmake-build-debug/CMakeFiles/code.dir
-S:/GitHub/algorithm-analysis/lab_4/code/cmake-build-debug/CMakeFiles/edit_cache.dir
-S:/GitHub/algorithm-analysis/lab_4/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
