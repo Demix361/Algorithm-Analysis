@@ -1,9 +1,0 @@
-string & text & К-М-П & Б-М & ожидаемый  результат
-aab & aaaaaaaab & 6 & 6 & 6
-test & testestesttes & 0 & 0 & 0
-37 & 37373737 & 0 & 0 & 0
-cc & aba & -1 & -1 & -1
-they & thereztheyzare & 6 & 6 & 6
-ser & sergey & 0 & 0 & 0
-gey & sergey & 3 & 3 & 3
-asdb & asdasdasdasd & -1 & -1 & -1

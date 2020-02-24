@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\res.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\X86_64~1\bin\ar.exe cr CMakeFiles\res.dir/objects.a @CMakeFiles\res.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  -std=c++17 -g -Wall -Werror -pedantic   -Wl,--whole-archive CMakeFiles\res.dir/objects.a -Wl,--no-whole-archive  -o res.exe -Wl,--out-implib,libres.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\res.dir\linklibs.rsp

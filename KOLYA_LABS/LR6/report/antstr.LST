@@ -1,6 +1,0 @@
-struct ant
-{
-    std::vector<int> route;
-    std::vector<bool> visited;
-    double sum_route;
-};

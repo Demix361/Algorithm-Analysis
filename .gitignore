@@ -1,34 +1,31 @@
 .idea
 __pycache__
 
-lab1/.idea
-lab1/__pycache__
+lab_1/code/.idea
+lab_1/code/__pycache__
 
-lab2/.idea
-lab2/__pycache__
+lab_2/code/.idea
+lab_2/code/__pycache__
 
-lab3/.idea
-lab3/__pycache__
+lab_3/code/.idea
+lab_3/code/__pycache__
 
-lab4/code/.idea
-lab4/code/cmake-build-debug
+lab_4/code/.idea
+lab_4/code/cmake-build-debug
 
-lab5/.idea
-lab5/__pycache__
+lab_5/code/.idea
+lab_5/code/__pycache__
 
-lab6/.idea
-lab6/__pycache__
+lab_6/code/.idea
+lab_6/code/__pycache__
 
-lab7/.idea
-lab7/__pycache__
+lab_7/code/.idea
+lab_7/code/__pycache__
 
-lab8/.idea
-lab8/__pycache__
+rk_1/.idea
+rk_1/__pycache__
+rk_1/metro_graph.gv
+rk_1/metro_graph.gv.png
 
-rk1/.idea
-rk1/__pycache__
-rk1/metro_graph.gv
-rk1/metro_graph.gv.png
-
-rk2/.idea
-rk2/.__pycache__
+rk_2/.idea
+rk_2/.__pycache__
