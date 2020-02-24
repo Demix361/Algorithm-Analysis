@@ -1,3 +1,0 @@
-D:/GitHub/Algorithm-Analysis/lab_6/kolya_code/cmake-build-debug/CMakeFiles/code.dir
-D:/GitHub/Algorithm-Analysis/lab_6/kolya_code/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/GitHub/Algorithm-Analysis/lab_6/kolya_code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
