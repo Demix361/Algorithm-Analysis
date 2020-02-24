@@ -28,6 +28,7 @@ void PreProcessing::process()
             obj.setTime(_timer->elapsed());
 
             unsigned long fac = this->fac(obj.get_a());
+
             obj.set_a(fac);
 
             obj.setTime(_timer->elapsed());
@@ -48,5 +49,6 @@ unsigned long PreProcessing::fac(unsigned long int num)
     {
         fac *= count;
     }
+
     return  fac;
 }

@@ -8,6 +8,7 @@ CMakeFiles/code.dir/controller.cpp.obj: ../mult_matrix.h
 CMakeFiles/code.dir/main.cpp.obj: ../controller.h
 CMakeFiles/code.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/code.dir/main.cpp.obj: ../mul_test.h
+CMakeFiles/code.dir/main.cpp.obj: ../mult_matrix.h
 CMakeFiles/code.dir/main.cpp.obj: ../time_test.h
 
 CMakeFiles/code.dir/mul_test.cpp.obj: ../controller.h

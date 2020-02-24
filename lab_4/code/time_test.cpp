@@ -4,7 +4,7 @@
 #include <string>
 #include "mult_matrix.h"
 
-#define COUNT_CICLE 3
+#define COUNT_CICLE 10
 #define MAX_SIZE 1000
 
 
@@ -41,6 +41,7 @@ void time_test()
     std::chrono::time_point<std::chrono::system_clock> start, end;
     std::ofstream file;
 
+
     // Без потоков четные
     std::cout << "No threads even" << std::endl;
     file.open("time_no_th_even.txt", std::ios::out);
@@ -73,6 +74,7 @@ void time_test()
     file.close();
 
     // Без потоков нечетные
+
     std::cout << "No threads odd" << std::endl;
     file.open("time_no_th_odd.txt", std::ios::out);
 
@@ -104,6 +106,7 @@ void time_test()
     file << std::endl;
     file.close();
 
+
     // Многопоточные тесты
     for (int k = 1; k <= 32; k *= 2)
     {
@@ -118,7 +121,7 @@ void time_test()
 
         file.open(fname_even, std::ios::out);
 
-        for(int i = 100; i <= MAX_SIZE; i += 100)
+        for(int i = 200; i <= MAX_SIZE; i += 100)
         {
             cout << "matrix " << i << " x " << i << " ";
             Matrix mtr_1(i, Vector(i, 0));
@@ -146,6 +149,7 @@ void time_test()
 
         file << std::endl;
         file.close();
+
 
         // Многопоточные нечетные
         cout << k << " threads odd" << endl;
@@ -184,7 +188,105 @@ void time_test()
 
         file << std::endl;
         file.close();
-
     }
     std::cout << "DONE!";
+}
+
+
+void new_time_test(int k, Matrix &mtr_1, Matrix &mtr_2)
+{
+    double result = 0;
+    std::chrono::time_point<std::chrono::system_clock> start, end;
+    std::ofstream file;
+
+        // Многопоточные четные
+        cout << k << " threads even" << endl;
+
+        char fname_even[30] = "time_";
+        char k_str[6];
+        sprintf(k_str, "%d", k);
+        strcat(fname_even, k_str);
+        strcat(fname_even, "_th_200.txt");
+
+        file.open(fname_even, std::ios::out);
+
+        for(int i = 400; i <= 401; i += 100)
+        {
+            cout << "matrix " << i << " x " << i << " ";
+
+            result = 0;
+
+            //fill_mtr(mtr_1);
+            //fill_mtr(mtr_2);
+
+            for (int j = 0; j < COUNT_CICLE; j++)
+            {
+                Matrix mtr_res(i, Vector(i, 0));
+
+                start = std::chrono::system_clock::now();
+                mul_vinograd_threads(k, mtr_1, mtr_2, mtr_res);
+                end = std::chrono::system_clock::now();
+
+                result += std::chrono::duration_cast<std::chrono::milliseconds> (end - start).count();
+            }
+
+            result /= COUNT_CICLE;
+            write_to_file(file, i, result);
+            cout << result << " ms" << endl;
+        }
+
+        file << std::endl;
+        file.close();
+
+    std::cout << "" << endl;
+}
+
+
+void new_time_test_v2(int k)
+{
+    double result = 0;
+    std::chrono::time_point<std::chrono::system_clock> start, end;
+    std::ofstream file;
+
+    // Многопоточные четные
+    cout << k << " threads even" << endl;
+
+    char fname_even[30] = "time_";
+    char k_str[6];
+    sprintf(k_str, "%d", k);
+    strcat(fname_even, k_str);
+    strcat(fname_even, "_th_200.txt");
+
+    file.open(fname_even, std::ios::out);
+
+    for(int i = 200; i <= 201; i += 100)
+    {
+        cout << "matrix " << i << " x " << i << " ";
+        Matrix mtr_1(i, Vector(i, 0));
+        Matrix mtr_2(i, Vector(i, 0));
+        result = 0;
+
+        fill_mtr(mtr_1);
+        fill_mtr(mtr_2);
+
+        for (int j = 0; j < COUNT_CICLE; j++)
+        {
+            Matrix mtr_res(i, Vector(i, 0));
+
+            start = std::chrono::system_clock::now();
+            mul_vinograd_threads(k, mtr_1, mtr_2, mtr_res);
+            end = std::chrono::system_clock::now();
+
+            result += std::chrono::duration_cast<std::chrono::milliseconds> (end - start).count();
+        }
+
+        result /= COUNT_CICLE;
+        write_to_file(file, i, result);
+        cout << result << " ms" << endl;
+    }
+
+    file << std::endl;
+    file.close();
+
+    std::cout << "" << endl;
 }

@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\GitHub\Algorithm-Analysis\lab_6\egor_code
+CMAKE_SOURCE_DIR = S:\GitHub\algorithm-analysis\lab_6\egor_code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug
+CMAKE_BINARY_DIR = S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/egor_code.dir/depend.make
@@ -59,156 +59,156 @@ include CMakeFiles/egor_code.dir/flags.make
 CMakeFiles/egor_code.dir/aco.cpp.obj: CMakeFiles/egor_code.dir/flags.make
 CMakeFiles/egor_code.dir/aco.cpp.obj: CMakeFiles/egor_code.dir/includes_CXX.rsp
 CMakeFiles/egor_code.dir/aco.cpp.obj: ../aco.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/egor_code.dir/aco.cpp.obj"
-	c:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\aco.cpp.obj -c D:\GitHub\Algorithm-Analysis\lab_6\egor_code\aco.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/egor_code.dir/aco.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\aco.cpp.obj -c S:\GitHub\algorithm-analysis\lab_6\egor_code\aco.cpp
 
 CMakeFiles/egor_code.dir/aco.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/egor_code.dir/aco.cpp.i"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Algorithm-Analysis\lab_6\egor_code\aco.cpp > CMakeFiles\egor_code.dir\aco.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\GitHub\algorithm-analysis\lab_6\egor_code\aco.cpp > CMakeFiles\egor_code.dir\aco.cpp.i
 
 CMakeFiles/egor_code.dir/aco.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/egor_code.dir/aco.cpp.s"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Algorithm-Analysis\lab_6\egor_code\aco.cpp -o CMakeFiles\egor_code.dir\aco.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\GitHub\algorithm-analysis\lab_6\egor_code\aco.cpp -o CMakeFiles\egor_code.dir\aco.cpp.s
 
 CMakeFiles/egor_code.dir/controller.cpp.obj: CMakeFiles/egor_code.dir/flags.make
 CMakeFiles/egor_code.dir/controller.cpp.obj: CMakeFiles/egor_code.dir/includes_CXX.rsp
 CMakeFiles/egor_code.dir/controller.cpp.obj: ../controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/egor_code.dir/controller.cpp.obj"
-	c:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\controller.cpp.obj -c D:\GitHub\Algorithm-Analysis\lab_6\egor_code\controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/egor_code.dir/controller.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\controller.cpp.obj -c S:\GitHub\algorithm-analysis\lab_6\egor_code\controller.cpp
 
 CMakeFiles/egor_code.dir/controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/egor_code.dir/controller.cpp.i"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Algorithm-Analysis\lab_6\egor_code\controller.cpp > CMakeFiles\egor_code.dir\controller.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\GitHub\algorithm-analysis\lab_6\egor_code\controller.cpp > CMakeFiles\egor_code.dir\controller.cpp.i
 
 CMakeFiles/egor_code.dir/controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/egor_code.dir/controller.cpp.s"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Algorithm-Analysis\lab_6\egor_code\controller.cpp -o CMakeFiles\egor_code.dir\controller.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\GitHub\algorithm-analysis\lab_6\egor_code\controller.cpp -o CMakeFiles\egor_code.dir\controller.cpp.s
 
 CMakeFiles/egor_code.dir/main.cpp.obj: CMakeFiles/egor_code.dir/flags.make
 CMakeFiles/egor_code.dir/main.cpp.obj: CMakeFiles/egor_code.dir/includes_CXX.rsp
 CMakeFiles/egor_code.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/egor_code.dir/main.cpp.obj"
-	c:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\main.cpp.obj -c D:\GitHub\Algorithm-Analysis\lab_6\egor_code\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/egor_code.dir/main.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\main.cpp.obj -c S:\GitHub\algorithm-analysis\lab_6\egor_code\main.cpp
 
 CMakeFiles/egor_code.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/egor_code.dir/main.cpp.i"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Algorithm-Analysis\lab_6\egor_code\main.cpp > CMakeFiles\egor_code.dir\main.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\GitHub\algorithm-analysis\lab_6\egor_code\main.cpp > CMakeFiles\egor_code.dir\main.cpp.i
 
 CMakeFiles/egor_code.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/egor_code.dir/main.cpp.s"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Algorithm-Analysis\lab_6\egor_code\main.cpp -o CMakeFiles\egor_code.dir\main.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\GitHub\algorithm-analysis\lab_6\egor_code\main.cpp -o CMakeFiles\egor_code.dir\main.cpp.s
 
 CMakeFiles/egor_code.dir/main_t.cpp.obj: CMakeFiles/egor_code.dir/flags.make
 CMakeFiles/egor_code.dir/main_t.cpp.obj: CMakeFiles/egor_code.dir/includes_CXX.rsp
 CMakeFiles/egor_code.dir/main_t.cpp.obj: ../main_t.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/egor_code.dir/main_t.cpp.obj"
-	c:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\main_t.cpp.obj -c D:\GitHub\Algorithm-Analysis\lab_6\egor_code\main_t.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/egor_code.dir/main_t.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\main_t.cpp.obj -c S:\GitHub\algorithm-analysis\lab_6\egor_code\main_t.cpp
 
 CMakeFiles/egor_code.dir/main_t.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/egor_code.dir/main_t.cpp.i"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Algorithm-Analysis\lab_6\egor_code\main_t.cpp > CMakeFiles\egor_code.dir\main_t.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\GitHub\algorithm-analysis\lab_6\egor_code\main_t.cpp > CMakeFiles\egor_code.dir\main_t.cpp.i
 
 CMakeFiles/egor_code.dir/main_t.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/egor_code.dir/main_t.cpp.s"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Algorithm-Analysis\lab_6\egor_code\main_t.cpp -o CMakeFiles\egor_code.dir\main_t.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\GitHub\algorithm-analysis\lab_6\egor_code\main_t.cpp -o CMakeFiles\egor_code.dir\main_t.cpp.s
 
 CMakeFiles/egor_code.dir/print.cpp.obj: CMakeFiles/egor_code.dir/flags.make
 CMakeFiles/egor_code.dir/print.cpp.obj: CMakeFiles/egor_code.dir/includes_CXX.rsp
 CMakeFiles/egor_code.dir/print.cpp.obj: ../print.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/egor_code.dir/print.cpp.obj"
-	c:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\print.cpp.obj -c D:\GitHub\Algorithm-Analysis\lab_6\egor_code\print.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/egor_code.dir/print.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\print.cpp.obj -c S:\GitHub\algorithm-analysis\lab_6\egor_code\print.cpp
 
 CMakeFiles/egor_code.dir/print.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/egor_code.dir/print.cpp.i"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Algorithm-Analysis\lab_6\egor_code\print.cpp > CMakeFiles\egor_code.dir\print.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\GitHub\algorithm-analysis\lab_6\egor_code\print.cpp > CMakeFiles\egor_code.dir\print.cpp.i
 
 CMakeFiles/egor_code.dir/print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/egor_code.dir/print.cpp.s"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Algorithm-Analysis\lab_6\egor_code\print.cpp -o CMakeFiles\egor_code.dir\print.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\GitHub\algorithm-analysis\lab_6\egor_code\print.cpp -o CMakeFiles\egor_code.dir\print.cpp.s
 
 CMakeFiles/egor_code.dir/res.cpp.obj: CMakeFiles/egor_code.dir/flags.make
 CMakeFiles/egor_code.dir/res.cpp.obj: CMakeFiles/egor_code.dir/includes_CXX.rsp
 CMakeFiles/egor_code.dir/res.cpp.obj: ../res.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/egor_code.dir/res.cpp.obj"
-	c:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\res.cpp.obj -c D:\GitHub\Algorithm-Analysis\lab_6\egor_code\res.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/egor_code.dir/res.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\res.cpp.obj -c S:\GitHub\algorithm-analysis\lab_6\egor_code\res.cpp
 
 CMakeFiles/egor_code.dir/res.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/egor_code.dir/res.cpp.i"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Algorithm-Analysis\lab_6\egor_code\res.cpp > CMakeFiles\egor_code.dir\res.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\GitHub\algorithm-analysis\lab_6\egor_code\res.cpp > CMakeFiles\egor_code.dir\res.cpp.i
 
 CMakeFiles/egor_code.dir/res.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/egor_code.dir/res.cpp.s"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Algorithm-Analysis\lab_6\egor_code\res.cpp -o CMakeFiles\egor_code.dir\res.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\GitHub\algorithm-analysis\lab_6\egor_code\res.cpp -o CMakeFiles\egor_code.dir\res.cpp.s
 
 CMakeFiles/egor_code.dir/research.cpp.obj: CMakeFiles/egor_code.dir/flags.make
 CMakeFiles/egor_code.dir/research.cpp.obj: CMakeFiles/egor_code.dir/includes_CXX.rsp
 CMakeFiles/egor_code.dir/research.cpp.obj: ../research.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/egor_code.dir/research.cpp.obj"
-	c:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\research.cpp.obj -c D:\GitHub\Algorithm-Analysis\lab_6\egor_code\research.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/egor_code.dir/research.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\research.cpp.obj -c S:\GitHub\algorithm-analysis\lab_6\egor_code\research.cpp
 
 CMakeFiles/egor_code.dir/research.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/egor_code.dir/research.cpp.i"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Algorithm-Analysis\lab_6\egor_code\research.cpp > CMakeFiles\egor_code.dir\research.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\GitHub\algorithm-analysis\lab_6\egor_code\research.cpp > CMakeFiles\egor_code.dir\research.cpp.i
 
 CMakeFiles/egor_code.dir/research.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/egor_code.dir/research.cpp.s"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Algorithm-Analysis\lab_6\egor_code\research.cpp -o CMakeFiles\egor_code.dir\research.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\GitHub\algorithm-analysis\lab_6\egor_code\research.cpp -o CMakeFiles\egor_code.dir\research.cpp.s
 
 CMakeFiles/egor_code.dir/test.cpp.obj: CMakeFiles/egor_code.dir/flags.make
 CMakeFiles/egor_code.dir/test.cpp.obj: CMakeFiles/egor_code.dir/includes_CXX.rsp
 CMakeFiles/egor_code.dir/test.cpp.obj: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/egor_code.dir/test.cpp.obj"
-	c:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\test.cpp.obj -c D:\GitHub\Algorithm-Analysis\lab_6\egor_code\test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/egor_code.dir/test.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\test.cpp.obj -c S:\GitHub\algorithm-analysis\lab_6\egor_code\test.cpp
 
 CMakeFiles/egor_code.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/egor_code.dir/test.cpp.i"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Algorithm-Analysis\lab_6\egor_code\test.cpp > CMakeFiles\egor_code.dir\test.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\GitHub\algorithm-analysis\lab_6\egor_code\test.cpp > CMakeFiles\egor_code.dir\test.cpp.i
 
 CMakeFiles/egor_code.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/egor_code.dir/test.cpp.s"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Algorithm-Analysis\lab_6\egor_code\test.cpp -o CMakeFiles\egor_code.dir\test.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\GitHub\algorithm-analysis\lab_6\egor_code\test.cpp -o CMakeFiles\egor_code.dir\test.cpp.s
 
 CMakeFiles/egor_code.dir/test_.cpp.obj: CMakeFiles/egor_code.dir/flags.make
 CMakeFiles/egor_code.dir/test_.cpp.obj: CMakeFiles/egor_code.dir/includes_CXX.rsp
 CMakeFiles/egor_code.dir/test_.cpp.obj: ../test_.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/egor_code.dir/test_.cpp.obj"
-	c:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\test_.cpp.obj -c D:\GitHub\Algorithm-Analysis\lab_6\egor_code\test_.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/egor_code.dir/test_.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\test_.cpp.obj -c S:\GitHub\algorithm-analysis\lab_6\egor_code\test_.cpp
 
 CMakeFiles/egor_code.dir/test_.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/egor_code.dir/test_.cpp.i"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Algorithm-Analysis\lab_6\egor_code\test_.cpp > CMakeFiles\egor_code.dir\test_.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\GitHub\algorithm-analysis\lab_6\egor_code\test_.cpp > CMakeFiles\egor_code.dir\test_.cpp.i
 
 CMakeFiles/egor_code.dir/test_.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/egor_code.dir/test_.cpp.s"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Algorithm-Analysis\lab_6\egor_code\test_.cpp -o CMakeFiles\egor_code.dir\test_.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\GitHub\algorithm-analysis\lab_6\egor_code\test_.cpp -o CMakeFiles\egor_code.dir\test_.cpp.s
 
 CMakeFiles/egor_code.dir/time.cpp.obj: CMakeFiles/egor_code.dir/flags.make
 CMakeFiles/egor_code.dir/time.cpp.obj: CMakeFiles/egor_code.dir/includes_CXX.rsp
 CMakeFiles/egor_code.dir/time.cpp.obj: ../time.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/egor_code.dir/time.cpp.obj"
-	c:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\time.cpp.obj -c D:\GitHub\Algorithm-Analysis\lab_6\egor_code\time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/egor_code.dir/time.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\time.cpp.obj -c S:\GitHub\algorithm-analysis\lab_6\egor_code\time.cpp
 
 CMakeFiles/egor_code.dir/time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/egor_code.dir/time.cpp.i"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Algorithm-Analysis\lab_6\egor_code\time.cpp > CMakeFiles\egor_code.dir\time.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\GitHub\algorithm-analysis\lab_6\egor_code\time.cpp > CMakeFiles\egor_code.dir\time.cpp.i
 
 CMakeFiles/egor_code.dir/time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/egor_code.dir/time.cpp.s"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Algorithm-Analysis\lab_6\egor_code\time.cpp -o CMakeFiles\egor_code.dir\time.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\GitHub\algorithm-analysis\lab_6\egor_code\time.cpp -o CMakeFiles\egor_code.dir\time.cpp.s
 
 CMakeFiles/egor_code.dir/total_search.cpp.obj: CMakeFiles/egor_code.dir/flags.make
 CMakeFiles/egor_code.dir/total_search.cpp.obj: CMakeFiles/egor_code.dir/includes_CXX.rsp
 CMakeFiles/egor_code.dir/total_search.cpp.obj: ../total_search.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/egor_code.dir/total_search.cpp.obj"
-	c:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\total_search.cpp.obj -c D:\GitHub\Algorithm-Analysis\lab_6\egor_code\total_search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/egor_code.dir/total_search.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\egor_code.dir\total_search.cpp.obj -c S:\GitHub\algorithm-analysis\lab_6\egor_code\total_search.cpp
 
 CMakeFiles/egor_code.dir/total_search.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/egor_code.dir/total_search.cpp.i"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHub\Algorithm-Analysis\lab_6\egor_code\total_search.cpp > CMakeFiles\egor_code.dir\total_search.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\GitHub\algorithm-analysis\lab_6\egor_code\total_search.cpp > CMakeFiles\egor_code.dir\total_search.cpp.i
 
 CMakeFiles/egor_code.dir/total_search.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/egor_code.dir/total_search.cpp.s"
-	c:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHub\Algorithm-Analysis\lab_6\egor_code\total_search.cpp -o CMakeFiles\egor_code.dir\total_search.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\GitHub\algorithm-analysis\lab_6\egor_code\total_search.cpp -o CMakeFiles\egor_code.dir\total_search.cpp.s
 
 # Object files for target egor_code
 egor_code_OBJECTS = \
@@ -242,7 +242,7 @@ egor_code.exe: CMakeFiles/egor_code.dir/build.make
 egor_code.exe: CMakeFiles/egor_code.dir/linklibs.rsp
 egor_code.exe: CMakeFiles/egor_code.dir/objects1.rsp
 egor_code.exe: CMakeFiles/egor_code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable egor_code.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable egor_code.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\egor_code.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -255,6 +255,6 @@ CMakeFiles/egor_code.dir/clean:
 .PHONY : CMakeFiles/egor_code.dir/clean
 
 CMakeFiles/egor_code.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\GitHub\Algorithm-Analysis\lab_6\egor_code D:\GitHub\Algorithm-Analysis\lab_6\egor_code D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug D:\GitHub\Algorithm-Analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles\egor_code.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" S:\GitHub\algorithm-analysis\lab_6\egor_code S:\GitHub\algorithm-analysis\lab_6\egor_code S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug S:\GitHub\algorithm-analysis\lab_6\egor_code\cmake-build-debug\CMakeFiles\egor_code.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/egor_code.dir/depend
 

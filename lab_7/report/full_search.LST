@@ -1,0 +1,55 @@
+double exhaustive_search(Matrix &m)
+{
+    int n = m.GetN();
+    std::vector<bool> visited;
+    std::vector<double> paths;
+    std::list<int> path;
+    for(int i = 0; i < n; i++)
+        visited.push_back(false);
+    for(int i = 0; i < n; i++)
+    {
+        visited[i] = true;
+        path.push_back(i);
+        paths.push_back(search_for_node(m, visited, path));
+        path.pop_back();
+        visited[i] = false;
+    }
+    double res = paths[0];
+    for(int i = 0; i < n; i++)
+        res = std::min(res, paths[i]);
+    return res;
+}
+
+double search_for_node(Matrix &m, std::vector<bool> visited, std::list<int> path)
+{
+    int &cur_node = path.back();
+    double p;
+    double res;
+    bool flag = false;
+    if (path.size() ==(unsigned int) m.GetN())
+    {
+        int first = path.front();
+        int last = path.back();
+        return m[last][first];
+    }
+    for(unsigned int i = 0; i < visited.size(); i++)
+    {
+        if (!visited[i])
+        {
+            p = m[cur_node][i];
+            visited[i] = true;
+            path.push_back(i);
+            p += search_for_node(m, visited, path);
+            if (!flag)
+            {
+                res = p;
+                flag = true;
+            }
+            else
+                res = std::min(res, p);
+            visited[i] = false;
+            path.pop_back();
+        }
+    }
+    return res;
+}

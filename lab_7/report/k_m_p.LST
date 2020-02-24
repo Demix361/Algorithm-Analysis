@@ -1,0 +1,39 @@
+int k_m_p(std::string text, std::string sub)
+{
+    return k_m_p(text, sub, create_state_machine(sub));
+}
+
+int k_m_p(std::string text, std::string sub, std::vector<int> fail)
+{
+    int subloc = 1, textloc = 1;
+    int res = -1;
+    while ((subloc <= (int)sub.size()) && (textloc <= (int)text.size()))
+    {
+        if((subloc == 0) || (text[textloc - 1] == sub[subloc - 1]))
+        {
+            textloc++;
+            subloc++;
+        }
+        else
+            subloc = fail[subloc - 1];
+    }
+    if(subloc > sub.size())
+        res = textloc - sub.size() - 1;
+    return res;
+}
+
+std::vector<int> create_state_machine(std::string s)
+{
+    std::vector<int> fail;
+    for(unsigned int i = 0; i < s.size() + 1;i++)
+        fail.push_back(0);
+    for(unsigned int i = 1; i < s.size();i++)
+    {
+        int tmp = fail[i - 1];
+        while((tmp > 0) && (s[tmp] != s[i - 1]))
+            tmp = fail[tmp];
+        fail[i] = tmp + 1;
+    }
+    return fail;
+}
+

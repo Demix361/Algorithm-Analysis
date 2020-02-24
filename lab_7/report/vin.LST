@@ -1,0 +1,51 @@
+Vinograd_data * Vinograd_1(Vinograd_data * v)
+{
+    int n = v->matr1.GetN();
+    int m = v->matr2.GetM();
+    int m1 = v->matr1.Matrix::GetM();
+    double *mulh = new double[n];
+    double *mulv = new double[m];
+
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < m1/2; j++)
+            mulh[i] = mulh[i] + v->matr1[i][2*j] * v->matr1[i][2*j + 1];
+    for (int i = 0; i < m; i++)
+        for (int j = 0; j < m1/2; j++)
+            mulv[i] = mulv[i] + v->matr2[2*j][i] * v->matr2[2*j + 1][i];
+    v->mulh = mulh;
+    v->mulv = mulv;
+    return v;
+}
+
+Vinograd_data * Vinograd_2(Vinograd_data * v)
+{
+
+    int n = v->matr1.GetN();
+    int m = v->matr2.GetM();
+    int m1 = v->matr1.Matrix::GetM();
+    v->res = Matrix(n, m);
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            v->res[i][j] = - v->mulh[i] - v->mulv[j];
+            for (int k = 0; k < m1/2; k++)
+                v->res[i][j] = v->res[i][j] + (v->matr1[i][2*k]+v->matr2[2*k+1][j])*(v->matr1[i][2*k+1]+v->matr2[2*k][j]);
+        }
+    }
+    return v;
+}
+
+Vinograd_data * Vinograd_3(Vinograd_data * v)
+{
+    int n = v->matr1.Matrix::GetN();
+    int m = v->matr2.Matrix::GetM();
+    int m1 = v->matr1.Matrix::GetM();
+    if (m1 % 2)
+    {
+        for(int i = 0; i < n; i++)
+            for(int j = 0; j < m; j++)
+                v->res[i][j] = v->res[i][j] + v->matr1[i][m1 - 1] * v->matr2[m1 - 1][j];
+    }
+    return v;
+}
